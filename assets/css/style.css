@@ -1,7 +1,9 @@
+/*Fuente open sans */
 body{
   font-family: 'Open Sans', sans-serif;
 }
 
+/*menu*/
 .menu{
   margin-bottom: 0;
 }
@@ -13,7 +15,9 @@ body{
 .logo{
   width: 35%;
 }
+/*fin menu*/
 
+/*sección home*/
 .home{
   background-image: url(../img/home.jpg);
   background-size: cover;
@@ -32,4 +36,23 @@ body{
   color: #FFF;
   font-weight: 600;
   font-size: 2.5em;
+}
+/*fin sección home*/
+
+/*sección about*/
+.about{
+  height: 100vh;
+}
+
+.about h1{
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+.imgSlider{
+  margin-top: 5%;
+}
+
+.aboutImg img{
+  width: 90%;
 }
