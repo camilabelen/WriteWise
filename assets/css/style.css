@@ -1,37 +1,37 @@
-/*Fuente open sans */
+/* Fuente open sans */
 body{
   font-family: 'Open Sans', sans-serif;
 }
+section{
+  height: auto;
+}
 
-/*menu*/
+/*NAVBAR
+*--------------------------------*/
 .menu{
   margin-bottom: 0;
 }
-
 .logoContainer a{
   padding: 0;
 }
-
 .logo{
-  width: 35%;
+  width:6em;
 }
-/*fin menu*/
 
-/*sección home*/
+/*HOME
+*--------------------------------*/
 .home{
   background-image: url(../img/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
 }
-
 .home h1{
   margin-top: 24%;
   color: #FFF;
   font-weight: 700;
   font-size: 4em;
 }
-
 .home h3{
   color: #FFF;
   font-weight: 600;
@@ -39,20 +39,195 @@ body{
 }
 /*fin sección home*/
 
-/*sección about*/
+/*ABOUT
+*--------------------------------*/
 .about{
-  height: 100vh;
+  background-image: url(../img/about/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  background-color:#0F2280;
 }
-
 .about h1{
-  margin-top: 15%;
-  margin-bottom: 10%;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+.about p{
+  text-align-last: center;
+}
+.about h5{
+  font-size: 0.8em;
+  font-weight: 600;
+} 
+#about .card{
+  background-color: transparent;
+  border: 2px solid #FFF;
+  border-radius: 1em;
+  margin-top: 2.5em;
+  margin-right: 1.5em;
+}
+#about .card-header{
+  height: 4em;
+  background-color: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  padding-left: 0;
+  padding-right: 0;
+  vertical-align: middle;
+}
+.cards2{
+  padding-bottom: 10em;
 }
 
-.imgSlider{
-  margin-top: 5%;
+/*CORE TEAM
+*--------------------------------*/
+.title{
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+.title img{
+  width: 15em;
+  border-radius: none;
+}
+.title h1{
+  display: inline-block;
+  color:#21315B;
+  font-weight: 700;
+  vertical-align: middle;
+}
+.descripCoreTeam{
+  text-align-last: center;
+  color:#2B417B;
+}
+#coreTeam .card{
+  border: none;
+  margin-top: 2em;
+  margin-right: 1em;
+  margin-right: 1.5em;
+  padding: 0;
+}
+#coreTeam .card h3{
+  font-size: 0.8em;
+  font-weight: 600;
+}
+#coreTeam .card p{
+  font-size: 0.7em;
 }
 
-.aboutImg img{
-  width: 90%;
+/*KNOW MORE
+*--------------------------------*/
+#bigTriangleColor{
+  fill: #FFFFFF;
+}
+#knowMore{
+  background-image: url(../img/knowMore/fondo.jpg);
+  background-size: cover;
+  background-position: 50%;
+  color: #FFFFFF;
+}
+.knowMoreTitle{
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+.knowMoreTitle h1{
+  font-weight: 700;
+}
+.descriptKnowMore{
+  text-align-last: center;
+}
+.icons{
+  margin-top: 5em;
+  padding-bottom: 15em;
+}
+.icons img{
+  width: 80%;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  margin-bottom: 3em;
+}
+.icons h5{
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+/*COLLABORATORS
+*--------------------------------*/
+#collaborators h1{
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-weight: 700;
+  color: #21315B;
+}
+#collaborators img{
+  width: 80%;
+  text-align: center;
+}
+.descripCollaborators{
+  text-align-last: center;
+}
+.logotipos{
+  margin-top: 3em;
+}
+.logotipos:last-child{
+  padding-bottom: 6em;
+}
+
+/*CONTACT
+*--------------------------------*/
+#contact{
+  background-image: url(../img/contact/fondo.jpg);
+  background-size: cover; 
+  color: #FFFFFF;
+}
+#contact h1{
+  font-weight: 700;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.name, .email{
+  display: inline-block;
+}
+#contact form{
+  width: 100%;
+  background-color: rgba(9,12,51,0.2);
+}
+#contact input, #contact textarea{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 0;
+  resize: none;
+}
+#contact input:focus, #contact textarea:focus{
+  box-shadow: none;
+}
+#contact button{
+  background-color: #FFFFFF;
+  color: #21315B;
+  border: none;
+  margin-top: 2em;
+  margin-bottom: 8em;
+}
+
+/*FOOTER
+*--------------------------------*/
+footer{
+  background-color: #02102B;
+  color: #FFFFFF;
+}
+footer img{
+  width: 30%;
+}
+.footer{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.copyright{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.9em;
+}
+.copyright p{
+  margin: 0;
 }
