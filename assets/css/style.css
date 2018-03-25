@@ -17,6 +17,9 @@ section{
 .logo{
   width:6em;
 }
+ul li{
+  font-size: 0.8em;
+}
 
 /*HOME
 *--------------------------------*/
@@ -36,6 +39,9 @@ section{
   color: #FFF;
   font-weight: 600;
   font-size: 2.5em;
+}
+.home::after{
+background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%), url(../img/home.jpg);
 }
 /*fin sección home*/
 
@@ -62,10 +68,26 @@ section{
 } 
 #about .card{
   background-color: transparent;
-  border: 2px solid #FFF;
+  border: 2px solid #FFFFFF;
   border-radius: 1em;
   margin-top: 2.5em;
   margin-right: 1.5em;
+  transition: 0.5s;
+  -webkit-transition:0.5s;
+  color: #FFFFFF;
+}
+#about .card:hover{
+  cursor: pointer;
+  background-color: rgba(9,12,51,0.44);
+  border: 0;
+  color: #FFF;
+}
+#about.card::before, #about.card::after {
+  z-index: 3;
+  content:'';
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
 }
 #about .card-header{
   height: 4em;
@@ -73,7 +95,16 @@ section{
   border-bottom: 1px solid #FFFFFF;
   padding-left: 0;
   padding-right: 0;
-  vertical-align: middle;
+}
+.title1{
+  padding-top: 1em;
+}
+.title2{
+  padding-top: 1.5em;
+}
+#about .card img{
+  width: 70%;
+  margin: 1.4em;
 }
 .cards2{
   padding-bottom: 10em;
@@ -94,6 +125,7 @@ section{
   color:#21315B;
   font-weight: 700;
   vertical-align: middle;
+  margin-left: 0.5em;
 }
 .descripCoreTeam{
   text-align-last: center;
@@ -106,12 +138,39 @@ section{
   margin-right: 1.5em;
   padding: 0;
 }
+#coreTeam .card:hover{
+  -webkit-box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
+  box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
+  filter: grayscale(100%);
+  cursor: pointer;
+}
 #coreTeam .card h3{
   font-size: 0.8em;
   font-weight: 600;
 }
 #coreTeam .card p{
   font-size: 0.7em;
+}
+#Capa_1{
+  margin-top: 3em;
+}
+.teamMembers{
+  margin-top: 1.5em;
+}
+.perfiles img{
+  width: 50%;
+  filter: grayscale(100%);
+  filter: opacity(0.3);
+  transition: 0.8s;
+}
+.perfiles img:hover{
+  width: 50%;
+  filter: grayscale(0);
+  filter: opacity(100);
+  cursor: pointer;
+  -webkit-transform: scale(0.8);
+  transition: 0.8s;
 }
 
 /*KNOW MORE
@@ -139,11 +198,28 @@ section{
   margin-top: 5em;
   padding-bottom: 15em;
 }
+.icons img:hover{
+  cursor: pointer;
+  background-color: rgba(9,12,51,0.44);
+  border: 0;
+  color: #FFF;
+  transition: all 0.8s;
+}
+.icons img::before, .icons img::after {
+  z-index: 3;
+  content:'';
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: all 0.8s;
+}
 .icons img{
   width: 80%;
   border: 3px solid #FFFFFF;
   border-radius: 50%;
   margin-bottom: 3em;
+  transition: all 0.8s;
+  -webkit-transition:0.5s;
+  color: #FFFFFF;
 }
 .icons h5{
   font-size: 0.8em;
@@ -159,8 +235,12 @@ section{
   font-weight: 700;
   color: #21315B;
 }
-#collaborators img{
-  width: 80%;
+.misti img, 
+.innova img, 
+.imagine img, 
+.biopub img,
+.ucInformatica img{
+  width: 70%;
   text-align: center;
 }
 .descripCollaborators{
@@ -172,7 +252,9 @@ section{
 .logotipos:last-child{
   padding-bottom: 6em;
 }
-
+.ucLiteratura img{
+  width: 100%;
+}
 /*CONTACT
 *--------------------------------*/
 #contact{
@@ -183,7 +265,7 @@ section{
 #contact h1{
   font-weight: 700;
   margin-top: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 .name, .email{
   display: inline-block;
@@ -191,6 +273,8 @@ section{
 #contact form{
   width: 100%;
   background-color: rgba(9,12,51,0.2);
+  padding: 2.5em 1.5em;
+  margin-bottom: 4em;
 }
 #contact input, #contact textarea{
   background-color: transparent;
@@ -203,11 +287,34 @@ section{
   box-shadow: none;
 }
 #contact button{
-  background-color: #FFFFFF;
-  color: #21315B;
-  border: none;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #9691C7;
   margin-top: 2em;
-  margin-bottom: 8em;
+  padding: 0.5em 2em;  
+  transition: 0.5s;
+  -webkit-transition:0.5s;
+}
+#contact button::before, #contact button::after {
+  z-index: 3;
+  content:'';
+  box-sizing: border-box;
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+}
+#contact button:hover{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #1B126E;
+  border: 2px solid #FFFFFF;
+  transition: 0.5s;
+}
+#contact img{
+  width: 15%;
+  padding-right: 0.5em;
+}
+.contactIcons{
+  padding-bottom: 4em;
 }
 
 /*FOOTER
@@ -220,8 +327,8 @@ footer img{
   width: 30%;
 }
 .footer{
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 .copyright{
   display: inline-block;
@@ -231,3 +338,5 @@ footer img{
 .copyright p{
   margin: 0;
 }
+
+
