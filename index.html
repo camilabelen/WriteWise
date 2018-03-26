@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <title>Write Wise</title>
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -11,9 +12,9 @@
   <!-- style.css -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#scrollspy" data-offset="0">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"  id="scrollspy">
       <a class="navbar-brand" href="#home"><img class="logo" src="assets/img/logo_ww.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -58,24 +59,25 @@
     <div class="container-fluid about">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center aboutTitle">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center aboutTitle smoo">
             <h1>ABOUT US</h1>
             <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 shadowAbout"></div>
           </div>
         </div><!-- fin row -->          
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify smoo">
             <p>Founded in 2017 as a <strong>BioPub</strong> spin-off, <strong>WriteWise</strong> is the first company to apply <strong>Artificial Intelligence</strong> towards providing specialized, in-depth feedback on the writing, editing, and publishing processes for scientific articles. Without doubt, <strong>WriteWise</strong> will be a valuable tool for students, researchers, and academic publishers worldwide.</p>
           </div>          
         </div><!-- fin row -->
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify smoo">
             <p>In less than one year, <strong>WriteWise</strong> has accomplished several key milestones, including:</p>
           </div> 
         </div> <!-- fin row -->
         <!-- tarjetas -->
         <div class="row text-center cards1">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="network">
+          <!-- smoo left -->
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 smooLeft" id="network">
             <div class="card-header title1">
               <h5>COLLABORATION NETWORK</h5>
             </div>
@@ -84,7 +86,7 @@
               <p class="text">Establish a robust collaboration network with experienced entrepreneurs, linguists, and researchers in education, AI, NLP, and deep learning.</p>
             </div>            
           </div>  <!-- fin tarjeta 1 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="support">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft" id="support">
             <div class="card-header title2">
               <h5>SUPPORT</h5>
             </div>
@@ -93,7 +95,7 @@
               <p class="text">Raise funding and receive support from prestigious international and national institutions (Microsoft, MIT, CORFO) – for example, WriteWise was awarded USD$400,000 in competitive public grants in 2017.</p>
             </div>
           </div> <!-- fin tarjeta 2 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="prototyping">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft" id="prototyping">
             <div class="card-header title3">
               <h5>PROTOTYPING</h5>
             </div>
@@ -103,8 +105,9 @@
             </div>
           </div> <!-- fin tarjeta 3 -->
         </div> <!-- fin row -->
+        <!-- smooright -->
         <div class="row text-center cards2">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4" id="expandTeam">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4 smooRight" id="expandTeam">
             <div class="card-header title4">
               <h5>EXPAND TEAM</h5>
             </div> 
@@ -113,7 +116,7 @@
               <p class="text">Exponentially expand the WriteWise team, which today includes 12 members, 8 of whom hold a PhD.</p>
             </div>
           </div> <!-- fin tarjeta 4 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="market">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooRight" id="market">
             <div class="card-header title5">
               <h5>ENTER THE MARKET</h5>
             </div>
@@ -131,19 +134,19 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 text-center title">
+          <div class="col-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 text-center title smooTop">
             <img src="assets/img/logo_ww.png" alt="">
             <h1>CORE TEAM</h1>
             <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 shadow"></div>
           </div>
         </div>  <!-- fin row -->      
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descripCoreTeam">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descripCoreTeam smoo">
             <p>Built by a <strong>multidisciplinary team</strong> of experienced scientific editors, linguist, and technologist keen to improve and <strong>modernize science communication</strong></p>
           </div>
         </div> <!-- fin row -->
         <div class="row text-center">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 smooLeft">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/EduardoFuentes.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -162,7 +165,7 @@
               <p class="card-text">Founder y CEO</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/AshleyVancott.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -181,7 +184,7 @@
               <p class="card-text">Founder y COO</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/JavierVera.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -199,8 +202,9 @@
               <h3 class="card-text">Javier Vera, PhD.</h3>
               <p class="card-text">Natural Language Processing Researcher</p>
             </div>
-          </div>       
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
+          </div> 
+          <!-- smoo right -->      
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 smooRight">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/JuanBascur.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -219,7 +223,7 @@
               <p class="card-text">Machine Learning and Scientometrics Researcher</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooRight">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/FranciscaSchalchli.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -238,7 +242,7 @@
               <p class="card-text">Project Manager</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooRight">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/CristhianGomez.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -260,7 +264,7 @@
         </div> <!-- fin row -->
       </div> <!-- fin container -->
     </div> <!-- fin container-fluid -->
-    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" id="Capa_1" class="smoo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1920 44" style="enable-background:new 0 0 1920 44;" xml:space="preserve">
       <style type="text/css">
         .st0{fill:none;enable-background:new;}
@@ -269,12 +273,12 @@
       <polyline class="st1" points="1920,4.2 985,4.2 955.7,40.8 926.3,4.2 0,4.2 "/>
     </svg>
     <div class="container">
-      <div class="row text-center teamMembers">
+      <div class="row text-center teamMembers smooBottom">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <p><strong>Know more</strong> about other team's members</p>
         </div>      
       </div>
-      <div class="row text-center perfiles">
+      <div class="row text-center perfiles smooTop">
         <div class="col-2 offset-5 col-sm-2 offset-sm-5 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5">
           <img src="assets/img/Core_Team/perfiles.png" alt="">
         </div>
@@ -283,44 +287,44 @@
   </section> 
   <!-- know more -->
   <section id="knowMore">
-    <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg id="bigTriangleColor" class="smoo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L50 100 L100 0 Z" />
     </svg>
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center knowMoreTitle">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center knowMoreTitle smooTop">
             <h1>KNOW MORE</h1>
           </div>
         </div> <!-- fin row -->
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descriptKnowMore">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descriptKnowMore smoo">
             <p>Know more about our research and development (R&D), innovation and products, opportunity for MIT students and for Investors and Venture Capital (VC).</p>
           </div>
         </div> <!-- fin row -->
         <div class="row icons text-center">
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon" id="ourRB">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="ourRB">
             <img src="assets/img/knowMore/ourR&b.png" alt="">
             <h5>OUR R&B</h5>
             <div class="description">
               <p>Know our cutting-edge research. WriteWise is a unique startup that has early invested in developing new technology for writing papers</p>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon" id="ourSolution">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="ourSolution">
             <img src="assets/img/knowMore/ourSolution.png" alt="">
             <h5>OUR SOLUTION</h5>
             <div class="description">
               <p>Know why you should use our product. Write Wise is a unique tool, and by far the best resource for writing papers</p>
             </div>
           </div>          
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon" id="misti">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="misti">
             <img src="assets/img/knowMore/forMistiApplicants.png" alt="">
             <h5>FOR MISTI APPLICANTS</h5>
             <div class="description">
               <p>Be part of a high impact project. As an MIT student, help us to redefine how papers are written from a Chilean startup</p>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon" id="investors">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="investors">
             <img src="assets/img/knowMore/forInvestors.png" alt="">
             <h5>FOR INVESTORS</h5>
             <div class="description">
@@ -336,16 +340,16 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center titleC">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center titleC smooTop">
             <h1>COLLABORATORS</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descripCollaborators">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descripCollaborators smoo">
             <p>Trusted and funded by prestigius international and national entities. In the past 6 month WriteWise has been awarded USD$400,000 in competitive grants including 3 CORFO projects and being incubated and accelerated by ImagineLab by Microsoft Innovation Center. WriteWise is also part of the Massachusetts Institute of Technology (MIT) International Science and Technology Initiatives.</p>
           </div>
         </div> <!-- fin row -->
-        <div class="row text-center logotipos">
+        <div class="row text-center logotipos smooLeft">
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center misti">
             <img src="assets/img/collaborators/misti-footer-logo@2x.png" alt="">
           </div>
@@ -356,7 +360,7 @@
             <img src="assets/img/collaborators/image005-2.png" alt="">
           </div>
         </div>  <!-- fin row --> 
-        <div class="row logotipos">
+        <div class="row text-center logotipos smooRight">
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center biopub">
             <img src="assets/img/collaborators/BioPubLogoFinal_frase-636.png" alt="">
           </div>
@@ -372,17 +376,17 @@
   </section>
   <!-- contact -->
   <section id="contact">
-    <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg id="bigTriangleColor" class="smoo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L50 100 L100 0 Z" />
     </svg>
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center smooTop">
             <h1>CONTACT</h1>
           </div>
         </div>
-        <div class="row">
+        <div class="row smooBottom">
           <form>
             <!-- nombre y correo -->
             <div class="form-row">
@@ -445,7 +449,7 @@
             </div>            
           </form>
         </div> <!-- fin row -->
-        <div class="row contactIcons">
+        <div class="row contactIcons smoo">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <p><img src="assets/img/contact/lugar.png"> Erasmo Escala, 2382, Santiago, Chile.</p>
           </div>
@@ -475,12 +479,14 @@
   </footer>
   <!-- scripts -->
   <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <!-- Bootstrap 4 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!-- font awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <!-- smoove library -->
+  <script src="assets/js/lib/smoove.js"></script>
   <!-- efecto input -->
   <script src="assets/js/lib/classie.js"></script>
   <!-- index.js -->

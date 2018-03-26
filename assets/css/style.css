@@ -159,6 +159,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   margin-right: 1em;
   margin-right: 1.5em;
   padding: 0;
+  transition: 0.5s;
 }
 #coreTeam .card:hover{
   -webkit-box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
@@ -166,13 +167,16 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
   filter: grayscale(100%);
   cursor: pointer;
+  transition: 0.5s;
 }
 #coreTeam .card:hover .card-img-top{
   filter:brightness(0.65);
+  transition: 0.5s;
 }
 #coreTeam .card:hover .iconRRSS,
 #coreTeam .card:hover .btnProfile{
   display: block;
+  transition: 0.5s;
 }
 #coreTeam .card h3{
   font-size: 0.8em;

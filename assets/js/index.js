@@ -1,18 +1,26 @@
 $(document).ready(function () {
 
-  // Animación desplazamiento de sdecciones
-  $('a').on('click', function(event) {
-    if (this.hash !== '') {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 500, function(){
-        window.location.hash = hash;
-      });
-    }
+ //smooth scrolling
+  $(function(){
+    $('a[href*="#"]').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var $target = $(this.hash);
+        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+        if ($target.length) {
+          var targetOffset = $target.offset().top;
+          $('html,body').animate({scrollTop: targetOffset}, 1000);
+          return false;
+        }
+      }
+    });
   });
 
+  //smoove transition
+  $('.smoo').smoove({offset:'0', opacity:'0', moveZ: '0',});
+  $('.smooTop').smoove({offset:'0', opacity:'0', moveY: '-200px',});
+  $('.smooBottom').smoove({offset:'0', opacity:'0', moveY: '200px',});
+  $('.smooRight').smoove({offset:'0', opacity:'0', moveX: '200px',});
+  $('.smooLeft').smoove({offset:'0', opacity:'0', moveX: '-200px',});
   /*
   * ABOUT - texto de tarjetas
   */
