@@ -76,19 +76,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   -webkit-transition:0.5s;
   color: #FFFFFF;
 }
-#about .card:hover{
-  cursor: pointer;
-  background-color: rgba(9,12,51,0.44);
-  border: 0;
-  color: #FFF;
-}
-#about.card::before, #about.card::after {
-  z-index: 3;
-  content:'';
-  box-sizing: border-box;
-  -webkit-transform: scale(0);
-  transition: 0.5s;
-}
+
 #about .card-header{
   height: 4em;
   background-color: transparent;
@@ -99,12 +87,12 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 .title1{
   padding-top: 1em;
 }
-.title2{
+.title2, .title3, .title4, .title5{
   padding-top: 1.5em;
 }
 #about .card img{
   width: 70%;
-  margin: 1.4em;
+  margin: 1.6em;
 }
 .cards2{
   padding-bottom: 10em;

@@ -4,8 +4,9 @@
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
   <title>Write Wise</title>
+  <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- style.css -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -55,7 +56,7 @@
     <div class="container-fluid about">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center aboutTitle">
             <h1>ABOUT US</h1>
           </div>
         </div><!-- fin row -->          
@@ -68,43 +69,52 @@
           <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify">
             <p>In less than one year, <strong>WriteWise</strong> has accomplished several key milestones, including:</p>
           </div> 
-        </div>
+        </div> <!-- fin row -->
         <!-- tarjetas -->
         <div class="row text-center cards1">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="network">
             <div class="card-header title1">
               <h5>COLLABORATION NETWORK</h5>
             </div>
-            <img class="card-img-top" src="assets/img/about/collaboration_network.png" alt="Card image cap">
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+            <div id="content1">
+              <img class="card-img-top" src="assets/img/about/collaboration_network.png" alt="Card image cap">
+            </div>            
+          </div>  <!-- tarjeta 1 -->
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="support">
             <div class="card-header title2">
               <h5>SUPPORT</h5>
             </div>
-            <img class="card-img-top" src="assets/img/about/support.png" alt="Card image cap">
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="card-header title2">
+            <div id="content2">
+              <img class="card-img-top" src="assets/img/about/support.png" alt="Card image cap">
+            </div>
+          </div> <!-- tarjeta 2 -->
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="prototyping">
+            <div class="card-header title3">
               <h5>PROTOTYPING</h5>
             </div>
-            <img class="card-img-top" src="assets/img/about/prototyping.png" alt="Card image cap">
-          </div>
-        </div>
-        <div class="row text-center cards2">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4">
-            <div class="card-header title2">
-              <h5>EXPAND TEAM</h5>
+            <div id="content3">
+              <img class="card-img-top" src="assets/img/about/prototyping.png" alt="Card image cap">
             </div>
-            <img class="card-img-top" src="assets/img/about/expand_team.png" alt="Card image cap">
+          </div> <!-- tarjeta 3 -->
+        </div> <!-- fin row -->
+        <div class="row text-center cards2">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4" id="expandTeam">
+            <div class="card-header title4">
+              <h5>EXPAND TEAM</h5>
+            </div> <!-- tarjeta 4 -->
+            <div id="content4">
+              <img class="card-img-top" src="assets/img/about/expand_team.png" alt="Card image cap">
+            </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="card-header title2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="market">
+            <div class="card-header title5">
               <h5>ENTER THE MARKET</h5>
             </div>
-            <img class="card-img-top" src="assets/img/about/enter_the_market.png" alt="Card image cap">
+            <div id="content5">
+              <img class="card-img-top" src="assets/img/about/enter_the_market.png" alt="Card image cap">
             </div>
-          </div>          
-        </div>       
+          </div><!-- tarjeta 5 -->
+        </div> <!-- fin row -->       
       </div> <!-- fin container -->
     </div> <!-- fin container-fluid -->
   </section>
@@ -117,12 +127,12 @@
             <img src="assets/img/logo_ww.png" alt="">
             <h1>CORE TEAM</h1>
           </div>          
-        </div>        
+        </div>  <!-- fin row -->      
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descripCoreTeam">
             <p>Built by a <strong>multidisciplinary team</strong> of experienced scientific editors, linguist, and technologist keen to improve and <strong>modernize science communication</strong></p>
           </div>
-        </div>
+        </div> <!-- fin row -->
         <div class="row text-center">
           <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
             <img class="card-img-top" src="assets/img/Core_Team/EduardoFuentes.jpg" alt="Card image cap">
@@ -166,9 +176,9 @@
               <p class="card-text">Marketing and Commercial Management</p>
             </div>
           </div>        
-        </div>
-      </div>
-    </div>
+        </div> <!-- fin row -->
+      </div> <!-- fin container -->
+    </div> <!-- fin container-fluid -->
     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1920 44" style="enable-background:new 0 0 1920 44;" xml:space="preserve">
       <style type="text/css">
@@ -188,7 +198,7 @@
           <img src="assets/img/Core_Team/perfiles.png" alt="">
         </div>
       </div>
-    </div>    
+    </div>  <!-- fin container -->  
   </section> 
   <!-- know more -->
   <section id="knowMore">
@@ -201,14 +211,14 @@
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center knowMoreTitle">
             <h1>KNOW MORE</h1>
           </div>
-        </div>
+        </div> <!-- fin row -->
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descriptKnowMore">
-              <p>Know more about our research and development (R&D), innovation and products, opportunity for MIT students and for Investors and Venture Capital (VC).</p>
-            </div>
-        </div>
+            <p>Know more about our research and development (R&D), innovation and products, opportunity for MIT students and for Investors and Venture Capital (VC).</p>
+          </div>
+        </div> <!-- fin row -->
         <div class="row icons text-center">
-          <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 offset-lg-2 offset-xl-2 offset-md-2">
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 offset-lg-2 offset-xl-2 offset-md-2" id="ourRB">
             <img src="assets/img/knowMore/ourR&b.png" alt="">
             <h5>OUR R&B</h5>
           </div>
@@ -224,9 +234,9 @@
             <img src="assets/img/knowMore/forInvestors.png" alt="">
             <h5>FOR INVESTORS</h5>
           </div>
-        </div>        
-      </div>      
-    </div>
+        </div> <!-- fin row -->       
+      </div> <!-- fin container -->     
+    </div> <!-- fin container-fluid -->
   </section>
   <!-- collaborators -->
   <section id="collaborators">
@@ -239,9 +249,9 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descripCollaborators">
-              <p>Trusted and funded by prestigius international and national entities. In the past 6 month WriteWise has been awarded USD$400,000 in competitive grants including 3 CORFO projects and being incubated and accelerated by ImagineLab by Microsoft Innovation Center. WriteWise is also part of the Massachusetts Institute of Technology (MIT) International Science and Technology Initiatives.</p>
-            </div>
-        </div>
+            <p>Trusted and funded by prestigius international and national entities. In the past 6 month WriteWise has been awarded USD$400,000 in competitive grants including 3 CORFO projects and being incubated and accelerated by ImagineLab by Microsoft Innovation Center. WriteWise is also part of the Massachusetts Institute of Technology (MIT) International Science and Technology Initiatives.</p>
+          </div>
+        </div> <!-- fin row -->
         <div class="row text-center logotipos">
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center misti">
             <img src="assets/img/collaborators/misti-footer-logo@2x.png" alt="">
@@ -252,7 +262,7 @@
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center imagine">
             <img src="assets/img/collaborators/image005-2.png" alt="">
           </div>
-        </div>
+        </div>  <!-- fin row --> 
         <div class="row logotipos">
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center biopub">
             <img src="assets/img/collaborators/BioPubLogoFinal_frase-636.png" alt="">
@@ -263,9 +273,9 @@
           <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center ucLiteratura">
             <img src="assets/img/collaborators/LITERATURA-Y-CS-DEL-LENGUAJE-01-1.png" alt="">
           </div>
-        </div>        
-      </div>      
-    </div>
+        </div> <!-- fin row -->       
+      </div> <!-- fin container -->     
+    </div> <!-- fin container-fluid -->
   </section>
   <!-- contact -->
   <section id="contact">
@@ -281,6 +291,7 @@
         </div>
         <div class="row">
           <form>
+            <!-- nombre y correo -->
             <div class="form-row">
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 name">
                 <label for="inputName">NAME</label>
@@ -291,10 +302,12 @@
                 <input type="email" class="form-control" id="inputEmail">
               </div>
             </div>
+            <!-- institucion -->
             <div class="form-group">
               <label for="inputAddress">INSTITUTION/UNIVERSITY/COMPANY(*)</label>
               <input type="text" class="form-control" id="inputAddress">
-            </div>            
+            </div>
+            <!-- Cargo y tema -->            
             <div class="form-row">
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 position">
                 <label for="inputPosition">POSITION</label>
@@ -305,6 +318,7 @@
                 <input type="text" class="form-control" id="inputSubject">
               </div>
             </div>
+            <!-- Mensaje -->
             <div class="form-group">
               <label for="inputMessage">MESSAGE</label>
               <textarea type="text" class="form-control" id="inputMessage"></textarea>
@@ -313,7 +327,7 @@
               <button type="submit" class="btn btn-primary">Send</button>
             </div>            
           </form>
-        </div>
+        </div> <!-- fin row -->
         <div class="row contactIcons">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <p><img src="assets/img/contact/lugar.png"> Erasmo Escala, 2382, Santiago, Chile.</p>
@@ -324,9 +338,9 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <p><img src="assets/img/contact/correo.png"> Email: Contact WriteWise</p>
           </div>
-        </div>
-      </div>
-    </div>
+        </div>  <!-- fin row -->
+      </div>  <!-- fin container -->
+    </div> <!--  fin container-fluid -->
   </section>
   <!--  -->
   <footer>
@@ -339,13 +353,17 @@
             <p>Design by Andrés Levineri and development by Camila Cornejos.</p>
           </div>
         </div>        
-      </div>
-    </div>
+      </div> <!-- fin row -->
+    </div> <!-- fin container-fluid -->
   </footer>
   <!-- scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+  <!-- index.js -->
   <script src="assets/js/index.js"></script>  
 </body>
 </html>
