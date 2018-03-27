@@ -1,0 +1,94 @@
+/* Fuente open sans */
+body{
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  overflow-y: auto;
+}
+h1{
+  letter-spacing: 0.5em;
+}
+
+/*NAV
+*--------------------------------*/
+.menu{
+  margin-bottom: 0;
+}
+.logoContainer a{
+  padding: 0;
+}
+.logo{
+  width:6em;
+}
+.back svg{
+  vertical-align: bottom;
+  color: #2B417B; 
+}
+.back:hover{
+  cursor: pointer;
+}
+.back a{
+  cursor: pointer;
+  color: #2B417B; 
+}
+
+/* FOTO E INFORMACIÓN
+*--------------------------------*/
+.photoInfo{
+  padding-top: 6em;
+  background: -webkit-linear-gradient(bottom left, rgba(204,204,204,1) 0%, rgba(109,127,143,1) 100%);
+  background: -o-linear-gradient(bottom left, rgba(204,204,204,1) 0%, rgba(109,127,143,1) 100%);
+  background: linear-gradient(to top right, rgba(204,204,204,1) 0%, rgba(109,127,143,1) 100%);
+  color: #FFFFFF;
+  background-image: url(../img/profile/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photoInfo img{
+  width: 100%;
+}
+.photoInfo p{
+  font-size: 1.5em;
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 1em;
+  width: 70%;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+.photoInfo ul li{
+  list-style: none;
+  display: inline-block;
+}
+.svg-inline--fa{
+  display: inline-block;
+  font-size: 1.5em;
+  overflow: visible;
+  margin-right: 0.5em;
+}
+.svg-inline--fa:hover{
+  color:#B5B5B5;
+  cursor: pointer;
+} 
+.info{
+  top: 8em;
+}
+
+/* CV
+*--------------------------------*/
+.cv{
+  margin-top: 3em;
+  -webkit-box-shadow: 0px 29px 86px -39px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 29px 86px -39px rgba(0,0,0,0.75);
+  box-shadow: 0px 29px 86px -39px rgba(0,0,0,0.75);
+  margin-bottom: 3em;
+  padding: 2em;
+  color: #2B417B;
+}
+.ashley p:nth-child(2),
+.ashley p:nth-child(3),
+.ashley p:nth-child(6),
+.ashley p:nth-child(7),
+.ashley p:nth-child(8){
+  margin-bottom: 0;
+}

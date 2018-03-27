@@ -7,22 +7,24 @@
   <title>Write Wise</title>
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <!-- efecto input -->
   <link rel="stylesheet" href="assets/css/lib/set1.css">
   <!-- style.css -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-spy="scroll" data-target="#scrollspy" data-offset="0">
+<body data-spy="scroll" data-target="#navbarCodeply" data-offset="70">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"  id="scrollspy">
-      <a class="navbar-brand" href="#home"><img class="logo" src="assets/img/logo_ww.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"><img class="logo" src="assets/img/logo_ww.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCodeply" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCodeply">
+          <ul class="nav navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#home">HOME</a>
+              <a class="nav-link active" href="#home">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">ABOUT</a>
@@ -38,9 +40,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">CONTACT</a>
-            </li>                   
+            </li>               
           </ul>
-        </div>      
+        </div>
+      </div>
     </nav>    
   </header>
   <!-- home -->
@@ -75,9 +78,8 @@
           </div> 
         </div> <!-- fin row -->
         <!-- tarjetas -->
-        <div class="row text-center cards1">
-          <!-- smoo left -->
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 smooLeft" id="network">
+        <div class="row text-center cards1 smoo">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="network">
             <div class="card-header title1">
               <h5>COLLABORATION NETWORK</h5>
             </div>
@@ -86,7 +88,7 @@
               <p class="text">Establish a robust collaboration network with experienced entrepreneurs, linguists, and researchers in education, AI, NLP, and deep learning.</p>
             </div>            
           </div>  <!-- fin tarjeta 1 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft" id="support">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="support">
             <div class="card-header title2">
               <h5>SUPPORT</h5>
             </div>
@@ -95,7 +97,7 @@
               <p class="text">Raise funding and receive support from prestigious international and national institutions (Microsoft, MIT, CORFO) – for example, WriteWise was awarded USD$400,000 in competitive public grants in 2017.</p>
             </div>
           </div> <!-- fin tarjeta 2 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft" id="prototyping">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="prototyping">
             <div class="card-header title3">
               <h5>PROTOTYPING</h5>
             </div>
@@ -103,11 +105,8 @@
               <img class="card-img-top" src="assets/img/about/prototyping.png" alt="Card image cap">
               <p class="text">Begin prototyping, with user-testing planned for the near future.</p>
             </div>
-          </div> <!-- fin tarjeta 3 -->
-        </div> <!-- fin row -->
-        <!-- smooright -->
-        <div class="row text-center cards2">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4 smooRight" id="expandTeam">
+          </div> <!-- fin tarjeta 3 -->        
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4" id="expandTeam">
             <div class="card-header title4">
               <h5>EXPAND TEAM</h5>
             </div> 
@@ -116,7 +115,7 @@
               <p class="text">Exponentially expand the WriteWise team, which today includes 12 members, 8 of whom hold a PhD.</p>
             </div>
           </div> <!-- fin tarjeta 4 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooRight" id="market">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="market">
             <div class="card-header title5">
               <h5>ENTER THE MARKET</h5>
             </div>
@@ -125,7 +124,8 @@
               <p class="text">Lay the foundations for market entry, with sales expected as soon as 2018.</p>
             </div>
           </div><!-- fin tarjeta 5 -->
-        </div> <!-- fin row -->       
+        </div> <!-- fin row --> 
+        <div class="cards2"></div>      
       </div> <!-- fin container -->
     </div> <!-- fin container-fluid -->
   </section>
@@ -145,8 +145,8 @@
             <p>Built by a <strong>multidisciplinary team</strong> of experienced scientific editors, linguist, and technologist keen to improve and <strong>modernize science communication</strong></p>
           </div>
         </div> <!-- fin row -->
-        <div class="row text-center">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 smooLeft">
+        <div class="row text-center smoo">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/EduardoFuentes.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -157,7 +157,7 @@
                 <i class="fas fa-envelope"></i>                
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile">View Profile</button>
+                <button id="profile"><a href="assets/html/eduardoFuentes.html">View Profile</a></button>
               </div>
             </div>            
             <div class="card-body">
@@ -165,7 +165,7 @@
               <p class="card-text">Founder y CEO</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/AshleyVancott.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -176,7 +176,7 @@
                 <i class="fas fa-envelope"></i>                
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile">View Profile</button>
+                <button id="profile"><a href="assets/html/ashleyVanCott.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -184,7 +184,7 @@
               <p class="card-text">Founder y COO</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooLeft">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/JavierVera.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -195,7 +195,7 @@
                 <i class="fas fa-envelope"></i>                
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile">View Profile</button>
+                <button id="profile"><a href="assets/html/javierVera.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -204,7 +204,7 @@
             </div>
           </div> 
           <!-- smoo right -->      
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 smooRight">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/JuanBascur.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -215,7 +215,7 @@
                 <i class="fas fa-envelope"></i>                
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile">View Profile</button>
+                <button id="profile"><a href="assets/html/juanBascur.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -223,7 +223,7 @@
               <p class="card-text">Machine Learning and Scientometrics Researcher</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooRight">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/FranciscaSchalchli.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -234,7 +234,7 @@
                 <i class="fas fa-envelope"></i>                
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile">View Profile</button>
+                <button id="profile"><a href="assets/html/franciscaSchalchli.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -242,7 +242,7 @@
               <p class="card-text">Project Manager</p>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 smooRight">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/CristhianGomez.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -253,7 +253,7 @@
                 <i class="fas fa-envelope"></i>                
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile">View Profile</button>
+                <button id="profile"><a href="assets/html/cristhianGomez.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -264,7 +264,7 @@
         </div> <!-- fin row -->
       </div> <!-- fin container -->
     </div> <!-- fin container-fluid -->
-    <svg version="1.1" id="Capa_1" class="smoo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1920 44" style="enable-background:new 0 0 1920 44;" xml:space="preserve">
       <style type="text/css">
         .st0{fill:none;enable-background:new;}
@@ -287,7 +287,7 @@
   </section> 
   <!-- know more -->
   <section id="knowMore">
-    <svg id="bigTriangleColor" class="smoo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L50 100 L100 0 Z" />
     </svg>
     <div class="container-fluid">
@@ -376,7 +376,7 @@
   </section>
   <!-- contact -->
   <section id="contact">
-    <svg id="bigTriangleColor" class="smoo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="50" viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L50 100 L100 0 Z" />
     </svg>
     <div class="container-fluid">
@@ -387,14 +387,14 @@
           </div>
         </div>
         <div class="row smooBottom">
-          <form>
+          <form method=POST action="mailto:ef@writewise.cl" enctype="text/plain">
             <!-- nombre y correo -->
             <div class="form-row">
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 name">
                 <span class="input input--hoshi">
                   <input class="form-control input__field input__field--hoshi" type="text" id="inputName" />
                   <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputName">
-                    <span class="input__label-content input__label-content--hoshi">NAME</span>
+                    <span class="input__label-content input__label-content--hoshi">NAME(*)</span>
                   </label>
                 </span>
               </div>
@@ -402,7 +402,7 @@
                 <span class="input input--hoshi">
                   <input class="form-control input__field input__field--hoshi" type="email" id="inputEmail" />
                   <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputEmail">
-                    <span class="input__label-content input__label-content--hoshi">EMAIL</span>
+                    <span class="input__label-content input__label-content--hoshi">EMAIL(*)</span>
                   </label>
                 </span>
               </div>
@@ -438,9 +438,9 @@
             <!-- Mensaje -->
             <div class="form-group">
               <span class="input input--hoshi">
-                <textarea class="form-control input__field input__field--hoshi" type="text" id="inputMessage"></textarea>
+                <textarea class="form-control input__field input__field--hoshi" type="text" id="inputMessage" ></textarea>
                 <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputMessage">
-                  <span class="input__label-content input__label-content--hoshi">MESSAGE</span>
+                  <span class="input__label-content input__label-content--hoshi">MESSAGE(*)</span>
                 </label>
               </span>
             </div>
@@ -457,7 +457,7 @@
             <p><img src="assets/img/contact/telefono.png"> Phone: +56 02 2681 6762, Annex 607</p>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <p><img src="assets/img/contact/correo.png"> Email: Contact WriteWise</p>
+            <p><a href="mailto:ef@writewise.cl"><img src="assets/img/contact/correo.png"></a> Email: Contact ef@writewise.cl</p>
           </div>
         </div>  <!-- fin row -->
       </div>  <!-- fin container -->

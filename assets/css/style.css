@@ -1,6 +1,8 @@
 /* Fuente open sans */
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  overflow-y: auto;
 }
 section{
   height: auto;
@@ -14,19 +16,7 @@ section{
 .logoContainer a{
   padding: 0;
 }
-.navbar-light .navbar-nav .nav-link{
-  color:#121594;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.navbar-light .navbar-nav .nav-link:focus, 
-.navbar-light .navbar-nav .nav-link:hover{
-  font-weight: 600;
-  color:#121594;
-}
-.navbar-light .navbar-nav .nav-link:active{
-  border-bottom: 3px solid #1E1A70;
-}
+
 .logo{
   width:6em;
 }
@@ -48,6 +38,7 @@ ul li{
   color: #FFF;
   font-weight: 700;
   font-size: 4em;
+  letter-spacing: 0.1em;
 }
 .home h3{
   color: #FFF;
@@ -72,6 +63,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   margin-top: 3em;
   margin-bottom: 1em;
   font-weight: 700;
+  letter-spacing: 0.1em;
 }
 .shadowAbout{
   height: 3em;
@@ -116,7 +108,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   margin: 2em 1.6em 1.6em 1.6em;
 }
 .cards2{
-  padding-bottom: 10em;
+  height: 10em;
 }
 .text{
   font-size: 0.7em;
@@ -140,6 +132,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   font-weight: 700;
   vertical-align: middle;
   margin-left: 0.5em;
+  letter-spacing: 1px;
 }
 .shadow{
   height: 3em;
@@ -265,6 +258,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 }
 .knowMoreTitle h1{
   font-weight: 700;
+  letter-spacing: 0.1em;
 }
 .descriptKnowMore{
   text-align-last: center;
@@ -301,6 +295,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   margin-bottom: 1em;
   font-weight: 700;
   color: #21315B;
+  letter-spacing: 0.1em;
 }
 .misti img, 
 .innova img, 
@@ -333,6 +328,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   font-weight: 700;
   margin-top: 3em;
   margin-bottom: 1em;
+  letter-spacing: 0.1em;
 }
 .name, .email{
   display: inline-block;
