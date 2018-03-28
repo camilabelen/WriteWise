@@ -1,19 +1,43 @@
 @media only screen and (max-device-width: 320px){
+  
   /*
-  *PRIMERA SECCION- HOME
+  * MENU
   *------------------------------*/
 
-  .home h1{
-    font-size: 2.5em;
-    margin-top: 60%;
-  }
-  .home h3{
-    margin-top: 2.5em;
-    font-size: 1.4em;
+  .navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .nav-link.active,  
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link{
+    font-weight: 700;
+    color: #2B417B;
+    border-bottom: 3px solid #2B417B;
+    width: 50%;
   }
 
   /*
-  *SEGUNDA SECCION- ABOUT
+  * PRIMERA SECCION- HOME
+  *------------------------------*/
+  .home{
+    background-position: center;
+  }
+  .home .isotipo img{
+    margin-top: 30vh;
+    width: 100%;
+  }
+  .home h1{
+    font-size: 2em;
+    margin-top:1em;
+  }
+  .home h2{    
+    font-size: 1.5em;
+  }
+  .home p{
+    font-size: 1em;
+    margin-top: 1em;
+  }
+
+  /*
+  * SEGUNDA SECCION- ABOUT
   *------------------------------*/
 
   .aboutTitle h1{
@@ -22,12 +46,15 @@
   .shadowAbout{
     top:85px;
   }
+  .card{
+    left: 1.5em;
+  }
   .text{
     font-size: 1em;
   }
 
   /*
-  *TERCERA SECCION- CORE TEAM
+  * TERCERA SECCION- CORE TEAM
   *------------------------------*/
   
   #coreTeam .card h3{
@@ -44,14 +71,18 @@
   }
 
   /*
-  *CUARTA SECCION- KNOW MORE
+  * CUARTA SECCION- KNOW MORE
   *------------------------------*/
   
   #knowMore{
     height: auto;
   }
+  .knowMoreTitle h1{
+    font-size: 1.8em;
+  }
   .icon{
     height: auto;
+    left: 1.5em;
   }
   .icon h5{
     border-bottom: 1px solid #FFFFFF;
@@ -65,16 +96,20 @@
     margin-top: 2em;
     height: auto;
   }
-  .knowMoreTitle h1{
-    font-size: 1.8em;
+  #investors{
+    padding-bottom: 3em;
   }
   
   /*
-  *QUINTA SECCION- COLLABORATORS
+  * QUINTA SECCION- COLLABORATORS
   *------------------------------*/
+  #collaborators img{
+    left: 2.5em;
+  }
   .misti img, .innova img, .imagine img, .biopub img, .ucInformatica img{
     width: 90%;
     margin-bottom: 2.3em;
+    margin-left: 2.2em;
   }
   .ucLiteratura img{
     width: 100%;
@@ -84,8 +119,11 @@
   }
 
   /*
-  *SEXTA SECCION- CONTACT
+  * SEXTA SECCION- CONTACT
   *------------------------------*/
+  #contact{
+    background-position: left;
+  }
   #contact form{
     padding: 2em 1em;
   }
@@ -97,8 +135,18 @@
   }
 
   /*
-  *FOOTER
+  * FOOTER
   *------------------------------*/
-  
-
+  .footer{
+    display: block;
+  }
+  .logoWW img{
+    width: 80%;
+  }
+  .copyright{
+    margin-top: 0.8em;
+  }
+  .copyright p{
+    font-size: 0.9em;
+  }
 }

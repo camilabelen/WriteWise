@@ -21,8 +21,20 @@ section{
   width:6em;
 }
 ul li{
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 0.3em;
+}
+ul li:hover{
+  color: #2B417B;
+  padding: 0.3em;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,  
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+  font-weight: 700;
+  color: #2B417B;
+  border-bottom: 3px solid #2B417B;
 }
 
 /*HOME
@@ -32,18 +44,27 @@ ul li{
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  color: #FFFFFF;
 }
-.home h1{
-  margin-top: 24%;
+.home .isotipo img{
+  width: 100%;
+  margin-top: 25vh;
+}
+.home h1{  
   color: #FFF;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: 0.1em;
 }
-.home h3{
+.home h2{
   color: #FFF;
+  font-size: 2em;
   font-weight: 600;
-  font-size: 2.5em;
+}
+.home p{
+  font-weight: 100;
+  letter-spacing: 0.08em;
+  font-size: 1.35em;
 }
 .home::after{
 background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%), url(../img/home.jpg);
@@ -89,6 +110,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   transition: 0.5s;
   -webkit-transition:0.5s;
   color: #FFFFFF;
+  height:16.5em;
 }
 #about .card-header{
   height: 4em;
@@ -96,6 +118,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   border-bottom: 1px solid #FFFFFF;
   padding-left: 0;
   padding-right: 0;
+  font-size: 0.9em;
 }
 .title1{
   padding-top: 1em;
@@ -104,16 +127,16 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   padding-top: 1.5em;
 }
 #about .card img{
-  width: 70%;
-  margin: 2em 1.6em 1.6em 1.6em;
+  width: 80%;
+  margin: 2em 1em 1em;
 }
 .cards2{
   height: 10em;
 }
 .text{
-  font-size: 1em;
-  text-align: justify;
+  font-size: 0.9em;
   margin-top: 1em;
+  text-indent: 10px;
 }
 
 /*CORE TEAM
@@ -176,7 +199,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   padding: 0.8em 0.2em;
 }
 #coreTeam .card h3{
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
 }
 #coreTeam .card p{
@@ -253,8 +276,6 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 }
 #profile:hover a{
   cursor: pointer;
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
   color:#21315B;
   transition: all 0.3s;
 }
@@ -322,6 +343,13 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 .ucInformatica img{
   width: 70%;
   text-align: center;
+  margin-bottom: 2em;
+}
+.misti img{
+  padding-top: 1em;
+}
+.ucInformatica img{
+  padding-top: 1em;
 }
 .descripCollaborators{
   text-align-last: center;

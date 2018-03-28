@@ -16,11 +16,20 @@ $(document).ready(function () {
   });
 
   //smoove transition
-  $('.smoo').smoove({offset:'0', opacity:'0', moveZ: '0',});
-  $('.smooTop').smoove({offset:'0', opacity:'0', moveY: '-200px',});
-  $('.smooBottom').smoove({offset:'0', opacity:'0', moveY: '200px',});
-  $('.smooRight').smoove({offset:'0', opacity:'0', moveX: '200px',});
-  $('.smooLeft').smoove({offset:'0', opacity:'0', moveX: '-200px',});
+  $('.smoo').smoove({opacity:'0', moveZ: '0',});
+  $('.smooTop').smoove({opacity:'0', moveY: '-200px',});
+  $('.smooBottom').smoove({opacity:'0', moveY: '200px',});
+  $('.smooRight').smoove({opacity:'0', moveX: '200px',});
+  $('.smooLeft').smoove({opacity:'0', moveX: '-200px',});
+
+  /*
+  * MENU
+  */
+
+  $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+  });
+ 
   /*
   * ABOUT - texto de tarjetas
   */
