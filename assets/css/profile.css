@@ -53,10 +53,6 @@ ul{
   margin:0;
   padding:0;
 }
-.photoInfo ul li{
-  list-style: none;
-  display: inline-block;
-}
 .svg-inline--fa{
   display: inline-block;
   font-size: 1.5em;
@@ -68,7 +64,12 @@ ul{
   cursor: pointer;
 } 
 .info{
+  margin-top: 10em;
+}
+.info ul li{
   top: 8em;
+  list-style: none;
+  display: inline-block;
 }
 
 /* CV
@@ -89,9 +90,149 @@ ul{
 .ashley p:nth-child(8){
   margin-bottom: 0;
 }
-
 @media only screen and (max-device-width: 320px){
-  .mobilePhoto img{
-    width: 100%;
+  
+  header p{
+    font-size: 0.8em;
+  }
+  .back svg{
+    font-size: 1em;
+    vertical-align: middle;
+  }
+  .photoInfo{
+    background-image: none;
+    padding-top: 0;
+  }
+  .photoProfile{
+    background-image: url(../img/profile/fondo1.jpg);
+    background-position: left;
+    padding-top: 6em;
+  }
+  .info{
+    color:#2B417B;
+    margin-top: 0;
+  }
+  .info h1{
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  .info p{
+    font-size: 1.2em;
+  }
+  .svg-inline--fa{
+    display: inline-block;
+    font-size: 1.2em;
+    overflow: visible;
+    margin-right: 0.5em;
+  }
+  .cv{
+    padding: 1em;
+  }
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px){
+  
+  header p{
+    font-size: 0.8em;
+  }
+  .back svg{
+    font-size: 1em;
+    vertical-align: middle;
+  }
+  .photoInfo{
+    background-image: none;
+    padding-top: 0;
+  }
+  .photoProfile{
+    background-image: url(../img/profile/fondo1.jpg);
+    background-position: left;
+    padding-top: 6em;
+  }
+  .info{
+    color:#2B417B;
+    margin-top: 0;
+  }
+  .info h1{
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  .info p{
+    font-size: 1.2em;
+  }
+  .svg-inline--fa{
+    display: inline-block;
+    font-size: 1.2em;
+    overflow: visible;
+    margin-right: 0.5em;
+  }
+  .cv{
+    padding: 1em;
+  }
+}
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px){
+  
+  header p{
+    font-size: 0.8em;
+  }
+  .back svg{
+    font-size: 1em;
+    vertical-align: middle;
+  }
+  .photoInfo{
+    background-image: none;
+    padding-top: 0;
+  }
+  .photoProfile{
+    background-image: url(../img/profile/fondo1.jpg);
+    background-position: left;
+    padding-top: 6em;
+  }
+  .info{
+    color:#2B417B;
+    margin-top: 0;
+  }
+  .info h1{
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  .info p{
+    font-size: 1.2em;
+  }
+  .svg-inline--fa{
+    display: inline-block;
+    font-size: 1.2em;
+    overflow: visible;
+    margin-right: 0.5em;
+  }
+  .cv{
+    padding: 1em;
+  }
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px){
+  
+  header p{
+    font-size: 0.8em;
+  }
+  .back svg{
+    font-size: 1em;
+    vertical-align: middle;
+  }
+  .info{
+    margin-top: 3em;
+  }
+  .info h1{
+    font-size: 2em;
+    margin-top: 1em;
+  }
+  .info p{
+    font-size: 1.2em;
+  }
+  .svg-inline--fa{
+    display: inline-block;
+    font-size: 1.2em;
+    overflow: visible;
+    margin-right: 0.5em;
+  }
+  .cv{
+    padding: 1em;
   }
 }

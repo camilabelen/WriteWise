@@ -52,6 +52,12 @@
   .text{
     font-size: 1em;
   }
+  #network{
+    margin-left: 0;
+  }
+  #expandTeam{
+    margin-left: 0;
+  }
 
   /*
   * TERCERA SECCION- CORE TEAM
@@ -148,5 +154,539 @@
   }
   .copyright p{
     font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px){
+
+  /*
+  * SEGUNDA SECCION- ABOUT
+  *------------------------------*/
+
+  .aboutTitle h1{
+    font-size: 1.8em;
+  }
+  .shadowAbout{
+    top:85px;
+  }
+  #network{
+    margin-left: 0;
+  }
+  #expandTeam{
+    margin-left: 0;
+  }
+  .card{
+    left: 1.9em;
+  }
+  .text{
+    font-size: 1em;
+  }
+  #about .card img{
+    margin-top: 0;
+  }
+
+  /*
+  * CUARTA SECCION- KNOW MORE
+  *------------------------------*/
+  
+  #knowMore{
+    height: auto;
+  }
+  .knowMoreTitle h1{
+    font-size: 1.8em;
+  }
+  .icon{
+    height: auto;
+    left: 1.8em;
+  }
+  .icon h5{
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0;
+  }
+  .icon p{
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  .icons{
+    margin-top: 2em;
+    height: auto;
+  }
+  #investors{
+    padding-bottom: 3em;
+  }
+  
+  /*
+  * QUINTA SECCION- COLLABORATORS
+  *------------------------------*/
+  #collaborators img{
+    left: 2.5em;
+  }
+  .misti img, .innova img, .imagine img, .biopub img, .ucInformatica img{
+    width: 90%;
+    margin-bottom: 2.3em;
+    margin-left: 2.5em;
+  }
+  .ucLiteratura img{
+    width: 100%;
+  }
+  .titleC h1{
+    font-size: 1.8em;
+  }
+  .titleC{
+    left: 0.9em;
+  }
+  /*
+  * SEXTA SECCION- CONTACT
+  *------------------------------*/
+  #contact{
+    background-position: left;
+  }
+  #contact form{
+    padding: 2em 1em;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+  span .input__label-content{
+    font-size: 0.8em;
+  }
+
+  /*
+  * FOOTER
+  *------------------------------*/
+  .footer{
+    display: block;
+  }
+  .logoWW img{
+    width: 80%;
+  }
+  .copyright{
+    margin-top: 0.8em;
+  }
+  .copyright p{
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px){
+
+  /*
+  * SEGUNDA SECCION- ABOUT
+  *------------------------------*/
+
+  .aboutTitle h1{
+    font-size: 1.8em;
+  }
+  .shadowAbout{
+    top:85px;
+  }
+  .card{
+    left: 2em;
+  }
+  .text{
+    font-size: 1em;
+  }
+  #about .card img{
+    margin-top: 0;
+  }
+  #network{
+    margin-left: 0;
+  }
+  #expandTeam{
+    margin-left: 0;
+  }
+
+  /*
+  * CUARTA SECCION- KNOW MORE
+  *------------------------------*/
+  
+  #knowMore{
+    height: auto;
+  }
+  .knowMoreTitle h1{
+    font-size: 1.8em;
+  }
+  .icon{
+    height: auto;
+    left: 1.8em;
+  }
+  .icon h5{
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0;
+  }
+  .icon p{
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  .icons{
+    margin-top: 2em;
+    height: auto;
+  }
+  #investors{
+    padding-bottom: 3em;
+  }
+  
+  /*
+  * QUINTA SECCION- COLLABORATORS
+  *------------------------------*/
+  #collaborators img{
+    left: 2.5em;
+  }
+  .misti img, .innova img, .imagine img, .biopub img, .ucInformatica img{
+    width: 90%;
+    margin-bottom: 2.3em;
+    margin-left: 2.5em;
+  }
+  .ucLiteratura img{
+    width: 100%;
+  }
+  .titleC h1{
+    font-size: 1.8em;
+  }
+  .titleC{
+    left: 0.9em;
+  }
+  /*
+  * SEXTA SECCION- CONTACT
+  *------------------------------*/
+  #contact{
+    background-position: left;
+  }
+  #contact form{
+    padding: 2em 1em;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+  span .input__label-content{
+    font-size: 0.8em;
+  }
+
+  /*
+  * FOOTER
+  *------------------------------*/
+  .footer{
+    display: block;
+  }
+  .logoWW img{
+    width: 80%;
+  }
+  .copyright{
+    margin-top: 0.8em;
+  }
+  .copyright p{
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px){
+
+  /*
+  * MENU
+  *------------------------------*/
+  
+  nav ul li{
+    font-size: 0.8em;
+    padding: 0;
+  }
+
+
+  /*
+  * SEGUNDA SECCION- ABOUT
+  *------------------------------*/
+
+  .aboutTitle h1{
+    font-size: 1.8em;
+  }
+  .shadowAbout{
+    top:85px;
+  }
+  .card{
+    left: 2em;
+  }
+  #network{
+    margin-left: 2.5em;
+  }
+  #expandTeam{
+    margin-left: 9em;
+  }
+  .card-header h5{
+    font-size: 0.9em
+  }
+  .text{
+    font-size: 0.85em;
+  }
+  #about .card img{
+    margin-top: 2.2em;
+  }
+  
+  /*
+  * TERCERA SECCION- CORE TEAM
+  *------------------------------*/
+  
+  #coreTeam .card h3{
+    font-size: 1em;
+  }
+  #coreTeam .card p{
+    font-size: 0.9em;
+  }
+  .perfiles img{
+    width: 80%;
+  }
+  .title h1{
+    font-size: 2em;
+    font-weight: 800;
+  }
+  #firstCard{
+    margin-left: 2em;
+  }
+  #fourthCard{
+    margin-left: 2em;
+  }
+
+  /*
+  * CUARTA SECCION- KNOW MORE
+  *------------------------------*/
+  
+  #knowMore{
+    height: auto;
+  }
+  .knowMoreTitle h1{
+    font-size: 1.8em;
+  }
+  .icon{
+    height: auto;
+    left: 1.8em;
+  }
+  #ourRB{
+    margin-left: 6em;
+  }
+  #misti{
+    margin-left: 6em;
+  }
+  .icon h5{
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0;
+  }
+  .icon p{
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  .icons{
+    margin-top: 2em;
+    height: auto;
+  }
+  #investors{
+    padding-bottom: 3em;
+  }
+  
+  /*
+  * QUINTA SECCION- COLLABORATORS
+  *------------------------------*/
+  #collaborators img{
+    left: 2.5em;
+  }
+  .misti img, .innova img, .imagine img, .biopub img, .ucInformatica img{
+    width: 70%;
+    margin-bottom: 2.3em;
+    margin-left: 1em;
+  }
+  .misti, .imagine,.ucInformatica{
+    margin-left: 3.5em;
+  }
+  .ucLiteratura img{
+    width: 100%;
+  }
+  .titleC h1{
+    font-size: 1.8em;
+  }
+  .titleC{
+    left: 0.9em;
+  }
+  /*
+  * SEXTA SECCION- CONTACT
+  *------------------------------*/
+  #contact{
+    background-position: left;
+  }
+  #contact form{
+    padding: 2em 1em;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+  span .input__label-content{
+    font-size: 0.8em;
+  }
+  .contactIcons p{
+    font-size: 0.9em;
+    text-align: center;
+  }
+  /*
+  * FOOTER
+  *------------------------------*/
+
+  .logoWW{
+    width: 40%;
+  }
+  .logoWW img{
+    width: 80%;
+        display: inline-block;
+
+  }
+  .copyright{
+    margin-top: 0.8em;
+  }
+  .copyright p{
+    font-size: 0.9em;
+        display: inline-block;
+
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+
+  /*
+  * MENU
+  *------------------------------*/
+  
+  nav ul li{
+    font-size: 0.8em;
+    padding: 0;
+  }
+
+
+  /*
+  * SEGUNDA SECCION- ABOUT
+  *------------------------------*/
+
+  .aboutTitle h1{
+    font-size: 1.8em;
+  }
+  .shadowAbout{
+    top:85px;
+  }
+  #about .card{
+    left: 2em;
+    width: 5em;
+  }
+  #network{
+    margin-left: 5em;
+  }
+  #expandTeam{
+    margin-left: 13.5em;
+  }
+  .card-header h5{
+    font-size: 0.9em
+  }
+  .text{
+    font-size: 0.9em;
+  }
+  #about .card img{
+    margin-top: 1.5em;
+  }
+  
+  /*
+  * TERCERA SECCION- CORE TEAM
+  *------------------------------*/
+  
+  #coreTeam .card h3{
+    font-size: 1em;
+  }
+  #coreTeam .card p{
+    font-size: 0.9em;
+  }
+  .perfiles img{
+    width: 60%;
+  }
+  .title h1{
+    font-size: 2em;
+    font-weight: 800;
+  }
+  #firstCard{
+    margin-left: 14em;
+  }
+  #fourthCard{
+    margin-left: 14em;
+  }
+
+  /*
+  * CUARTA SECCION- KNOW MORE
+  *------------------------------*/
+  
+  #knowMore{
+    height: auto;
+  }
+  .knowMoreTitle h1{
+    font-size: 1.8em;
+  }
+  .icon{
+    height: 25em;
+  }
+
+  .icon h5{
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0;
+  }
+  .icon p{
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  .icons{
+    margin-top: 2em;
+    height: auto;
+  }
+
+  /*
+  * QUINTA SECCION- COLLABORATORS
+  *------------------------------*/
+  .misti img, .innova img, .imagine img, .biopub img, .ucInformatica img{
+    width: 70%;
+    margin-bottom: 2.3em;
+    margin-left: 1em;
+  }
+  .ucLiteratura img{
+    width: 100%;
+  }
+  .titleC h1{
+    font-size: 1.8em;
+  }
+  .titleC{
+    left: 0.9em;
+  }
+  /*
+  * SEXTA SECCION- CONTACT
+  *------------------------------*/
+  #contact{
+    background-position: left;
+  }
+  #contact form{
+    padding: 2em 1em;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+  span .input__label-content{
+    font-size: 0.8em;
+  }
+  .contactIcons p{
+    font-size: 0.9em;
+    text-align: center;
+  }
+  /*
+  * FOOTER
+  *------------------------------*/
+
+  .logoWW{
+    width: 40%;
+  }
+  .logoWW img{
+    width: 100%;
+  }
+  .copyright{
+    margin-top: 0.8em;
+  }
+  .copyright p{
+    font-size: 1em;
   }
 }

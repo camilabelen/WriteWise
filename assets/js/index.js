@@ -57,7 +57,7 @@ $(document).ready(function () {
   */
   
   // texto iconos know more
-  if ($(window).width() < 430) {
+  if ($(window).width() < 769) {
     $(this).find('.description').show();
   } else {
     $('.description').hide();
