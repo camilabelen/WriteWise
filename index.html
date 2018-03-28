@@ -4,14 +4,16 @@
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  <title>Write Wise</title>
+  <title>WriteWise</title>
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
   <!-- efecto input -->
   <link rel="stylesheet" href="assets/css/lib/set1.css">
   <!-- style.css -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- media queries -->
+  <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body data-spy="scroll" data-target="#navbarCodeply" data-offset="70">
   <header>
@@ -50,9 +52,8 @@
   <section id="home">
     <div class="container-fluid">
       <div class="row home">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  text-center">
-          <h1>Write Wise with Artificial Intelligence</h1>
-          <h3>Mordernizing and Improving Scientific Writing</h3>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <h1>WRITEWISE with Artificial Intelligence</h1>
         </div>        
       </div> <!-- fin row -->     
     </div> <!-- fin container-fluid -->
@@ -64,7 +65,7 @@
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center aboutTitle smoo">
             <h1>ABOUT US</h1>
-            <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 shadowAbout"></div>
+            <div class="col-11 col-sm-11 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 shadowAbout"></div>
           </div>
         </div><!-- fin row -->          
         <div class="row">
@@ -79,7 +80,7 @@
         </div> <!-- fin row -->
         <!-- tarjetas -->
         <div class="row text-center cards1 smoo">
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="network">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-1 col-lg-3 offset-lg-1 col-xl-3 offset-xl-1" id="network">
             <div class="card-header title1">
               <h5>COLLABORATION NETWORK</h5>
             </div>
@@ -88,7 +89,7 @@
               <p class="text">Establish a robust collaboration network with experienced entrepreneurs, linguists, and researchers in education, AI, NLP, and deep learning.</p>
             </div>            
           </div>  <!-- fin tarjeta 1 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="support">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3" id="support">
             <div class="card-header title2">
               <h5>SUPPORT</h5>
             </div>
@@ -97,7 +98,7 @@
               <p class="text">Raise funding and receive support from prestigious international and national institutions (Microsoft, MIT, CORFO) – for example, WriteWise was awarded USD$400,000 in competitive public grants in 2017.</p>
             </div>
           </div> <!-- fin tarjeta 2 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="prototyping">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3" id="prototyping">
             <div class="card-header title3">
               <h5>PROTOTYPING</h5>
             </div>
@@ -106,7 +107,7 @@
               <p class="text">Begin prototyping, with user-testing planned for the near future.</p>
             </div>
           </div> <!-- fin tarjeta 3 -->        
-          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4" id="expandTeam">
+          <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-3 offset-lg-3 col-xl-3 offset-xl-3" id="expandTeam">
             <div class="card-header title4">
               <h5>EXPAND TEAM</h5>
             </div> 
@@ -115,7 +116,7 @@
               <p class="text">Exponentially expand the WriteWise team, which today includes 12 members, 8 of whom hold a PhD.</p>
             </div>
           </div> <!-- fin tarjeta 4 -->
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2" id="market">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3" id="market">
             <div class="card-header title5">
               <h5>ENTER THE MARKET</h5>
             </div>
@@ -161,7 +162,7 @@
               </div>
             </div>            
             <div class="card-body">
-              <h3 class="card-text">Eduardo Fuentes, PhD.</h3>
+              <h3 class="card-text">Eduardo Fuentes, Ph.D.</h3>
               <p class="card-text">Founder y CEO</p>
             </div>
           </div>
@@ -180,7 +181,7 @@
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Ashley VanCott, BA</h3>
+              <h3 class="card-text">Ashley VanCott, B.A.</h3>
               <p class="card-text">Founder y COO</p>
             </div>
           </div>
@@ -199,11 +200,10 @@
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Javier Vera, PhD.</h3>
+              <h3 class="card-text">Javier Vera, Ph.D.</h3>
               <p class="card-text">Natural Language Processing Researcher</p>
             </div>
-          </div> 
-          <!-- smoo right -->      
+          </div>      
           <div class="card col-10 col-sm-10 col-md-3 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/Core_Team/JuanBascur.jpg" alt="Card image cap">
@@ -219,7 +219,7 @@
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Juan Bascur, MSc.</h3>
+              <h3 class="card-text">Juan Bascur, M.Sc.</h3>
               <p class="card-text">Machine Learning and Scientometrics Researcher</p>
             </div>
           </div>
@@ -238,7 +238,7 @@
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Francisca Schalchli, BEng.</h3>
+              <h3 class="card-text">Francisca Schalchli, B.Eng.</h3>
               <p class="card-text">Project Manager</p>
             </div>
           </div>
@@ -278,8 +278,8 @@
           <p><strong>Know more</strong> about other team's members</p>
         </div>      
       </div>
-      <div class="row text-center perfiles smooTop">
-        <div class="col-2 offset-5 col-sm-2 offset-sm-5 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5">
+      <div class="row text-center perfiles">
+        <div class="col-4 offset-4 col-sm-4 offset-sm-4 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5">
           <img src="assets/img/Core_Team/perfiles.png" alt="">
         </div>
       </div>
@@ -298,33 +298,33 @@
           </div>
         </div> <!-- fin row -->
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descriptKnowMore smoo">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify descriptKnowMore">
             <p>Know more about our research and development (R&D), innovation and products, opportunity for MIT students and for Investors and Venture Capital (VC).</p>
           </div>
         </div> <!-- fin row -->
         <div class="row icons text-center">
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="ourRB">
+          <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 icon" id="ourRB">
             <img src="assets/img/knowMore/ourR&b.png" alt="">
             <h5>OUR R&B</h5>
             <div class="description">
               <p>Know our cutting-edge research. WriteWise is a unique startup that has early invested in developing new technology for writing papers</p>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="ourSolution">
+          <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 icon" id="ourSolution">
             <img src="assets/img/knowMore/ourSolution.png" alt="">
             <h5>OUR SOLUTION</h5>
             <div class="description">
               <p>Know why you should use our product. Write Wise is a unique tool, and by far the best resource for writing papers</p>
             </div>
           </div>          
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="misti">
+          <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 icon" id="misti">
             <img src="assets/img/knowMore/forMistiApplicants.png" alt="">
             <h5>FOR MISTI APPLICANTS</h5>
             <div class="description">
               <p>Be part of a high impact project. As an MIT student, help us to redefine how papers are written from a Chilean startup</p>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 icon smooBottom" id="investors">
+          <div class="col-10 col-sm-10 col-md-3 col-lg-3 col-xl-3 icon" id="investors">
             <img src="assets/img/knowMore/forInvestors.png" alt="">
             <h5>FOR INVESTORS</h5>
             <div class="description">
@@ -340,7 +340,7 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center titleC smooTop">
+          <div class="col-10 col-sm-10 col-md-12 col-lg-12 col-xl-12 text-center titleC smooTop">
             <h1>COLLABORATORS</h1>
           </div>
         </div>
@@ -349,28 +349,26 @@
             <p>Trusted and funded by prestigius international and national entities. In the past 6 month WriteWise has been awarded USD$400,000 in competitive grants including 3 CORFO projects and being incubated and accelerated by ImagineLab by Microsoft Innovation Center. WriteWise is also part of the Massachusetts Institute of Technology (MIT) International Science and Technology Initiatives.</p>
           </div>
         </div> <!-- fin row -->
-        <div class="row text-center logotipos smooLeft">
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center misti">
+        <div class="row text-center logotipos smoo">
+          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 text-center misti">
             <img src="assets/img/collaborators/misti-footer-logo@2x.png" alt="">
           </div>
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center innova">
+          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 text-center innova">
             <img src="assets/img/collaborators/innova_corfo.png" alt="">
           </div>
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center imagine">
+          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 text-center imagine">
             <img src="assets/img/collaborators/image005-2.png" alt="">
-          </div>
-        </div>  <!-- fin row --> 
-        <div class="row text-center logotipos smooRight">
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center biopub">
+          </div>         
+          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 text-center biopub">
             <img src="assets/img/collaborators/BioPubLogoFinal_frase-636.png" alt="">
           </div>
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center ucInformatica">
+          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 text-center ucInformatica">
             <img src="assets/img/collaborators/adhesivo.jpg" alt="">
           </div>
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center ucLiteratura">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center ucLiteratura">
             <img src="assets/img/collaborators/LITERATURA-Y-CS-DEL-LENGUAJE-01-1.png" alt="">
           </div>
-        </div> <!-- fin row -->       
+        </div>  <!-- fin row -->     
       </div> <!-- fin container -->     
     </div> <!-- fin container-fluid -->
   </section>

@@ -48,7 +48,12 @@ $(document).ready(function () {
   */
   
   // texto iconos know more
-  $('.description').hide();
+  if ($(window).width() < 430) {
+    $(this).find('.description').show();
+  } else {
+    $('.description').hide();
+  }
+
   $('.icon').on({
     mouseenter: function() {
       $(this).find('img').css({'cursor': 'pointer', 'background-color': 'rgba(9,12,51,0.44)', 'border': '0', 'color': '#FFFFFF', 'transition': 'all 0.3s'});

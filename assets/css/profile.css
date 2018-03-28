@@ -1,11 +1,8 @@
 /* Fuente open sans */
 body{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   position: relative;
   overflow-y: auto;
-}
-h1{
-  letter-spacing: 0.5em;
 }
 
 /*NAV
@@ -91,4 +88,10 @@ ul{
 .ashley p:nth-child(7),
 .ashley p:nth-child(8){
   margin-bottom: 0;
+}
+
+@media only screen and (max-device-width: 320px){
+  .mobilePhoto img{
+    width: 100%;
+  }
 }

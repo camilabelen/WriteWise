@@ -1,0 +1,104 @@
+@media only screen and (max-device-width: 320px){
+  /*
+  *PRIMERA SECCION- HOME
+  *------------------------------*/
+
+  .home h1{
+    font-size: 2.5em;
+    margin-top: 60%;
+  }
+  .home h3{
+    margin-top: 2.5em;
+    font-size: 1.4em;
+  }
+
+  /*
+  *SEGUNDA SECCION- ABOUT
+  *------------------------------*/
+
+  .aboutTitle h1{
+    font-size: 1.8em;
+  }
+  .shadowAbout{
+    top:85px;
+  }
+  .text{
+    font-size: 1em;
+  }
+
+  /*
+  *TERCERA SECCION- CORE TEAM
+  *------------------------------*/
+  
+  #coreTeam .card h3{
+    font-size: 1.1em;
+  }
+  #coreTeam .card p{
+    font-size: 1em;
+  }
+  .perfiles img{
+    width: 80%;
+  }
+  .title h1{
+    font-size: 1.8em;
+  }
+
+  /*
+  *CUARTA SECCION- KNOW MORE
+  *------------------------------*/
+  
+  #knowMore{
+    height: auto;
+  }
+  .icon{
+    height: auto;
+  }
+  .icon h5{
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0;
+  }
+  .icon p{
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  .icons{
+    margin-top: 2em;
+    height: auto;
+  }
+  .knowMoreTitle h1{
+    font-size: 1.8em;
+  }
+  
+  /*
+  *QUINTA SECCION- COLLABORATORS
+  *------------------------------*/
+  .misti img, .innova img, .imagine img, .biopub img, .ucInformatica img{
+    width: 90%;
+    margin-bottom: 2.3em;
+  }
+  .ucLiteratura img{
+    width: 100%;
+  }
+  .titleC h1{
+    font-size: 1.8em;
+  }
+
+  /*
+  *SEXTA SECCION- CONTACT
+  *------------------------------*/
+  #contact form{
+    padding: 2em 1em;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+  span .input__label-content{
+    font-size: 0.8em;
+  }
+
+  /*
+  *FOOTER
+  *------------------------------*/
+  
+
+}
