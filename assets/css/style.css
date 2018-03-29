@@ -224,6 +224,7 @@ button#teamMembers{
   width: 4em;
   border: none;
   transition: 0.8s;
+  background-color: #D4D4D4;
 }
 button#teamMembers a{
   color: #21315B;
