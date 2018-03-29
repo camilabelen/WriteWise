@@ -148,6 +148,9 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 
 /*CORE TEAM
 *--------------------------------*/
+#coreTeam{
+ color: #2B417B;
+}
 .title{
   margin-top: 5em;
   margin-bottom: 3em;
@@ -175,7 +178,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 }
 .descripCoreTeam{
   text-align-last: center;
-  color:#2B417B;
+  color: #2B417B;
 }
 #coreTeam .card{
   border: none;
@@ -361,11 +364,13 @@ button#teamMembers:hover a{
 
 /*COLLABORATORS
 *--------------------------------*/
+#collaborators{
+  color: #2B417B;
+}
 #collaborators h1{
   margin-top: 3em;
   margin-bottom: 1em;
   font-weight: 700;
-  color: #21315B;
   letter-spacing: 0.1em;
 }
 .misti img, 

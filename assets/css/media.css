@@ -522,6 +522,9 @@
   .shadowAbout{
     top:85px;
   }
+  .aboutText{
+    margin-top: 1.5em;
+  }
   .card{
     left: 2em;
   }
@@ -668,10 +671,10 @@
     margin-bottom: 0;
   }
   span .input__label-content{
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
   .contactIcons p{
-    font-size: 0.95em;
+    font-size: 1em;
     text-align: center;
   }
   /*
@@ -689,7 +692,7 @@
     margin-top: 0.3em;
   }
   .copyright p{
-    font-size: 1em;
+    font-size: 1.1em;
     display: inline-block;
   }
 }
@@ -839,10 +842,10 @@
     margin-bottom: 0;
   }
   span .input__label-content{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .contactIcons p{
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
   }
   /*
