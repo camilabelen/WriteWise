@@ -234,6 +234,9 @@ ul{
     font-size: 1em;
     vertical-align: middle;
   }
+  .back{
+    font-size: 0.9em;
+  }
   .info{
     margin-top: 1em;
   }

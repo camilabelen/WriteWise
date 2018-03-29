@@ -566,11 +566,11 @@
     margin-left: 2em;
   }
   .iconRRSS{
-    top: 55%;
+    top: 52%;
   }
   .iconRRSS a{
     color: #FFFFFF;
-    font-size: 0.67em;
+    font-size: 0.75em;
   }
   button#teamMembers{
     border-radius: 50%;
@@ -942,6 +942,14 @@
   .title h1{
     font-size: 2em;
     font-weight: 800;
+  }
+  .iconRRSS{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+  .iconRRSS a{
+    color: #FFFFFF;
+    font-size: 0.7em;
   }
   #firstCard{
     margin-left: 14em;
