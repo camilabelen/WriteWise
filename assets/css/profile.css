@@ -120,6 +120,7 @@ ul{
   .info{
     color:#2B417B;
     margin-top: 0;
+    margin-left:1em;
   }
   .info h1{
     font-size: 2em;
@@ -128,6 +129,9 @@ ul{
   .info p{
     font-size: 1.2em;
     margin-bottom: 0;
+  }
+  .info ul li a{
+    color:#2B417B;
   }
   .svg-inline--fa{
     display: inline-block;
@@ -162,6 +166,7 @@ ul{
   .info{
     color:#2B417B;
     margin-top: 0;
+    margin-left: 1.8em;
   }
   .info h1{
     font-size: 2em;
@@ -170,6 +175,9 @@ ul{
   .info p{
     font-size: 1.2em;
     margin-bottom: 0;
+  }
+  .info ul li a{
+    color:#2B417B;
   }
   .svg-inline--fa{
     display: inline-block;
@@ -204,6 +212,7 @@ ul{
   .info{
     color:#2B417B;
     margin-top: 0;
+    margin-left: 2em;
   }
   .info h1{
     font-size: 2em;
@@ -212,6 +221,9 @@ ul{
   .info p{
     font-size: 1.2em;
     margin-bottom: 0;
+  }
+  .info ul li a{
+    color:#2B417B;
   }
   .svg-inline--fa{
     display: inline-block;
