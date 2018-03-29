@@ -562,6 +562,10 @@
     font-weight: 800;
     margin-top: 1em;
   }
+  #profile{
+    font-size: 0.9em;
+    font-weight: 600;
+  }
   #firstCard{
     margin-left: 2em;
   }
@@ -574,6 +578,9 @@
   .iconRRSS a{
     color: #FFFFFF;
     font-size: 0.75em;
+  }
+  .iconRRSS .svg-inline--fa{
+    font-size: 1.6em;
   }
   button#teamMembers{
     border-radius: 50%;
