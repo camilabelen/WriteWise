@@ -74,12 +74,12 @@
           </div>
         </div><!-- fin row -->          
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify smoo">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify smoo aboutText">
             <p>Founded in 2017 as a <strong>BioPub</strong> spin-off, <strong>WriteWise</strong> is the first company to apply <strong>Artificial Intelligence</strong> towards providing specialized, in-depth feedback on the writing, editing, and publishing processes for scientific articles. Without doubt, <strong>WriteWise</strong> will be a valuable tool for students, researchers, and academic publishers worldwide.</p>
           </div>          
         </div><!-- fin row -->
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify smoo">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify smoo aboutText">
             <p>In less than one year, <strong>WriteWise</strong> has accomplished several key milestones, including:</p>
           </div> 
         </div> <!-- fin row -->
@@ -265,7 +265,7 @@
       </div>
       <div class="row text-center perfiles smoo">
         <div class="col-4 offset-4 col-sm-4 offset-sm-4 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5">
-          <img src="assets/img/Core_Team/perfiles.png" alt="">
+          <button id="teamMembers"><a href="#"><i class="fas fa-users"></i></a></button>
         </div>
       </div>
     </div>  <!-- fin container -->  
@@ -375,7 +375,7 @@
             <div class="form-row">
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 name">
                 <span class="input input--hoshi">
-                  <input class="form-control input__field input__field--hoshi" name="name" type="text" id="inputName" />
+                  <input class="form-control input__field input__field--hoshi" name="name" type="text" id="inputName" autocomplete="off" required/>
                   <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputName">
                     <span class="input__label-content input__label-content--hoshi">NAME(*)</span>
                   </label>
@@ -383,7 +383,7 @@
               </div>
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 email">
                 <span class="input input--hoshi">
-                  <input class="form-control input__field input__field--hoshi" name="_replyto" type="email" id="inputEmail" />
+                  <input class="form-control input__field input__field--hoshi" name="_replyto" type="email" id="inputEmail" autocomplete="off" required/>
                   <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputEmail">
                     <span class="input__label-content input__label-content--hoshi">EMAIL(*)</span>
                   </label>
@@ -393,7 +393,7 @@
             <!-- institucion -->
             <div class="form-group">
               <span class="input input--hoshi">
-                <input class="form-control input__field input__field--hoshi" name="institution" type="text" id="inputAddress" />
+                <input class="form-control input__field input__field--hoshi" name="institution" type="text" id="inputAddress" autocomplete="off" required/>
                 <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputAddress">
                   <span class="input__label-content input__label-content--hoshi">INSTITUTION/UNIVERSITY/COMPANY(*)</span>
                 </label>
@@ -403,7 +403,7 @@
             <div class="form-row">
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 position">
                 <span class="input input--hoshi">
-                  <input class="form-control input__field input__field--hoshi" name="position" type="text" id="inputPosition" />
+                  <input class="form-control input__field input__field--hoshi" name="position" type="text" id="inputPosition" autocomplete="off"/>
                   <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputPosition">
                     <span class="input__label-content input__label-content--hoshi">POSITION</span>
                   </label>
@@ -411,7 +411,7 @@
               </div>           
               <div class="form-group col12 col-sm12 col-md-6 col-lg-6 col-xl-6 subject">
                 <span class="input input--hoshi">
-                  <input class="form-control input__field input__field--hoshi" name="_subject" type="text" id="inputSubject" />
+                  <input class="form-control input__field input__field--hoshi" name="_subject" type="text" id="inputSubject" autocomplete="off" required/>
                   <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputSubject">
                     <span class="input__label-content input__label-content--hoshi">SUBJECT(*)</span>
                   </label>
@@ -421,7 +421,7 @@
             <!-- Mensaje -->
             <div class="form-group">
               <span class="input input--hoshi">
-                <textarea class="form-control input__field input__field--hoshi" name="message" type="text" id="inputMessage" autocomplete=""></textarea>
+                <textarea class="form-control input__field input__field--hoshi" name="message" type="text" id="inputMessage" autocomplete="off" required></textarea>
                 <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="inputMessage">
                   <span class="input__label-content input__label-content--hoshi">MESSAGE(*)</span>
                 </label>
@@ -440,7 +440,7 @@
             <p><img src="assets/img/contact/telefono.png"> Phone: +56 02 2681 6762, Annex 607</p>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <p><a href="mailto:ef@writewise.cl"><img src="assets/img/contact/correo.png"></a> Email: Contact ef@writewise.cl</p>
+            <p><a href="mailto:ef@writewise.cl"><img src="assets/img/contact/correo.png"></a> Email: contact@writewise.cl</p>
           </div>
         </div>  <!-- fin row -->
       </div>  <!-- fin container -->
@@ -453,7 +453,7 @@
         <div class="col-10 col-sm-10 col-md-4 col-lg-3 offset-lg-2 col-xl-2 offset-xl-3 logoWW">
           <img src="assets/img/logotipoWriteWise/logotipo_mas_isotipo_horizontal/WriteWise_horizontal-04.png" alt="logotipo-WriteWise">          
         </div>
-        <div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6 
+        <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-7 
          copyright text-left">
             <p>© 2018 WRITEWISE. All rights reserved.</p>
             <p>Design by Andrés Levineri and development by Camila Cornejos.</p>
