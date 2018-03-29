@@ -565,6 +565,13 @@
   #fourthCard{
     margin-left: 2em;
   }
+  .iconRRSS{
+    top: 55%;
+  }
+  .iconRRSS a{
+    color: #FFFFFF;
+    font-size: 0.67em;
+  }
   button#teamMembers{
     border-radius: 50%;
     height: 4em;

@@ -235,7 +235,7 @@ ul{
     vertical-align: middle;
   }
   .info{
-    margin-top: 3em;
+    margin-top: 1em;
   }
   .info h1{
     font-size: 2em;
@@ -243,6 +243,12 @@ ul{
   }
   .info p{
     font-size: 1.2em;
+  }
+  .cGomez{
+    padding-left: 0;
+  }
+  .eFuentes{
+    margin-top:2em;
   }
   .svg-inline--fa{
     display: inline-block;
