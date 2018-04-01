@@ -8,6 +8,10 @@ section{
   height: auto;
 }
 
+/* SPLASH SCREEN
+*--------------------------------*/
+
+
 /*NAVBAR
 *--------------------------------*/
 .menu{
@@ -97,6 +101,7 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
 }
 .about p{
   text-align-last: center;
+  font-size: 1em;
 }
 .about h5{
   font-size: 1.1em;
@@ -167,6 +172,9 @@ background: linear-gradient(to top, rgba(72,102,194,1) 0%, rgba(16,28,97,1) 100%
   vertical-align: middle;
   margin-left: 0.5em;
   letter-spacing: 1px;
+}
+#coreTeam p{
+  font-size: 1em;
 }
 .shadow{
   height: 3em;
@@ -315,7 +323,7 @@ button#teamMembers:hover a{
   transition: all 0.3s;
 }
 
-/*KNOW MORE
+/*LEARN MORE
 *--------------------------------*/
 #bigTriangleColor{
   fill: #FFFFFF;
@@ -333,6 +341,10 @@ button#teamMembers:hover a{
 .knowMoreTitle h1{
   font-weight: 700;
   letter-spacing: 0.1em;
+}
+
+#knowMore p{
+  font-size: 1em;
 }
 .descriptKnowMore{
   text-align-last: center;
@@ -373,6 +385,9 @@ button#teamMembers:hover a{
   font-weight: 700;
   letter-spacing: 0.1em;
 }
+#collaborators p{
+  font-size: 1em;
+}
 .misti img, 
 .innova img, 
 .imagine img, 
@@ -412,6 +427,9 @@ button#teamMembers:hover a{
   margin-top: 3em;
   margin-bottom: 1em;
   letter-spacing: 0.1em;
+}
+#contact p{
+  font-size: 1em;
 }
 .name, .email{
   display: inline-block;

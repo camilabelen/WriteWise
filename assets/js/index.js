@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+
  //smooth scrolling
   $(function(){
     $('a[href*="#"]').click(function() {
@@ -74,5 +75,17 @@ $(document).ready(function () {
       $(this).find('h5').css('border-bottom','0');
       $(this).find('.description').hide();
     }
-  });  
+  }); 
+
+  //resize textarea
+  const textarea = $('textarea');
+  textarea.on('keydown', autosize);
+               
+  function autosize(){
+    var resize = this;
+    setTimeout(function(){
+      resize.style.cssText = "height:auto; overflow-y:hidden";
+      resize.style.cssText = 'height:' + resize.scrollHeight + 'px';
+    },0);
+  } 
 });
