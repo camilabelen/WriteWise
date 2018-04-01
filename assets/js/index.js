@@ -1,6 +1,4 @@
 $(document).ready(function () {
-
-
  //smooth scrolling
   $(function(){
     $('a[href*="#"]').click(function() {
