@@ -1,0 +1,180 @@
+h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+/* HOME
+----------------------------------------*/
+#researchGroup{
+  background-image: url('../img/ourRD/fondohome.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#researchGroup .title{
+  display: flex;
+  align-items: center;
+  padding-top: 30vh;  
+}
+.title h1{
+  color: #FFFFFF;
+}
+.title p{
+  color: #FFFFFF;
+  font-size: 2em;
+}
+.title img{
+  width: 70%;
+}
+
+/* OUR QUESTION
+----------------------------------------*/
+#ourQuestion{
+  color: #21315B;
+  background-image: url('../img/ourRD/revista.png');
+  background-size: 85%;
+  background-position: 20% 100%;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+.shadowSeparator{
+  -webkit-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
+  height: 10vh;
+}
+.shadowSeparator:after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  height: 5em;
+  left: -10%;
+  right: -10%;
+  background: -webkit-radial-gradient(50% -3%, ellipse cover, rgba(0,0,0, 0.14), rgba(255, 255, 255, 0.0) 60%);
+  background: radial-gradient(ellipse at 50% -3%, rgba(0, 0, 0, 0.14), rgba(255, 255, 255, 0.0) 60%);
+}
+#ourQuestion h2{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.question{
+  background-color: rgba(255, 255, 255, 0.95);
+  margin-top: 1em;
+  padding: 1em;
+  -webkit-box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.43);
+  -moz-box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.43);
+  box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.43);
+}
+.question:first-child{
+  margin-top: 6em;
+}
+.question p{
+  margin: 0;
+}
+.question .svg-inline--fa{
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+
+/* OUR R&D
+----------------------------------------*/
+#ourRD{
+  color: #21315B;
+}
+#ourRD h2{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.infoBtn{
+  margin-bottom: 5em;
+}
+#linguistic, #bigdata, #deepLearning{
+  margin-bottom: 5em;
+}
+.rdDescrip{
+  text-align-last: center;
+  margin-bottom: 5em;
+}
+.rdBtn:nth-child(2) {
+  border-left: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+}
+.rdBtn a{
+  color: #2B417B;
+}
+
+/* OUR TEAM
+----------------------------------------*/
+#ourTeam{
+  background-image: url('../img/knowMore/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+}
+#ourTeam h2{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.teamDescrip{
+  text-align-last: center;
+}
+#ourTeam ul li{
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+#ourTeam ul li a{
+  color: #FFFFFF;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+#ourTeam ul li a:active{
+  border-bottom: 3px solid #FFFFFF;
+}
+#ourTeam ul li a:focus{
+  outline: none;
+  border-bottom: 3px solid #FFFFFF;
+}
+#ourTeam ul li a:hover{
+  text-decoration: none;
+}
+#team{
+  padding-bottom: 5em;
+}
+/*CARD TEAM*/
+#team .card{
+  border: none;
+  margin-top: 2em;
+  margin-right: 1em;
+  margin-right: 1.5em;
+  padding: 0;
+  transition: 0.5s;
+  background-color: transparent;
+}
+#team .card:hover{
+  -webkit-box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
+  box-shadow: 0px 27px 55px -33px rgba(0,0,0,0.4);
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+#team .card:hover .card-img-top{
+  filter:brightness(0.6);
+  transition: 0.5s;
+}
+#team .card:hover .iconRRSS,
+#team .card:hover .btnProfile{
+  display: block;
+  transition: 0.5s;
+}
+#team .card-body{
+  padding: 0.8em 0.2em;
+}
+#team .card h3{
+  font-size: 1em;
+  font-weight: 600;
+}
+#team .card p{
+  font-size: 0.9em;
+}
