@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/rd.css">
+  <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
   <header>
@@ -67,20 +68,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-4 col-xl-8 offset-xl-4 question">
+          <div class="col-12 col-sm-12 col-md-4 offset-md-6 col-lg-4 offset-lg-6 col-xl-4 offset-xl-6 question text-justify">
             <p><i class="fas fa-circle"></i> How we can help scientist to write and <strong>communicate better their research</strong>? What is the difference between a <strong>properly and poorly written paper</strong>?</p>
-          </div>
-          <div class="col-12 col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-4 col-xl-8 offset-xl-4 question">
             <p><i class="fas fa-circle"></i> What makes an easy-to-read and logic-flow written paper? What is the linguistic behind this?</p>
-          </div>
-          <div class="col-12 col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-4 col-xl-8 offset-xl-4 question">
             <p><i class="fas fa-circle"></i> How we can help editorials to improve and speed up review process through automatization?</p>
-          </div>
-          <div class="col-12 col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-4 col-xl-8 offset-xl-4 question">
             <p><i class="fas fa-circle"></i> How we make scientific writing review less bias and more objective? Is it possible to quantify a paper based on its writing?</p>
           </div>
         </div>
-
       </div>
     </div>    
   </section>
@@ -100,21 +94,21 @@
         </div>
         <div class="row text-center infoBtn">
           <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 rdBtn">
-            <a class="btn" data-toggle="collapse" href="#linguistic" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="btn" id="linguistic">
               <img src="assets/img/ourRD/linguistic.png" alt="">
               <h5><strong>Linguistics Fundamentals</strong></h5>
               <h6>for Scientific Writing</h6>
             </a>            
           </div>
           <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 rdBtn">
-            <a class="btn" data-toggle="collapse" href="#bigdata" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="btn" id="bigdata">
               <img src="assets/img/ourRD/bigdata.png" alt="">
               <h5><strong>Big Data Analytics<br>and Machine Learning</strong></h5>
               <h6>Applied to Scientific Writing</h6>
             </a>            
           </div>
           <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 rdBtn">
-            <a class="btn" data-toggle="collapse" href="#deepLearning" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="btn" id="deepLearning">
               <img src="assets/img/ourRD/deep.png" alt="">
               <h5><strong>Deep Learning</strong></h5>
               <h6>Applied to Scientific Writing</h6>
@@ -122,26 +116,7 @@
           </div>
         </div> <!-- fin row -->
         <div class="row">
-          <div id="linguistic" class="collapse">
-            <div class="card card-body">
-              <p>We have investigated the underlying basis of scientific writing through knowledge integration based on: </p>
-              <p>1. 100 years of combined experienced on writing, editing, and publishing scientific papers of our editorial team (Visit BioPub Team)</p>
-              <p>2. interviews with top-notch academics (including 4 Nobel Laureates) and Journal Editors (Cell Press); 3) the most important scientific  writing courses and books.</p>
-              <p>This integrated domain knowledge experience has been applied to develop set of complex –but flexible- rules and models for writing scientific papers. This integrative knowledge gave us the laying foundations for the detection of linguistic patterns of a properly written scientific paper. We merge this domain knowledge with AI to identify the most informative and easy-to-represent patterns that account for poorly and properly written scientific text.</p>
-            </div>
-          </div>
-          <div id="bigdata" class="collapse">
-            <div class="card card-body">
-              <p>This line of research is focused on develop a software able that give relevant automatic feedback and guidance on how to properly write a scientific paper section by section, paragraph by paragraph, sentence by sentence.</p>
-              <p>To achieve this we explore a vast array of state-of-the-art unsupervised, semi-supervised, and supervised machine learning algorithms to organize and “learn” relevant linguistic patterns from a big corpus of scientific texts.  This new knowledge will help us to identify the most informative and easy-to-represent patterns that account for poorly and properly written scientific text. This information will be embedded in the software, and will be used for automatic detections of common errors, and subsequent recommendation geared to improve writing.</p>
-            </div>
-          </div>
-          <div id="deepLearning" class="collapse">
-            <div class="card card-body">
-              <p>This line of research is focused on develop a software able to automatize the first steps of journal review. This by classifying scientific articles according to specific journals requirements (content, focus, scope, aim, etc)</p>
-              <p>The group has a particular interest in investigating and implementing the use of deep learning techniques in scientific articles classification. In the short term future we are going to start testing the use of different models, including  generative (Generative Adversarial Networks (GAN’s)) discriminative (e.g. Long-Short Term Memory Networks) and compare classification performance with previously mentioned machine learning techniques.</p>
-            </div>
-          </div>
+          <div id="information" class="col-10 col-sm-10 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1"></div>
         </div> <!-- fin row -->        
       </div> <!-- fin container -->
     </div>
@@ -159,15 +134,15 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify teamDescrip">
-            <p>Built by a <strong>multidisciplinary team</strong> of experienced scientific editors, linguists, and programmers keen to improve and <strong>modernize scientific communication.</strong></p>
+            <p>Lead by Dr. Eduardo Fuentes (Group Leader, Research Director, Founder, and CEO), the WriteWise Research Group is built by a multidisciplinary team of experienced scientific editors, linguist, and informatics keen to improve and modernize science communication.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
             <ul>
               <li><a href="#coreteam" id="coreteam">CORE TEAM</a></li>
-              <li><a href="#associatedResearchers" id="associated">ASSOCIATED RESEARCHERS</a></li>
-              <li><a href="#researchersProfesors" id="profesor">RESEARCHERS(PROFESORS)</a></li>
+              <li><a href="#researchersProfesors" id="profesor">RESEARCHER (PROFESORS)</a></li>
+              <li><a href="#associatedResearchers" id="associated">ASSOCIATED RESEARCHERS</a></li>              
               <li><a href="#otherResearchers" id="others">OTHER RESEARCHERS</a></li>
               <li><a href="#collaborators" id="collaborator">COLLABORATORS</a></li>
             </ul>

@@ -30,9 +30,9 @@ h2{
 ----------------------------------------*/
 #ourQuestion{
   color: #21315B;
-  background-image: url('../img/ourRD/revista.png');
-  background-size: 85%;
-  background-position: 20% 100%;
+  background-image: url('../img/ourRD/paper.png');
+  background-size: 80%;
+  background-position: -18% 65%;
   background-repeat: no-repeat;
   height: 110vh;
 }
@@ -58,22 +58,26 @@ h2{
   margin-bottom: 1em;
 }
 .question{
-  background-color: rgba(255, 255, 255, 0.95);
-  margin-top: 1em;
+  background-color: #FFFFFF;
   padding: 1em;
-  -webkit-box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.43);
-  -moz-box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.43);
-  box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -34px 8px 71px -23px rgba(0,0,0,0.25);
+  -moz-box-shadow: -34px 8px 71px -23px rgba(0,0,0,0.25);
+  box-shadow: -34px 8px 71px -23px rgba(0,0,0,0.25);
 }
 .question:first-child{
-  margin-top: 6em;
+  margin-top: 4em;
 }
 .question p{
   margin: 0;
+  margin-bottom: 1.5em;
+  margin-left: 1em;
 }
 .question .svg-inline--fa{
   font-size: 0.6em;
   vertical-align: middle;
+}
+.question p:first-child{
+  margin-top: 1em;
 }
 
 /* OUR R&D
@@ -86,7 +90,10 @@ h2{
   margin-bottom: 1em;
 }
 .infoBtn{
-  margin-bottom: 5em;
+  margin-bottom: 3em;
+}
+.textInfo{
+  margin-bottom: 8em;
 }
 #linguistic, #bigdata, #deepLearning{
   margin-bottom: 5em;
@@ -94,10 +101,6 @@ h2{
 .rdDescrip{
   text-align-last: center;
   margin-bottom: 5em;
-}
-.rdBtn:nth-child(2) {
-  border-left: 1px solid #EAEAEA;
-  border-right: 1px solid #EAEAEA;
 }
 .rdBtn a{
   color: #2B417B;
@@ -127,13 +130,15 @@ h2{
   color: #FFFFFF;
   font-weight: 600;
   padding-bottom: 0.5em;
+  border-right: 1px solid #FFFFFF;
+  padding: 1em;
 }
 #ourTeam ul li a:active{
-  border-bottom: 3px solid #FFFFFF;
+  color: #E7DA91;
 }
 #ourTeam ul li a:focus{
   outline: none;
-  border-bottom: 3px solid #FFFFFF;
+  color: #E7DA91;
 }
 #ourTeam ul li a:hover{
   text-decoration: none;
@@ -141,6 +146,7 @@ h2{
 #team{
   padding-bottom: 5em;
 }
+
 /*CARD TEAM*/
 #team .card{
   border: none;
