@@ -1,99 +1,47 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
+  if ($(window).width() < 768) {
+    $(this).find('#desktopInfo').hide();  
+  } else {
+    $(this).find('#informationMobile').hide();
+  }
+
   $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="eduardoFuentes.html">View Profile</a></button>
-              </div>
-            </div>            
-            <div class="card-body">
-              <h3 class="card-text">Eduardo Fuentes, B.Sc., M.Sc., Ph.D.</h3>
-              <p class="card-text">Founder and CEO</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
+              <button id="profile"><a href="eduardoFuentes.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Eduardo Fuentes, B.Sc., M.Sc., Ph.D.</h3>
+              <p class="card-text">Founder and CEO</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Ashley VanCott, B.A.</h3>
-              <p class="card-text">Founder and COO</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>     
-              </div>
+              <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Ashley VanCott, B.A.</h3>
+              <p class="card-text">Founder and COO</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="javierVera.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Javier Vera, Ph.D.</h3>
-              <p class="card-text">Natural Language Processing Researcher</p>
-            </div>
-          </div>      
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/juan_bascur.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">              
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
-              </div>
+              <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_bascur.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="juanBascur.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Juan Bascur, B.Sc., M.Sc.</h3>
-              <p class="card-text">Machine Learning and Scientometrics Researcher</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/francisca_schalchli.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
-              </div>
+              <button id="profile"><a href="juanBascur.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Juan Bascur, B.Sc., M.Sc.</h3>
+              <p class="card-text">Machine Learning and Scientometrics Researcher</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/francisca_schalchli.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="franciscaSchalchli.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Francisca Schalchli, B.Eng.</h3>
-              <p class="card-text">Project Manager</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/crishtian_gomez.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
-              </div>
+              <button id="profile"><a href="franciscaSchalchli.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Francisca Schalchli, B.Eng.</h3>
+              <p class="card-text">Project Manager</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/crishtian_gomez.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="cristhianGomez.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Cristhian Gomez, B.Eng., M.Sc.</h3>
-              <p class="card-text">Marketing and Commercial Management</p>
-            </div>
-          </div>`)
+              <button id="profile"><a href="cristhianGomez.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">Cristhian Gomez, B.Eng., M.Sc.</h3><p class="card-text">Marketing and Commercial Management</p></div></div>`)
   $('#coreteam').click(function(){
+    $('#team_others').html('') 
     $('#team').html('');
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
@@ -192,6 +140,7 @@ $(document).ready(function(){
   }); // coreteam click
 
   $('#profesor').click(function() { 
+    $('#team_others').html('') 
     $('#team').html('')
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
@@ -241,8 +190,8 @@ $(document).ready(function(){
           </div>`)
   }); // researchers profesors
 
-
   $('#associated').click(function() { 
+    $('#team_others').html('') 
     $('#team').html('')
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
@@ -307,55 +256,190 @@ $(document).ready(function(){
   }); // associated researchers
 
   $('#others').click(function() {
-    $('#team').html('');   
-    $('#team').append(`<div class="textInfo"><p>Humberto Gonzales, Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Humberto is currently Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
-              <p>Jose Campusano, Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Jose  is currently  Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
-              <p>Francisco Escobar, Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Francisco  is currently  Software front-end Developer at WriteWise under the supervision of Dr. Allende. </p>
-              <p>Patricio Araya, Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Patricio  is currently  Machine Learning Software Developer at WriteWise under the supervision of Dr. Allende.</p>
-              <p>Jorge Montiel, Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Jorge  is currently  Machine Learning Software Developer at WriteWise under the supervision of Dr. Allende.</p>
-              <p>Jorge Ortiz, Undergraduate student Linguistics Potificia Universidad Catolica de Chile (PUC). Past-Intern.</p>
-              <p>Dominiquo Santistevan, BCSc Massachusetts Institute of Technology (MIT) BCSc. Past-Intern as part of the MISTI program.</p></div>`);
+    $('#team_others').html('');  
+    $('#team').html('');     
+    $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Humberto Gonzales</h5>
+                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Humberto is currently Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
+              </div>      
+            </div>
+          </div>    
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Jose Campusano</h5>
+                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Jose  is currently  Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Francisco Escobar</h5>
+                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Francisco  is currently  Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Patricio Araya</h5>
+                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Patricio  is currently  Machine Learning Software Developer at WriteWise under the supervision of Dr. Allende.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Jorge Montiel</h5>
+                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Jorge  is currently  Machine Learning Software Developer at WriteWise under the supervision of Dr. Allende.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Jorge Ortiz</h5>
+                <p class="card-text">Undergraduate student Linguistics Potificia Universidad Catolica de Chile (PUC). Past-Intern.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Dominiquo Santistevan</h5>
+                <p class="card-text">BCSc Massachusetts Institute of Technology (MIT) BCSc. Past-Intern as part of the MISTI program.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Amparo Galdames Fermandois</h5>
+                <p class="card-text">Spanish Language and Communication Teacher, Bachelor's degree in Language and Literature. Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Grace Wilson Fredes</h5>
+                <p class="card-text">English-Spanish Translator, Bachelor's degree in English Language.Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard lastCardRow">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Fernando Lillo Fuentes</h5>
+                <p class="card-text">Spanish Language and Communication Teacher, Bachelor's degree in Language and Literature. Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+              </div>      
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Pablo Fuenzalida González</h5>
+                <p class="card-text">English Language Teacher, Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+              </div>      
+            </div>
+          </div>`);
   }); // others reseachers
+
   $('#collaborator').click(function() {
-    $('#team').html('');   
-    $('#team').append(`<div class="textInfo"><p>Hernan Gonzales, MD, PhD. Dr. Gonzales is Associate Professor - Research Director, Department of Head and Neck Surgery at Pontificia Universidad Católica. Dr. Gonzales is also Founder of GeneproDX, a biotech startup that commercializes new assays for personalized medicine used for the diagnosis and prognosis of solid tumors. Dr. Gonzales is currently WriteWise´s advisor.</p>
-              <p>Rodrigo Rojas is Industrial Engineer at Universidad de Chile. Mr. Rojas is the founder and CEO of TimeHunter with more than 20 years of experience in sale, marketing, and CRM. He is currently WriteWise´s Mentor. </p>
-              <p>Andres Levineri in an Informatic Engineer and Graphic Designer with more than 10 years of experience. He is currently WriteWise´s Graphic Content Developer.</p>
-              <p>Oscar Lynch is Lawyer at Universidad de Concepcion. Mr. Lynch has been an Accounting and Financial Lawyer for more than 10 years. Mr. Lynch is currently WriteWise´s Lawyer Advisor.</p>
-              <p>Miguel Pavez is Master in Finance, Master in Taxation, Corporate Accountant, Finance and Administration Manager, Consultant. Mr. Pavez is currently WriteWise´s Senior Accounting Manager Advisor.</p></div>`)
+    $('#team').html('');
+    $('#team_others').html('');  
+    $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
+              <div class="card-body"><h5 class="card-title">Hernan Gonzales</h5><p class="card-text">MD, PhD. Dr. Gonzales is Associate Professor 
+              - Research Director, Department of Head and Neck Surgery at Pontificia Universidad Católica. Dr. Gonzales is also Founder of GeneproDX, 
+              a biotech startup that commercializes new assays for personalized medicine used for the diagnosis and prognosis of solid tumors. 
+              Dr. Gonzales is currently WriteWise´s advisor.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
+              <div class="card"><div class="card-body"><h5 class="card-title">Rodrigo Rojas</h5><p class="card-text">Industrial Engineer at Universidad de Chile. 
+              Mr. Rojas is the founder and CEO of TimeHunter with more than 20 years of experience in sale, marketing, and CRM. He is currently WriteWise´s Mentor.</p>
+              </div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
+              <h5 class="card-title">Andrés Levineri</h5><p class="card-text">in an Informatic Engineer and Graphic Designer with more than 10 years of experience. 
+              He is currently WriteWise´s Graphic Content Developer.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard lastCardRow">
+              <div class="card"><div class="card-body"><h5 class="card-title">Oscar Lynch</h5><p class="card-text">Lawyer at Universidad de Concepcion. 
+              Mr. Lynch has been an Accounting and Financial Lawyer for more than 10 years. Mr. Lynch is currently WriteWise´s Lawyer Advisor.</p>
+              </div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
+              <h5 class="card-title">Miguel Pavez</h5><p class="card-text">Master in Finance, Master in Taxation, Corporate Accountant, Finance and Administration Manager, 
+              Consultant. Mr. Pavez is currently WriteWise´s Senior Accounting Manager Advisor.</p></div></div></div>`);
   });
 
+  // imprimiendo informacion al hacer click en cada tarjeta
+  $('#information').append(`<div class="textInfo"><p>We use Machine Learning and Computational Linguistics that work together in the area of Natural
+              Language Processing applied to the modelling and correction of Scientific Writing. Our work spans from: </p>
+              <p>1. Novel approaches for textual data representation for scientific articles:</p>
+              <p>Word embeddings to Deep/Machine Learning models for Natural Language Processing tasks.</p>
+              <p>Graph-based representations with a focus on using graphs whose vertices represent words and whose edges represent co-occurrence relations between
+              pairs of words. This approach selects cohesive subsets of words and has several applications on text structure.</p>
+              <p>2. Novel computational approaches for scientific articles analysis. We specialized our research on:</p>
+              <ul><li>Discourse Segmentation</li><li>Automatic Punctuation Analysis</li><li>Text Rule Mining</li><li>Topic Modelling</li><li>Readability/Coherence Classification</li></ul>
+              <p>This area is lead by Dr. Hector Allende. Team members involved in this R+D+i area are:</p><ul><li>Dr. Hector Allende</li>
+              <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr(c) Juan Pavez</li><li>Sebastian Rodriguez, BCSc.</li>
+              <li>Humberto Gonzales (undergraduate)</li><li>Jose Campusano (undergraduate)</li><li>Francisco Escobar (undergraduate)</li>
+              <li>Patricio Araya (undergraduate)</li><li>Jorge Montiel (undergraduate)</li></ul></div>`);
+  $('.linguistic').addClass('activeBtn');
   $('#linguistic').click(function() {
     $('#information').html('');
-    $('#information').append(`<div class="textInfo"><p>We have investigated the underlying basis of scientific writing through knowledge integration based on: </p>
-              <p>1. 100 years of combined experienced on writing, editing, and publishing scientific papers of our editorial team (Visit BioPub Team)</p>
-              <p>2. interviews with top-notch academics (including 4 Nobel Laureates) and Journal Editors (Cell Press); 3) the most important scientific  writing courses and books.</p>
-              <p>This integrated domain knowledge experience has been applied to develop set of complex –but flexible- rules and models for writing scientific papers. This integrative 
-              knowledge gave us the laying foundations for the detection of linguistic patterns of a properly written scientific paper. We merge this domain knowledge with AI to identify 
-              the most informative and easy-to-represent patterns that account for poorly and properly written scientific text.</p></div>`)
-    // $(this).css({'background-color': 'rgba(255, 255, 255, 0.95)', 'margin-top': '1em','padding': '1em','-webkit-box-shadow': '-2px 0px 58px -17px rgba(0,0,0,0.75)', '-moz-box-shadow': '-2px 0px 58px -17px rgba(0,0,0,0.75)','box-shadow':'-2px 0px 58px -17px rgba(0,0,0,0.75)'});
+    $('#information').append(`<div class="textInfo"><p>We use Machine Learning and Computational Linguistics that work together in the area of Natural
+              Language Processing applied to the modelling and correction of Scientific Writing. Our work spans from: </p>
+              <p>1. Novel approaches for textual data representation for scientific articles:</p>
+              <p>Word embeddings to Deep/Machine Learning models for Natural Language Processing tasks.</p>
+              <p>Graph-based representations with a focus on using graphs whose vertices represent words and whose edges represent co-occurrence relations between
+              pairs of words. This approach selects cohesive subsets of words and has several applications on text structure.</p>
+              <p>2. Novel computational approaches for scientific articles analysis. We specialized our research on:</p>
+              <ul><li>Discourse Segmentation</li><li>Automatic Punctuation Analysis</li><li>Text Rule Mining</li><li>Topic Modelling</li><li>Readability/Coherence Classification</li></ul>
+              <p>This area is lead by Dr. Hector Allende. Team members involved in this R+D+i area are:</p><ul><li>Dr. Hector Allende</li>
+              <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr(c) Juan Pavez</li><li>Sebastian Rodriguez, BCSc.</li>
+              <li>Humberto Gonzales (undergraduate)</li><li>Jose Campusano (undergraduate)</li><li>Francisco Escobar (undergraduate)</li>
+              <li>Patricio Araya (undergraduate)</li><li>Jorge Montiel (undergraduate)</li></ul></div>`);
+    $('.linguistic').addClass('activeBtn');
+    $('.bigdata').removeClass('activeBtn');
+    $('.deepLearning').removeClass('activeBtn');
   });
   $('#bigdata').click(function() {
     $('#information').html('');
-    $('#information').append(`<div class="textInfo"><p>This line of research is focused on develop a software able that give relevant automatic feedback and guidance on how 
-              to properly write a scientific paper section by section, paragraph by paragraph, sentence by sentence.</p>
-              <p>To achieve this we explore a vast array of state-of-the-art unsupervised, semi-supervised, and supervised machine learning algorithms to organize and “learn” 
-              relevant linguistic patterns from a big corpus of scientific texts.  This new knowledge
-              will help us to identify the most informative and easy-to-represent patterns that account for poorly and properly written scientific text. This information will be 
-              embedded in the software, and will be used for automatic detections of common errors, and subsequent recommendation geared to improve writing.</p></div>`)
+    $('#information').append(`<div class="textInfo"><p>We use functional and applied discursive frameworks combined with Corpus analysis,
+              Computational Linguistics, and Natural Language Processing approaches for successfully
+              accomplish the discursive and linguistics requirements of the academic and scientific genres
+              through empirical-based research. Our work spans from identification and comprehension of the:</p>
+              <p>Communicative purposes and the lexical-grammar features that constitute a written genre in a scientific discipline.</p>
+              <p>Textual and discursive analysis of the academic and scientific genres</p>
+              <p>This area is led by Prof. Rene Venegas, PhD. Team members involved in this R+D+I area are:</p>
+              <ul><li>Dr. Eduardo Fuentes</li><li>Dr. Barbara Kremeyer</li><li>Dr(c) Sofia Zamora</li><li>Ashley VanCott, BA</li>
+              <li>Grace Wilson, BA</li><li>Amparo Galdames, BA</li><li>Fernando Lillo, BA</li><li>Pablo Fuenzalida, BA</li></ul></div>`)
+    $('.linguistic').removeClass('activeBtn');
+    $('.deepLearning').removeClass('activeBtn');
+    $('.bigdata').addClass('activeBtn');
   });
   $('#deepLearning').click(function() {
     $('#information').html('');
-    $('#information').append(`<div class="textInfo"><p>This line of research is focused on develop a software able to automatize the first steps of journal review. 
-              This by classifying scientific articles according to specific journals requirements (content, focus, scope, aim, etc)</p>
-              <p>The group has a particular interest in investigating and implementing the use of deep learning techniques in scientific articles classification. 
-              In the short term future we are going to start testing the use of different models, including  generative (Generative Adversarial Networks (GAN’s)) 
-              discriminative (e.g. Long-Short Term Memory Networks) and compare classification performance with previously mentioned machine learning techniques.</p></div>`)
+    $('#information').append(`<div class="textInfo"><p>We use scientometrics combined with Natural Language Processing to predict scientific
+              publications impact and recognition.</p>
+              <p>Team members involved in this research area are:</p><ul><li>Dr. Eduardo Fuentes</li><li>Juan Pablo Bascur, MSc.</li></ul></div>`)
+    $('.linguistic').removeClass('activeBtn');
+    $('.bigdata').removeClass('activeBtn');
+    $('.deepLearning').addClass('activeBtn');
+  });
+
+  // hover tarjetas de our RD
+  $('.rdBtn').on({
+    mouseenter: function() {
+      $(this).css('cursor','pointer');
+      $(this).find('img').css('filter','opacity(1)');
+    },
+    mouseleave: function() {
+      if ($(this).hasClass('activeBtn')) {
+        $(this).find('img').css('filter','opacity(1)');
+      } else {$(this).find('img').css('filter','opacity(0.8)');}
+    }    
   });
 
   $(function () {
     $(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
       if ($(this).scrollTop() > 100) {
         $('.navbar').fadeOut();
       } else {

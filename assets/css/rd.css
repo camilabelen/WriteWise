@@ -2,6 +2,7 @@ h2{
   font-weight: 700;
   font-size: 2.5rem;
 }
+
 /* HOME
 ----------------------------------------*/
 #researchGroup{
@@ -10,19 +11,20 @@ h2{
   background-repeat: no-repeat;
   height: 100vh;
 }
-#researchGroup .title{
+#researchGroup .tl{
   display: flex;
   align-items: center;
-  padding-top: 30vh;  
+  padding-top: 30vh;
+  margin-top: 3em;
 }
-.title h1{
+.tl h1{
   color: #FFFFFF;
 }
-.title p{
+.tl p{
   color: #FFFFFF;
   font-size: 2em;
 }
-.title img{
+.tl img{
   width: 70%;
 }
 
@@ -32,9 +34,12 @@ h2{
   color: #21315B;
   background-image: url('../img/ourRD/paper.png');
   background-size: 80%;
-  background-position: -18% 65%;
+  background-position: 8% 65%;
   background-repeat: no-repeat;
   height: 110vh;
+}
+.questionsDescrip{
+  text-align: center;
 }
 .shadowSeparator{
   -webkit-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
@@ -60,12 +65,13 @@ h2{
 .question{
   background-color: #FFFFFF;
   padding: 1em;
-  -webkit-box-shadow: -34px 8px 71px -23px rgba(0,0,0,0.25);
-  -moz-box-shadow: -34px 8px 71px -23px rgba(0,0,0,0.25);
-  box-shadow: -34px 8px 71px -23px rgba(0,0,0,0.25);
+  -webkit-box-shadow: -24px 4px 70px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: -24px 4px 70px -24px rgba(0,0,0,0.75);
+  box-shadow: -24px 4px 70px -24px rgba(0,0,0,0.75);
+  left: 4em;
 }
 .question:first-child{
-  margin-top: 4em;
+  margin-top: 3em;
 }
 .question p{
   margin: 0;
@@ -84,26 +90,50 @@ h2{
 ----------------------------------------*/
 #ourRD{
   color: #21315B;
+  height: auto;
 }
 #ourRD h2{
   margin-top: 2em;
   margin-bottom: 1em;
 }
 .infoBtn{
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 .textInfo{
   margin-bottom: 8em;
 }
-#linguistic, #bigdata, #deepLearning{
+.rdBtn{
   margin-bottom: 5em;
+  padding-bottom: 2em;
+  border: none;
+  margin: 0.8em;
+  border-radius: 0;
+}
+.rdBtn img{
+  filter: opacity(0.8);
+}
+.rdBtn:first-child{
+  margin-left: 9em;
 }
 .rdDescrip{
   text-align-last: center;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 .rdBtn a{
   color: #2B417B;
+}
+.activeBtn{
+  background-color: rgba(255, 255, 255, 0.95);
+  margin-top: 1em;
+  -webkit-box-shadow: 1px -16px 80px -30px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px -16px 80px -30px rgba(0,0,0,0.75);
+  box-shadow: 1px -16px 80px -30px rgba(0,0,0,0.75);
+}
+.activeBtn img{
+  filter: opacity(1);
+}
+#information{
+  height: auto;
 }
 
 /* OUR TEAM
@@ -113,6 +143,7 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
+  padding-bottom: 7em;
 }
 #ourTeam h2{
   margin-top: 2em;
@@ -120,35 +151,49 @@ h2{
 }
 .teamDescrip{
   text-align-last: center;
+  margin-bottom: 2em;
 }
-#ourTeam ul li{
+#ourTeam .teamList{
   list-style: none;
   display: inline-block;
   vertical-align: top;
+  border-right: 1px solid #FFFFFF;
+  height: 3.5em;
+  text-align: left;
 }
-#ourTeam ul li a{
+#ourTeam .teamList a{
   color: #FFFFFF;
   font-weight: 600;
-  padding-bottom: 0.5em;
-  border-right: 1px solid #FFFFFF;
-  padding: 1em;
+  padding: 0.5em 0 0.5em 0;
 }
-#ourTeam ul li a:active{
+#ourTeam .teamList:first-child, 
+#ourTeam .teamList:last-child{
+  padding-top: 1em;
+}
+#ourTeam .teamList:last-child{
+  padding-top: 1em;
+  border-right: none;
+}
+#ourTeam .teamList a:active{
   color: #E7DA91;
 }
-#ourTeam ul li a:focus{
+#ourTeam .teamList a:focus{
   outline: none;
   color: #E7DA91;
 }
-#ourTeam ul li a:hover{
+#ourTeam .teamList a:hover{
   text-decoration: none;
+  color:#D8D8D8;
+  cursor: pointer;
+  text-decoration-line: 
 }
-#team{
-  padding-bottom: 5em;
+.menuTeam{
+  margin-bottom: 3em;
+  text-align: center;
 }
 
 /*CARD TEAM*/
-#team .card{
+#team .card, #team_others .card{
   border: none;
   margin-top: 2em;
   margin-right: 1em;
@@ -183,4 +228,534 @@ h2{
 }
 #team .card p{
   font-size: 0.9em;
+}
+#team_others{
+  width: 100%; 
+  margin-left: 7em;
+  margin-top: 1em;
+}
+#team_others .lastCardRow{
+  margin-left: 13em;
+}
+.otherResearchersCard, .collaboratorsCard{
+  border: 1px solid #FFFFFF;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 0;
+}
+.otherResearchersCard h5,
+.collaboratorsCard h5{
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 1em;
+  text-align: center;
+}
+#team_others .otherResearchersCard .card,
+#team_others .collaboratorsCard .card{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding:;
+}
+.otherResearchersCard p,
+.collaboratorsCard p{
+  text-align: justify;
+  font-size: 0.95em;
+}
+.collaboratorsCard:first-child p{
+  font-size: 0.85em;
+}
+
+/* MEDIA QUERIES
+----------------------------------------*/
+@media only screen and (max-device-width: 320px){
+  .tl img{
+    width: 100%;
+  }
+  .question{
+    left: 0;
+    margin-left: 0;
+  }
+  .questionsDescrip{
+    text-align: justify;
+  }
+  #ourQuestion{
+    height: auto;
+  }
+  .rdDescrip {
+    margin-bottom: 1em;
+  }
+  #machineLearning img,
+  #rhetoricDiscourse img,
+  #naturalLanguage img{
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  #naturalLanguage img{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  #naturalLanguage{
+    margin-bottom: 6em;
+  }
+  #machineLearning h5,
+  #rhetoricDiscourse h5,
+  #naturalLanguage h5{
+    text-align: center;
+    font-weight: 600;
+  }
+  #machineLearning h6,
+  #rhetoricDiscourse h6,
+  #naturalLanguage h6{
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 600;
+  }
+  #ourTeam .teamList{
+    line-height: 2em;
+    height: auto;
+    border: none;
+    text-align: left;
+  }
+  #ourTeam .teamList a{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.5em 0 0.5em 0;
+    text-align: left;
+  }
+  #ourTeam .teamList:first-child, 
+  #ourTeam .teamList:last-child{
+    padding-top: 0;
+  }
+  #ourTeam .teamList:last-child{
+    padding-top: 0;
+  }
+  #ourTeam .teamList a:active{
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:focus{
+    outline: none;
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:hover{
+    text-decoration: none;
+    color:#D8D8D8;
+    cursor: pointer;
+    text-decoration-line: 
+  }
+  .menuTeam{
+    margin-bottom: 3em;
+  }
+  #team_others{
+    width: 100%; 
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  #team_others .card{
+    left: 0;
+  }
+  #team_others .lastCardRow{
+    margin-left: 0;
+  }
+  .otherResearchersCard, .collaboratorsCard{
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding: 0;
+  }
+  .otherResearchersCard h5,
+  .collaboratorsCard h5{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+  #team_others .otherResearchersCard .card,
+  #team_others .collaboratorsCard .card{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding:;
+  }
+  .otherResearchersCard p,
+  .collaboratorsCard p{
+    text-align: justify;
+    font-size: 0.95em;
+  }
+  .collaboratorsCard:first-child p{
+    font-size: 0.85em;
+  }
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px){
+  .tl img{
+    width: 100%;
+  }
+  .question{
+    left: 0;
+    margin-left: 0;
+  }
+  .questionsDescrip{
+    text-align: justify;
+  }
+  #ourQuestion{
+    height: auto;
+  }
+  .rdDescrip {
+    margin-bottom: 1em;
+  }
+  #machineLearning img,
+  #rhetoricDiscourse img,
+  #naturalLanguage img{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 1em;
+  }
+  #naturalLanguage img{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  #naturalLanguage{
+    margin-bottom: 6em;
+  }
+  #machineLearning h5,
+  #rhetoricDiscourse h5,
+  #naturalLanguage h5{
+    text-align: center;
+    font-weight: 600;
+  }
+  #machineLearning h6,
+  #rhetoricDiscourse h6,
+  #naturalLanguage h6{
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 600;
+  }
+  #ourTeam .teamList{
+    line-height: 2em;
+    height: auto;
+    border: none;
+    text-align: left;
+  }
+  #ourTeam .teamList a{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.5em 0 0.5em 0;
+    text-align: left;
+  }
+  #ourTeam .teamList:first-child, 
+  #ourTeam .teamList:last-child{
+    padding-top: 0;
+  }
+  #ourTeam .teamList:last-child{
+    padding-top: 0;
+  }
+  #ourTeam .teamList a:active{
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:focus{
+    outline: none;
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:hover{
+    text-decoration: none;
+    color:#D8D8D8;
+    cursor: pointer;
+    text-decoration-line: 
+  }
+  .menuTeam{
+    margin-bottom: 3em;
+  }
+  #team_others{
+    width: 100%; 
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  #team_others .card{
+    left: 0;
+  }
+  #team_others .lastCardRow{
+    margin-left: 0;
+  }
+  .otherResearchersCard, .collaboratorsCard{
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding: 0;
+  }
+  .otherResearchersCard h5,
+  .collaboratorsCard h5{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+  #team_others .otherResearchersCard .card,
+  #team_others .collaboratorsCard .card{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding:;
+  }
+  .otherResearchersCard p,
+  .collaboratorsCard p{
+    text-align: justify;
+    font-size: 0.95em;
+  }
+  .collaboratorsCard:first-child p{
+    font-size: 0.85em;
+  }
+}
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px){
+  .tl img{
+    width: 100%;
+  }
+  .question{
+    left: 0;
+    margin-left: 0;
+  }
+  .questionsDescrip{
+    text-align: justify;
+  }
+  #ourQuestion{
+    height: auto;
+  }
+  .rdDescrip {
+    margin-bottom: 1em;
+  }
+  #machineLearning img,
+  #rhetoricDiscourse img,
+  #naturalLanguage img{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 1em;
+  }
+  #naturalLanguage img{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  #naturalLanguage{
+    margin-bottom: 6em;
+  }
+  #machineLearning h5,
+  #rhetoricDiscourse h5,
+  #naturalLanguage h5{
+    text-align: center;
+    font-weight: 600;
+  }
+  #machineLearning h6,
+  #rhetoricDiscourse h6,
+  #naturalLanguage h6{
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 600;
+  }
+  #ourTeam .teamList{
+    line-height: 2em;
+    height: auto;
+    border: none;
+    text-align: left;
+  }
+  #ourTeam .teamList a{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.5em 0 0.5em 0;
+    text-align: left;
+  }
+  #ourTeam .teamList:first-child, 
+  #ourTeam .teamList:last-child{
+    padding-top: 0;
+  }
+  #ourTeam .teamList:last-child{
+    padding-top: 0;
+  }
+  #ourTeam .teamList a:active{
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:focus{
+    outline: none;
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:hover{
+    text-decoration: none;
+    color:#D8D8D8;
+    cursor: pointer;
+    text-decoration-line: 
+  }
+  .menuTeam{
+    margin-bottom: 3em;
+  }
+  #team_others{
+    width: 100%; 
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  #team_others .card{
+    left: 0;
+  }
+  #team_others .lastCardRow{
+    margin-left: 0;
+  }
+  .otherResearchersCard, .collaboratorsCard{
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding: 0;
+  }
+  .otherResearchersCard h5,
+  .collaboratorsCard h5{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+  #team_others .otherResearchersCard .card,
+  #team_others .collaboratorsCard .card{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding:;
+  }
+  .otherResearchersCard p,
+  .collaboratorsCard p{
+    text-align: justify;
+    font-size: 0.95em;
+  }
+  .collaboratorsCard:first-child p{
+    font-size: 0.85em;
+  }
+  .copyrightText {
+    margin-top: 0.8em;
+    margin-left: 1em;
+    font-size: 0.8em;
+  }
+  .copyrightText p{
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px){
+  .tl img{
+    width: 100%;
+  }
+  #ourQuestion{
+    background-image: url('../img/ourRD/paper.png');
+    background-size: 155%;
+    background-position: 60% 95%;
+    background-repeat: no-repeat;
+    height: 110vh;
+  }
+  .question{
+    background-color: #FFFFFF;
+    padding: 1em;
+    -webkit-box-shadow: -24px 4px 70px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: -24px 4px 70px -24px rgba(0,0,0,0.75);
+    box-shadow: -24px 4px 70px -24px rgba(0,0,0,0.75);
+    left: 0;
+  }
+  .questionsDescrip{
+    text-align: justify;
+  }
+  #ourQuestion{
+    height: auto;
+  }
+  .rdDescrip {
+    margin-bottom: 1em;
+  }
+  .rdBtn:first-child{
+    margin-left: -2.5em;
+  }
+  .rdBtn{
+    margin:0.4em;
+  }
+  #ourTeam .teamList{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #FFFFFF;
+    height: 3.5em;
+    text-align: center;
+    font-size: 0.85em;
+  }
+  #ourTeam .teamList a{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0.5em 0 0.5em 0;
+  }
+  #ourTeam .teamList:first-child, 
+  #ourTeam .teamList:last-child{
+    padding-top: 1em;
+  }
+  #ourTeam .teamList:last-child{
+    padding-top: 1em;
+    border-right: none;
+  }
+  #ourTeam .teamList a:active{
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:focus{
+    outline: none;
+    color: #E7DA91;
+  }
+  #ourTeam .teamList a:hover{
+    text-decoration: none;
+    color:#D8D8D8;
+    cursor: pointer;
+    text-decoration-line: 
+  }
+  .menuTeam{
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  #team_others{
+    width: 100%; 
+    margin-left: 7em;
+    margin-top: 1em;
+  }
+  #team_others .card{
+    left: 0;
+  }
+  #team_others .lastCardRow{
+    margin-left: 0;
+  }
+  .otherResearchersCard, .collaboratorsCard{
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding: 0;
+  }
+  .otherResearchersCard:last-child,
+  .collaboratorsCard:last-child{
+    margin-left: 8em;
+  }
+  .otherResearchersCard h5,
+  .collaboratorsCard h5{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+  #team_others .otherResearchersCard .card,
+  #team_others .collaboratorsCard .card{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding:;
+  }
+  .otherResearchersCard p,
+  .collaboratorsCard p{
+    text-align: justify;
+    font-size: 0.95em;
+  }
+  .collaboratorsCard:first-child p{
+    font-size: 0.85em;
+  }
+  .copyrightText {
+    margin-top: 0.8em;
+    margin-left: 1em;
+    font-size: 0.8em;
+  }
+  .copyrightText p{
+    margin-bottom: 0;
+  }
+  .logoWW{
+    width: 40%;
+  }
 }

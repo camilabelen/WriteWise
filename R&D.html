@@ -42,13 +42,15 @@
   <section id="researchGroup">
     <div class="container-fluid">
       <div class="container">
-        <div class="row title">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 smooTop text-right">
+        <div class="row tl">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 smooTop text-right">
             <h1>WELLCOME TO THE</h1>
-            <p>research group</p>
           </div>
-          <div class="col-6 col-sm-6 col-lg-6 col-xl-6">
+          <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
             <img src="assets/img/logotipoWriteWise/logotipo_mas_isotipo_horizontal/WriteWise_horizontal-04.png" alt="">
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 smooTop text-right">
+            <p>R+D group</p>
           </div>
         </div>
       </div>
@@ -63,12 +65,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-center">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 questionsDescrip">
             <p>Established in mid-2017 our group address fundamental questions on scientific writing using cutting-edge technology.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-4 offset-md-6 col-lg-4 offset-lg-6 col-xl-4 offset-xl-6 question text-justify">
+          <div class="col-12 col-sm-12 col-md-5 offset-md-6 col-lg-4 offset-lg-6 col-xl-4 offset-xl-6 question text-justify">
             <p><i class="fas fa-circle"></i> How we can help scientist to write and <strong>communicate better their research</strong>? What is the difference between a <strong>properly and poorly written paper</strong>?</p>
             <p><i class="fas fa-circle"></i> What makes an easy-to-read and logic-flow written paper? What is the linguistic behind this?</p>
             <p><i class="fas fa-circle"></i> How we can help editorials to improve and speed up review process through automatization?</p>
@@ -89,34 +91,106 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify rdDescrip">
-            <p>We are starting to answer these questions through state-of-the <strong>art AI techniques</strong>, and <strong>new models, functions, and algorithms developed</strong> by our group. Through applied research our main purpose is to <strong>develop new  technology</strong>; thus, modernizing and improving scientific writing.</p>
+            <p>We are starting to answer these questions through state-of- the art Machine Learning techniques combined with Linguistics and Scientific Writing research, for developing new models, functions, and algorithms.</p>
+            <p>Through applied research our main purpose is to help and support researchers during the whole writing process. Our group is keen to improve scientific writing through developing new technology and writing guidelines. Our R+D+i is translated in a software called “WriteWise” which will not just modernize scientific writing, but also decrease time and effort for researcher when they write, but also for journals/editorial when they review.</p>
           </div>
         </div>
-        <div class="row text-center infoBtn">
-          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 rdBtn">
-            <a class="btn" id="linguistic">
+        <div id="desktopInfo">
+          <div class="row text-center infoBtn">
+            <div class="col-md-4 col-lg-3 col-xl-3 rdBtn card linguistic">
+              <a id="linguistic">
+                <img src="assets/img/ourRD/linguistic.png" alt="">
+                <h5><strong>Machine Learning</strong></h5>
+                <h6>for Natural Language Processing applied to Scientific Writing</h6>
+              </a>            
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 rdBtn card bigdata">
+              <a id="bigdata">
+                <img src="assets/img/ourRD/bigdata.png" alt="">
+                <h5><strong>Rhetoric-Discourse<br>and Lexical-Grammar</strong></h5>
+                <h6>Applied to Scientific Articles</h6>
+              </a>            
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 rdBtn card deepLearning">
+              <a id="deepLearning">
+                <img src="assets/img/ourRD/deep.png" alt="">
+                <h5><strong>Natural Language Processing</strong></h5>
+                <h6>Applied to Scientometrics</h6>
+              </a>            
+            </div>
+          </div> <!-- fin row -->
+          <div class="row">
+            <div id="information" class="col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 text-justify"></div>
+          </div>
+        </div>
+        <div class="row" id="informationMobile">
+          <div class="col-12 col-sm-12 text-justify">
+            <div id="machineLearning">
               <img src="assets/img/ourRD/linguistic.png" alt="">
-              <h5><strong>Linguistics Fundamentals</strong></h5>
-              <h6>for Scientific Writing</h6>
-            </a>            
-          </div>
-          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 rdBtn">
-            <a class="btn" id="bigdata">
+              <h5><strong>Machine Learning</strong></h5>
+              <h6>for Natural Language Processing applied to Scientific Writing</h6>
+              <p>We use Machine Learning and Computational Linguistics that work together in the area of Natural Language Processing applied to the modelling and correction of Scientific Writing. Our work spans from: </p>
+              <p>1. Novel approaches for textual data representation for scientific articles:</p>
+              <p>Word embeddings to Deep/Machine Learning models for Natural Language Processing tasks.</p>
+              <p>Graph-based representations with a focus on using graphs whose vertices represent words and whose edges represent co-occurrence relations between pairs of words. This approach selects cohesive subsets of words and has several applications on text structure.</p>
+              <p>2. Novel computational approaches for scientific articles analysis. We specialized our research on:</p>
+              <ul>
+                <li>Discourse Segmentation</li>
+                <li>Automatic Punctuation Analysis</li>
+                <li>Text Rule Mining</li>
+                <li>Topic Modelling</li>
+                <li>Readability/Coherence Classification</li>
+              </ul>
+              <p>This area is lead by Dr. Hector Allende. Team members involved in this R+D+i area are:</p>
+              <ul>
+                <li>Dr. Hector Allende</li>
+                <li>Dr. Eduardo Fuentes</li>
+                <li>Dr. Wenceslao Palma</li>
+                <li>Dr. Javier Vera</li>
+                <li>Dr(c) Juan Pavez</li>
+                <li>Sebastian Rodriguez, BCSc.</li>
+                <li>Humberto Gonzales (undergraduate)</li>
+                <li>Jose Campusano (undergraduate)</li>
+                <li>Francisco Escobar (undergraduate)</li>
+                <li>Patricio Araya (undergraduate)</li>
+                <li>Jorge Montiel (undergraduate)</li>
+              </ul>
+            </div>
+            <div id="rhetoricDiscourse">
               <img src="assets/img/ourRD/bigdata.png" alt="">
-              <h5><strong>Big Data Analytics<br>and Machine Learning</strong></h5>
-              <h6>Applied to Scientific Writing</h6>
-            </a>            
-          </div>
-          <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 rdBtn">
-            <a class="btn" id="deepLearning">
+              <h5><strong>Rhetoric-Discourse<br>and Lexical-Grammar</strong></h5>
+              <h6>Applied to Scientific Articles</h6>
+              <p>We use functional and applied discursive frameworks combined with Corpus analysis,
+              Computational Linguistics, and Natural Language Processing approaches for successfully
+              accomplish the discursive and linguistics requirements of the academic and scientific genres
+              through empirical-based research. Our work spans from identification and comprehension of the:</p>
+              <p>Communicative purposes and the lexical-grammar features that constitute a written genre in a scientific discipline.</p>
+              <p>Textual and discursive analysis of the academic and scientific genres</p>
+              <p>This area is led by Prof. Rene Venegas, PhD. Team members involved in this R+D+I area are:</p>
+              <ul>
+                <li>Dr. Eduardo Fuentes</li>
+                <li>Dr. Barbara Kremeyer</li>
+                <li>Dr(c) Sofia Zamora</li>
+                <li>Ashley VanCott, BA</li>
+                <li>Grace Wilson, BA</li>
+                <li>Amparo Galdames, BA</li>
+                <li>Fernando Lillo, BA</li>
+                <li>Pablo Fuenzalida, BA</li>
+              </ul>
+            </div>
+            <div id="naturalLanguage">
               <img src="assets/img/ourRD/deep.png" alt="">
-              <h5><strong>Deep Learning</strong></h5>
-              <h6>Applied to Scientific Writing</h6>
-            </a>            
+              <h5><strong>Natural Language Processing</strong></h5>
+              <h6>Applied to Scientometrics</h6>
+              <p>We use scientometrics combined with Natural Language Processing to predict scientific
+              publications impact and recognition.</p>
+              <p>Team members involved in this research area are:</p>
+              <ul>
+                <li>Dr. Eduardo Fuentes</li>
+                <li>Juan Pablo Bascur, MSc.</li>
+              </ul>
+            </div>
           </div>
-        </div> <!-- fin row -->
-        <div class="row">
-          <div id="information" class="col-10 col-sm-10 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1"></div>
         </div> <!-- fin row -->        
       </div> <!-- fin container -->
     </div>
@@ -138,19 +212,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-            <ul>
-              <li><a href="#coreteam" id="coreteam">CORE TEAM</a></li>
-              <li><a href="#researchersProfesors" id="profesor">RESEARCHER (PROFESORS)</a></li>
-              <li><a href="#associatedResearchers" id="associated">ASSOCIATED RESEARCHERS</a></li>              
-              <li><a href="#otherResearchers" id="others">OTHER RESEARCHERS</a></li>
-              <li><a href="#collaborators" id="collaborator">COLLABORATORS</a></li>
-            </ul>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 menuTeam">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#team_coreteam" id="coreteam">CORE TEAM</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#researchersProfesors" id="profesor">RESEARCHER (PROFESORS)</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#associatedResearchers" id="associated">ASSOCIATED RESEARCHERS</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#otherResearchers" id="others">OTHER RESEARCHERS</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#collaborators" id="collaborator">COLLABORATORS</a></div>
           </div>
         </div>
-        <div class="row" id="team">
-        </div>
+        <div class="row" id="team"></div>
       </div> <!-- fin container -->
+      <div class="container-fluid">
+        <div class="row" id="team_others"></div>
+      </div>
     </div>
   </section>
   <footer>
@@ -160,7 +234,7 @@
           <img src="assets/img/logotipoWriteWise/logotipo_mas_isotipo_horizontal/WriteWise_horizontal-04.png" alt="logotipo-WriteWise">          
         </div>
         <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-7 
-         copyright text-left">
+         copyrightText text-left">
             <p>© 2018 WRITEWISE. All rights reserved.</p>
             <p>Design by Andrés Levineri and development by Camila Cornejos.</p>
           </div>        
