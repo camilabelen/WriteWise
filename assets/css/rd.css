@@ -224,6 +224,9 @@ h2{
 }
 
 /*CARD TEAM*/
+#associatedCard1{
+  margin-left: 9.5em;
+}
 #team .card, #team_others .card{
   border: none;
   margin-top: 2em;
@@ -262,11 +265,11 @@ h2{
 }
 #team_others{
   width: 100%; 
-  margin-left: 7em;
+  margin-left: 9em;
   margin-top: 1em;
 }
 #team_others .lastCardRow{
-  margin-left: 13em;
+  margin-left: 14em;
 }
 .otherResearchersCard, .collaboratorsCard{
   border: 1px solid #FFFFFF;
@@ -899,6 +902,9 @@ h2{
   }
   #team_others .lastCardRow{
     margin-left: 0;
+  }
+  .associated:nth-child(3){
+    margin-left: 9.5em;
   }
   .otherResearchersCard, .collaboratorsCard{
     border: 1px solid #FFFFFF;

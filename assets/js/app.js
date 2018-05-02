@@ -221,7 +221,7 @@ $(document).ready(function() {
     $('#team').html('');
     $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
     $('#coreteam span').css('display','none');
-    $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
+    $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-1 col-xl-2 offset-xl-1 associated" id="associatedCard1">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -237,7 +237,7 @@ $(document).ready(function() {
               <h3 class="card-text">Juan Pavez, Ph.D.</h3>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/sebastián_rodriguez.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -253,7 +253,7 @@ $(document).ready(function() {
               <h3 class="card-text">Sebastián Rodriguez, Ph.D.</h3>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera .jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -267,7 +267,7 @@ $(document).ready(function() {
               <h3 class="card-text">Sofía Zamora, Ph.D.</h3>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/barbara_kremeyer.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
