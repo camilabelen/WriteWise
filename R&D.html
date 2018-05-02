@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/css/rd.css">
   <link rel="stylesheet" href="assets/css/media.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="lateralDots" data-offset="0">
   <header>
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light global-menu">
       <div class="container-fluid">
@@ -38,7 +38,7 @@
         </div>
       </div>
     </nav>   
-  </header>
+  </header>  
   <section id="researchGroup">
     <div class="container-fluid">
       <div class="container">
@@ -124,11 +124,15 @@
           </div>
         </div>
         <div class="row" id="informationMobile">
-          <div class="col-12 col-sm-12 text-justify">
+          <div class="col-12 col-sm-12 col-md-10 offset-md-1 text-justify">
             <div id="machineLearning">
-              <img src="assets/img/ourRD/linguistic.png" alt="">
-              <h5><strong>Machine Learning</strong></h5>
-              <h6>for Natural Language Processing applied to Scientific Writing</h6>
+              <div class="iconInfoMd col-md-3">
+                <img src="assets/img/ourRD/linguistic.png" alt="">
+              </div>              
+              <div class="infoMdTl col-md-7">
+                <h5><strong>Machine Learning</strong></h5>
+                <h6>for Natural Language Processing applied to Scientific Writing</h6>
+              </div>              
               <p>We use Machine Learning and Computational Linguistics that work together in the area of Natural Language Processing applied to the modelling and correction of Scientific Writing. Our work spans from: </p>
               <p>1. Novel approaches for textual data representation for scientific articles:</p>
               <p>Word embeddings to Deep/Machine Learning models for Natural Language Processing tasks.</p>
@@ -157,9 +161,13 @@
               </ul>
             </div>
             <div id="rhetoricDiscourse">
-              <img src="assets/img/ourRD/bigdata.png" alt="">
-              <h5><strong>Rhetoric-Discourse<br>and Lexical-Grammar</strong></h5>
-              <h6>Applied to Scientific Articles</h6>
+              <div class="iconInfoMd col-md-4">
+                <img src="assets/img/ourRD/bigdata.png" alt="">
+              </div>
+              <div class="infoMdTl col-md-7">
+                <h5><strong>Rhetoric-Discourse<br>and Lexical-Grammar</strong></h5>
+                <h6>Applied to Scientific Articles</h6>
+              </div>
               <p>We use functional and applied discursive frameworks combined with Corpus analysis,
               Computational Linguistics, and Natural Language Processing approaches for successfully
               accomplish the discursive and linguistics requirements of the academic and scientific genres
@@ -179,9 +187,13 @@
               </ul>
             </div>
             <div id="naturalLanguage">
-              <img src="assets/img/ourRD/deep.png" alt="">
-              <h5><strong>Natural Language Processing</strong></h5>
-              <h6>Applied to Scientometrics</h6>
+              <div class="iconInfoMd col-md-4">
+                <img src="assets/img/ourRD/deep.png" alt="">
+              </div>
+              <div class="infoMdTl col-md-7">
+                <h5><strong>Natural Language Processing</strong></h5>
+                <h6>Applied to Scientometrics</h6>
+              </div>
               <p>We use scientometrics combined with Natural Language Processing to predict scientific
               publications impact and recognition.</p>
               <p>Team members involved in this research area are:</p>
@@ -213,11 +225,11 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 menuTeam">
-            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#team_coreteam" id="coreteam">CORE TEAM</a></div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#researchersProfesors" id="profesor">RESEARCHER (PROFESORS)</a></div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#associatedResearchers" id="associated">ASSOCIATED RESEARCHERS</a></div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#otherResearchers" id="others">OTHER RESEARCHERS</a></div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#collaborators" id="collaborator">COLLABORATORS</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#team_coreteam" id="coreteam"><span></span>CORE TEAM</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#researchersProfesors" id="profesor"><span></span>RESEARCHER (PROFESORS)</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#associatedResearchers" id="associated"><span></span>ASSOCIATED RESEARCHERS</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#otherResearchers" id="others"><span></span>OTHER RESEARCHERS</a></div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 teamList"><a href="#collaborators" id="collaborator"><span></span>COLLABORATORS</a></div>
           </div>
         </div>
         <div class="row" id="team"></div>
@@ -227,13 +239,23 @@
       </div>
     </div>
   </section>
+  <nav class="lateralDots">
+    <div class="dots">
+      <ul class="nav navbar-nav">
+        <li class="current"><a href="#researchGroup" id="researchGroupDot"><i class="fas fa-circle"></i></a></li>
+        <li><a href="#ourQuestion" id="ourQuestionDot"><i class="fas fa-circle"></i></a></li>
+        <li><a href="#ourRD" id="ourRDdot"><i class="fas fa-circle"></i></a></li>
+        <li><a href="#ourTeam" id="ourTeamDot"><i class="fas fa-circle"></i></a></li>
+      </ul>
+    </div>
+  </nav>    
   <footer>
     <div class="container-fluid">
       <div class="row footer text-center">
         <div class="col-10 col-sm-10 col-md-4 col-lg-3 offset-lg-2 col-xl-2 offset-xl-3 logoWW">
           <img src="assets/img/logotipoWriteWise/logotipo_mas_isotipo_horizontal/WriteWise_horizontal-04.png" alt="logotipo-WriteWise">          
         </div>
-        <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-7 
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 
          copyrightText text-left">
             <p>© 2018 WRITEWISE. All rights reserved.</p>
             <p>Design by Andrés Levineri and development by Camila Cornejos.</p>

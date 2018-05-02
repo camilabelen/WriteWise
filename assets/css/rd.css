@@ -2,6 +2,37 @@ h2{
   font-weight: 700;
   font-size: 2.5rem;
 }
+/* DOTS MENU
+----------------------------------------*/
+.lateralDots{
+  position: fixed;
+  top: 45%;
+  left: 97%;
+}
+.dots{  
+  text-align: left;
+}
+.dots ul{
+  padding-left: 1em;
+}
+.dots ul li{
+  list-style: none;
+}
+.dots ul li a{
+  color: #BBBBBB;
+  transition: all 0.8s;
+}
+.dots>ul li a:focus{
+  color: #21315B;
+  transition: all 0.8s;
+}
+.dots ul li a:active{
+  color: #21315B;
+  transition: all 0.3s;
+}
+.dots ul li a .svg-inline--fa{
+  font-size: 0.8em;
+}
 
 /* HOME
 ----------------------------------------*/
@@ -159,7 +190,7 @@ h2{
   vertical-align: top;
   border-right: 1px solid #FFFFFF;
   height: 3.5em;
-  text-align: left;
+  text-align: center;
 }
 #ourTeam .teamList a{
   color: #FFFFFF;
@@ -315,6 +346,7 @@ h2{
     height: auto;
     border: none;
     text-align: left;
+    font-size: 0.8em;
   }
   #ourTeam .teamList a{
     color: #FFFFFF;
@@ -329,21 +361,27 @@ h2{
   #ourTeam .teamList:last-child{
     padding-top: 0;
   }
-  #ourTeam .teamList a:active{
-    color: #E7DA91;
-  }
   #ourTeam .teamList a:focus{
     outline: none;
     color: #E7DA91;
   }
+  #ourTeam .teamList a:focus span{
+    background-color: #E7DA91;
+    width: 0.5em;
+    height: 0.5em;
+    position: absolute;
+    border-radius: 50%;
+    left: -0.3em;
+    top: 0.65em;
+  }
   #ourTeam .teamList a:hover{
     text-decoration: none;
-    color:#D8D8D8;
     cursor: pointer;
-    text-decoration-line: 
   }
   .menuTeam{
     margin-bottom: 3em;
+    text-align: left;
+    padding-left: 0;
   }
   #team_others{
     width: 100%; 
@@ -383,6 +421,45 @@ h2{
   }
   .collaboratorsCard:first-child p{
     font-size: 0.85em;
+  }
+  .lateralDots{
+    position: fixed;
+    top: 92%;
+    left: 0;
+    background-color: #02102B;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    padding-top: 0.8em;
+  }
+  .dots{  
+    text-align: left;
+    display: inline-block;
+    margin-left: 30%;
+    height: 4em;
+  }
+  .dots ul{
+    padding-left: 1em;
+    display: inline-block;
+  }
+  .dots ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.3s;
+  }
+  .dots>ul li a:focus{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px){
@@ -440,6 +517,7 @@ h2{
     font-weight: 600;
     padding: 0.5em 0 0.5em 0;
     text-align: left;
+    font-size: 0.9em;
   }
   #ourTeam .teamList:first-child, 
   #ourTeam .teamList:last-child{
@@ -455,11 +533,23 @@ h2{
     outline: none;
     color: #E7DA91;
   }
+  #ourTeam .teamList a:focus span{
+    background-color: #E7DA91;
+    width: 0.5em;
+    height: 0.5em;
+    position: absolute;
+    border-radius: 50%;
+    left: -0.3em;
+    top: 0.85em;
+  }
   #ourTeam .teamList a:hover{
     text-decoration: none;
-    color:#D8D8D8;
     cursor: pointer;
-    text-decoration-line: 
+  }
+  .menuTeam{
+    margin-bottom: 3em;
+    text-align: left;
+    padding-left: 0;
   }
   .menuTeam{
     margin-bottom: 3em;
@@ -502,6 +592,45 @@ h2{
   }
   .collaboratorsCard:first-child p{
     font-size: 0.85em;
+  }
+  .lateralDots{
+    position: fixed;
+    top: 92%;
+    left: 0;
+    background-color: #02102B;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    padding-top: 0.8em;
+  }
+  .dots{  
+    text-align: left;
+    display: inline-block;
+    margin-left: 30%;
+    height: 4em;
+  }
+  .dots ul{
+    padding-left: 1em;
+    display: inline-block;
+  }
+  .dots ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.3s;
+  }
+  .dots ul li a:focus{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-device-width: 425px){
@@ -559,6 +688,7 @@ h2{
     font-weight: 600;
     padding: 0.5em 0 0.5em 0;
     text-align: left;
+    font-size: 0.9em;
   }
   #ourTeam .teamList:first-child, 
   #ourTeam .teamList:last-child{
@@ -574,11 +704,18 @@ h2{
     outline: none;
     color: #E7DA91;
   }
+  #ourTeam .teamList a:focus span{
+    background-color: #E7DA91;
+    width: 0.5em;
+    height: 0.5em;
+    position: absolute;
+    border-radius: 50%;
+    left: -0.3em;
+    top: 0.85em;
+  }
   #ourTeam .teamList a:hover{
     text-decoration: none;
-    color:#D8D8D8;
     cursor: pointer;
-    text-decoration-line: 
   }
   .menuTeam{
     margin-bottom: 3em;
@@ -612,7 +749,6 @@ h2{
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    padding:;
   }
   .otherResearchersCard p,
   .collaboratorsCard p{
@@ -624,11 +760,50 @@ h2{
   }
   .copyrightText {
     margin-top: 0.8em;
-    margin-left: 1em;
+    margin-left: 0;
     font-size: 0.8em;
   }
   .copyrightText p{
-    margin-bottom: 0;
+    margin-bottom: 1.8em;
+  }
+  .lateralDots{
+    position: fixed;
+    top: 92%;
+    left: 0;
+    background-color: #02102B;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    padding-top: 0.9em;
+  }
+  .dots{  
+    text-align: left;
+    display: inline-block;
+    margin-left: 33%;
+    height: 4em;
+  }
+  .dots ul{
+    padding-left: 1em;
+    display: inline-block;
+  }
+  .dots ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.3s;
+  }
+  .dots ul li a:focus{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
   }
 }
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px){
@@ -665,6 +840,18 @@ h2{
   .rdBtn{
     margin:0.4em;
   }
+  .iconInfoMd,.infoMdTl{
+    display: inline-block;
+    margin-bottom: 2em;
+  }
+  .infoMdTl{
+    text-align: left;
+    margin-left: 2em;
+    top: 2em;
+  }
+  #naturalLanguage{
+    margin-bottom: 6em;
+  }
   #ourTeam .teamList{
     list-style: none;
     display: inline-block;
@@ -686,6 +873,10 @@ h2{
   #ourTeam .teamList:last-child{
     padding-top: 1em;
     border-right: none;
+    margin-top: 2em;
+  }
+  #ourTeam .teamList:nth-child(4){
+    margin-top: 2em;
   }
   #ourTeam .teamList a:active{
     color: #E7DA91;
@@ -693,12 +884,6 @@ h2{
   #ourTeam .teamList a:focus{
     outline: none;
     color: #E7DA91;
-  }
-  #ourTeam .teamList a:hover{
-    text-decoration: none;
-    color:#D8D8D8;
-    cursor: pointer;
-    text-decoration-line: 
   }
   .menuTeam{
     margin-bottom: 3em;
@@ -757,5 +942,34 @@ h2{
   }
   .logoWW{
     width: 40%;
+  }
+  .lateralDots{
+    position: fixed;
+    top: 45%;
+    left: 94%;
+  }
+  .dots{  
+    text-align: left;
+  }
+  .dots ul{
+    padding-left: 1em;
+  }
+  .dots ul li{
+    list-style: none;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.8s;
+  }
+  .dots>ul li a:focus{
+    color: #21315B;
+    transition: all 0.8s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
   }
 }

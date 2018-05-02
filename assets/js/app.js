@@ -1,10 +1,28 @@
 $(document).ready(function() {
 
-  if ($(window).width() < 768) {
-    $(this).find('#desktopInfo').hide();  
+  $(function(){
+    $('a[href*="#"]').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var $target = $(this.hash);
+        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+        if ($target.length) {
+          var targetOffset = $target.offset().top;
+          $('html,body').animate({scrollTop: targetOffset}, 1000);
+          return false;
+        } 
+      }
+    });
+  });
+
+  if ($(window).width() < 769) {
+    $(this).find('#desktopInfo').hide();      
   } else {
-    $(this).find('#informationMobile').hide();
+    $(this).find('#informationMobile').hide();    
   }
+
+  if($(window).width() < 768) {
+    $('#coreteam').css({'outline': 'none','color': '#E7DA91'});
+  } else { $('#coreteam span').css('display', 'none'); }
 
   $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
@@ -40,9 +58,15 @@ $(document).ready(function() {
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="cristhianGomez.html">View Profile</a></button></div></div><div class="card-body">
               <h3 class="card-text">Cristhian Gomez, B.Eng., M.Sc.</h3><p class="card-text">Marketing and Commercial Management</p></div></div>`)
+  $('#coreteam span').css({'background-color': '#E7DA91','width': '0.5em','height': '0.5em','position': 'absolute','border-radius': '50%','left': '-0.3em','top': '0.85em'});
+
   $('#coreteam').click(function(){
     $('#team_others').html('') 
     $('#team').html('');
+    if($(window).width() < 768) {
+      $('#coreteam span').css('display','inline-block');
+    }
+    $('#coreteam').css({'outline': 'none','color': '#E7DA91'});
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
@@ -140,8 +164,10 @@ $(document).ready(function() {
   }); // coreteam click
 
   $('#profesor').click(function() { 
-    $('#team_others').html('') 
-    $('#team').html('')
+    $('#team_others').html(''); 
+    $('#team').html('');
+    $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
+    $('#coreteam span').css('display','none');
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/rene_venegas.jpg" alt="Card image cap">
@@ -191,8 +217,10 @@ $(document).ready(function() {
   }); // researchers profesors
 
   $('#associated').click(function() { 
-    $('#team_others').html('') 
-    $('#team').html('')
+    $('#team_others').html(''); 
+    $('#team').html('');
+    $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
+    $('#coreteam span').css('display','none');
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="Card image cap">
@@ -257,7 +285,9 @@ $(document).ready(function() {
 
   $('#others').click(function() {
     $('#team_others').html('');  
-    $('#team').html('');     
+    $('#team').html('');
+    $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
+    $('#coreteam span').css('display','none');     
     $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
             <div class="card">
               <div class="card-body">
@@ -350,7 +380,9 @@ $(document).ready(function() {
 
   $('#collaborator').click(function() {
     $('#team').html('');
-    $('#team_others').html('');  
+    $('#team_others').html('');
+    $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
+    $('#coreteam span').css('display','none');  
     $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
               <div class="card-body"><h5 class="card-title">Hernan Gonzales</h5><p class="card-text">MD, PhD. Dr. Gonzales is Associate Professor 
               - Research Director, Department of Head and Neck Surgery at Pontificia Universidad Católica. Dr. Gonzales is also Founder of GeneproDX, 
@@ -444,6 +476,34 @@ $(document).ready(function() {
         $('.navbar').fadeOut();
       } else {
         $('.navbar').fadeIn();
+      }
+      if ($(this).scrollTop() === $('#researchGroup').position().top) {
+        $('#researchGroupDot').css('color','#21315B');
+        $('#ourQuestionDot').css('color','#BBBBBB');
+        $('#ourRDdot').css('color','#BBBBBB');
+        $('#ourTeamDot').css('color','#BBBBBB');
+        console.log('home');
+      }
+      if ($(this).scrollTop() >= $('#ourQuestion').position().top) {
+        $('#ourQuestionDot').css('color','#21315B');
+        $('#researchGroupDot').css('color','#BBBBBB');
+        $('#ourRDdot').css('color','#BBBBBB');
+        $('#ourTeamDot').css('color','#BBBBBB');
+        console.log('our Question');
+      }
+      if ($(this).scrollTop() >= $('#ourRD').position().top) {
+        $('#ourRDdot').css('color','#21315B');
+        $('#ourQuestionDot').css('color','#BBBBBB');
+        $('#researchGroupDot').css('color','#BBBBBB');
+        $('#ourTeamDot').css('color','#BBBBBB');
+        console.log('our RD');
+      }
+      if ($(this).scrollTop() >= $('#ourTeam').position().top) {
+        $('#ourTeamDot').css('color','#21315B');
+        $('#ourRDdot').css('color','#BBBBBB');
+        $('#ourQuestionDot').css('color','#BBBBBB');
+        $('#researchGroupDot').css('color','#BBBBBB');
+        console.log('our RD');
       }
     });  
   });
