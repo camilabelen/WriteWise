@@ -37,7 +37,7 @@ h2{
 /* HOME
 ----------------------------------------*/
 #researchGroup{
-  background-image: url('../img/ourRD/fondohome.jpg');
+  background-image: url('../img/ourRD/fondo_pag_ini_1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -45,13 +45,14 @@ h2{
 #researchGroup .tl{
   display: flex;
   align-items: center;
-  padding-top: 30vh;
+  padding-top: 42vh;
   margin-top: 3em;
+  left: -10em;
 }
 .tl h1{
   color: #FFFFFF;
 }
-.tl p{
+.tl h2{
   color: #FFFFFF;
   font-size: 2em;
 }
@@ -249,9 +250,24 @@ h2{
   transition: 0.5s;
 }
 #team .card:hover .iconRRSS,
+#team .card:hover .wwContact,
 #team .card:hover .btnProfile{
   display: block;
   transition: 0.5s;
+}
+#team .wwContact {
+  position: absolute;
+  display: none;
+  top: 52%;
+  left: auto;
+  right: auto;
+  color: #FFFFFF;
+}
+#team .wwContact a{
+  color:#FFFFFF;
+}
+#team .iconRRSS{
+  left: 1.8em;
 }
 #team .card-body{
   padding: 0.8em 0.2em;
@@ -297,6 +313,13 @@ h2{
 }
 .collaboratorsCard:first-child p{
   font-size: 0.85em;
+}
+.btnProfile {
+  position: absolute;
+  display: none;
+  top: 75%;
+  left: 0.5em;
+  right: auto;
 }
 
 /* MEDIA QUERIES
@@ -385,6 +408,9 @@ h2{
     margin-bottom: 3em;
     text-align: left;
     padding-left: 0;
+  }
+  #associatedCard1{
+    margin-left: 0;
   }
   #team_others{
     width: 100%; 
@@ -557,6 +583,9 @@ h2{
   .menuTeam{
     margin-bottom: 3em;
   }
+  #associatedCard1{
+    margin-left: 0;
+  }
   #team_others{
     width: 100%; 
     margin-left: 0;
@@ -723,6 +752,9 @@ h2{
   .menuTeam{
     margin-bottom: 3em;
   }
+  #associatedCard1{
+    margin-left: 0;
+  }
   #team_others{
     width: 100%; 
     margin-left: 0;
@@ -778,6 +810,7 @@ h2{
     bottom: 0;
     height: 4em;
     padding-top: 0.9em;
+    z-index: 10;
   }
   .dots{  
     text-align: left;

@@ -38,23 +38,23 @@ $(document).ready(function() {
               <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Ashley VanCott, B.A.</h3>
               <p class="card-text">Founder and COO</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
               <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_bascur.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="juanBascur.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Juan Bascur, B.Sc., M.Sc.</h3>
               <p class="card-text">Machine Learning and Scientometrics Researcher</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/francisca_schalchli.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="franciscaSchalchli.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Francisca Schalchli, B.Eng.</h3>
               <p class="card-text">Project Manager</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/crishtian_gomez.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="cristhianGomez.html">View Profile</a></button></div></div><div class="card-body">
               <h3 class="card-text">Cristhian Gomez, B.Eng., M.Sc.</h3><p class="card-text">Marketing and Commercial Management</p></div></div>`)
@@ -104,7 +104,7 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>     
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -119,7 +119,7 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/juan_bascur.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">              
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">              
                 <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -134,7 +134,7 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/francisca_schalchli.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -149,7 +149,7 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/crishtian_gomez.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
               </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -171,11 +171,6 @@ $(document).ready(function() {
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/rene_venegas.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="rene_venegas.html">View Profile</a></button>
               </div>
@@ -187,11 +182,6 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/hector_allende.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="hector_allende.html">View Profile</a></button>
               </div>
@@ -203,9 +193,6 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/WENCESLAO_PALMA.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>     
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="wenceslao_palma.html">View Profile</a></button>
               </div>
@@ -224,11 +211,6 @@ $(document).ready(function() {
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-1 col-xl-2 offset-xl-1 associated" id="associatedCard1">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="juan_pavez.html">View Profile</a></button>
               </div>
@@ -240,11 +222,6 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/sebastián_rodriguez.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="sebastián_rodriguez.html">View Profile</a></button>
               </div>
@@ -256,9 +233,6 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera .jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>     
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="Sofía_Zamora.html">View Profile</a></button>
               </div>
@@ -270,9 +244,6 @@ $(document).ready(function() {
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/barbara_kremeyer.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>     
-              </div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="barbara_kremeyer.html">View Profile</a></button>
               </div>
