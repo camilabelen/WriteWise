@@ -66,7 +66,7 @@ h2{
   color: #21315B;
   background-image: url('../img/ourRD/paper.png');
   background-size: 80%;
-  background-position: 8% 65%;
+  background-position: 8% 68%;
   background-repeat: no-repeat;
   height: 110vh;
 }
@@ -311,7 +311,8 @@ h2{
   text-align: justify;
   font-size: 0.95em;
 }
-.collaboratorsCard:first-child p{
+.collaboratorsCard:first-child p,
+.collaboratorsCard:last-child p{
   font-size: 0.85em;
 }
 .btnProfile {
@@ -321,7 +322,6 @@ h2{
   left: 0.5em;
   right: auto;
 }
-
 /* MEDIA QUERIES
 ----------------------------------------*/
 @media only screen and (max-device-width: 320px){

@@ -172,7 +172,7 @@ $(document).ready(function() {
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/rene_venegas.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="rene_venegas.html">View Profile</a></button>
+                <button id="profile"><a href="profesors.html">View Profile</a></button>
               </div>
             </div>            
             <div class="card-body">
@@ -183,7 +183,7 @@ $(document).ready(function() {
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/hector_allende.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="hector_allende.html">View Profile</a></button>
+                <button id="profile"><a href="profesors.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -194,7 +194,7 @@ $(document).ready(function() {
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/WENCESLAO_PALMA.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="wenceslao_palma.html">View Profile</a></button>
+                <button id="profile"><a href="profesors.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
@@ -216,29 +216,29 @@ $(document).ready(function() {
               </div>
             </div>            
             <div class="card-body">
-              <h3 class="card-text">Juan Pavez, Ph.D.</h3>
+              <h3 class="card-text">Juan Pavez, Ph.D(c)</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/sebastián_rodriguez.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="sebastián_rodriguez.html">View Profile</a></button>
+                <button id="profile"><a href="sebastian_rodriguez.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Sebastián Rodriguez, Ph.D.</h3>
+              <h3 class="card-text">Sebastián Rodriguez, BCSc</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera .jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="Sofía_Zamora.html">View Profile</a></button>
+                <button id="profile"><a href="sofia_zamora.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Sofía Zamora, Ph.D.</h3>
+              <h3 class="card-text">Sofía Zamora, Ph.D(c)</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
@@ -363,12 +363,15 @@ $(document).ready(function() {
               Mr. Rojas is the founder and CEO of TimeHunter with more than 20 years of experience in sale, marketing, and CRM. He is currently WriteWise´s Mentor.</p>
               </div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
               <h5 class="card-title">Andrés Levineri</h5><p class="card-text">in an Informatic Engineer and Graphic Designer with more than 10 years of experience. 
-              He is currently WriteWise´s Graphic Content Developer.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard lastCardRow">
+              He is currently WriteWise´s Graphic Content Developer.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
               <div class="card"><div class="card-body"><h5 class="card-title">Oscar Lynch</h5><p class="card-text">Lawyer at Universidad de Concepcion. 
               Mr. Lynch has been an Accounting and Financial Lawyer for more than 10 years. Mr. Lynch is currently WriteWise´s Lawyer Advisor.</p>
               </div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
               <h5 class="card-title">Miguel Pavez</h5><p class="card-text">Master in Finance, Master in Taxation, Corporate Accountant, Finance and Administration Manager, 
-              Consultant. Mr. Pavez is currently WriteWise´s Senior Accounting Manager Advisor.</p></div></div></div>`);
+              Consultant. Mr. Pavez is currently WriteWise´s Senior Accounting Manager Advisor.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
+              <div class="card-body"><h5 class="card-title">Kendrick Lanyi-Grünfeldt</h5><p class="card-text">Is Commercial Engineer at Universidad de Chile and Master in Strategic Management at New York 
+              University, Stern School of Business. Lanyi-Grünfeldt has over 40 year of experience in strategic bussiness: models, growth, planning, management, mergers & acquisitions; having worked in 
+              executive level management position in prestigious business such as Bonafide, Nestlé, Carter Holt Harvey, among many others.</p></div></div></div>`);
   });
 
   // imprimiendo informacion al hacer click en cada tarjeta
