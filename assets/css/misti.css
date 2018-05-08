@@ -1,0 +1,96 @@
+h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+/*HOME*/
+#homeMISTI{
+  background-color: #203F75;
+  padding-top: 8em;
+  color: #FFFFFF;
+  height: 100vh;
+}
+#homeMISTI h1{
+  margin-top: 5em;
+  text-align: center;
+}
+/*MIT segunda seccion*/
+#MIT{
+  background-color: #1C386A;
+  color: #FFFFFF;
+  text-align: justify;
+  text-align-last: center; 
+  height: 100vh;
+}
+#MIT img{
+  width: 100%;
+}
+.logoWWMIT{
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+/*BENEFITS*/
+#benefits{
+  color: #21315B;
+  height: 100vh;
+}
+.benefitsTl h2{
+  margin-top: 2em;
+  text-align: center !important;
+}
+.benefitsLogo img{
+  width: 100%;
+}
+.bulletList1{
+  margin-top: 4em;
+}
+.bulletList1 .svg-inline--fa{
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+/*about the internship*/
+#internship{
+  color: #21315B;
+}
+#internship h2{
+  text-align: center;
+  margin-bottom: 1em;
+}
+.bulletList2{
+  margin-top: 2em;
+}
+
+/*INTERN PROFILE*/
+#internProfile{
+  color: #21315B;
+}
+#internProfile h2{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.techSkillTl{
+  text-align: center;
+  margin-top: 3em;
+}
+.techSkills{
+  text-align: center;
+  margin-bottom: 2em;
+}
+.techSkills div:first-child{
+  margin-left: 9.5em;
+}
+
+/*MORE INFORMATION*/
+#moreInfo{
+  color: #21315B;
+  height: 70vh;
+}
+#moreInfo h2{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+#moreInfo ul{
+  list-style: none;
+}

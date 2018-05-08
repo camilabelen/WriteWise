@@ -118,7 +118,7 @@ h2{
   margin-top: 1em;
 }
 
-/* OUR R&D
+/* OUR R+D+i
 ----------------------------------------*/
 #ourRD{
   color: #21315B;
@@ -167,6 +167,39 @@ h2{
 #information{
   height: auto;
 }
+#LSTM{
+  margin-top: 4em;
+}
+#LSTM, #arqui{
+  border-bottom: 1px solid #BBBBBB;
+  padding-bottom: 1em;
+}
+#LSTM img, #arqui img, #gow img{
+  width: 60%;
+  margin-left: 12em;
+  margin-bottom: 2em;
+}
+#arqui img{
+  margin-bottom: 3em;
+}
+#arqui img, #gow img{
+  margin-top: 5em;
+}
+#sistEtiquetado img, 
+#modeloDiscursivo img{
+  width:80%;
+  margin-left: 5em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+#sistEtiquetado{
+  border-bottom: 1px solid #BBBBBB;
+  padding-bottom: 1em;
+}
+#networkNodes img{
+  width: 80%;
+}
+
 
 /* OUR TEAM
 ----------------------------------------*/
@@ -341,6 +374,40 @@ h2{
   .rdDescrip {
     margin-bottom: 1em;
   }
+  #LSTM{
+    margin-top: 4em;
+  }
+  #LSTM, #arqui{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #LSTM img, #arqui img, #gow img{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+  }
+  #arqui img{
+    margin-bottom: 3em;
+  }
+  #arqui img, #gow img{
+    margin-top: 5em;
+  }
+  #sistEtiquetado img, 
+  #modeloDiscursivo img{
+    width:100%;
+    margin-left: 0;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #sistEtiquetado{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #networkNodes img{
+    width: 100%;
+    margin-left: -2em;
+  }
   #machineLearning img,
   #rhetoricDiscourse img,
   #naturalLanguage img{
@@ -508,9 +575,43 @@ h2{
   .rdDescrip {
     margin-bottom: 1em;
   }
-  #machineLearning img,
-  #rhetoricDiscourse img,
-  #naturalLanguage img{
+  #LSTM{
+    margin-top: 4em;
+  }
+  #LSTM, #arqui{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #LSTM img, #arqui img, #gow img{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+  }
+  #arqui img{
+    margin-bottom: 3em;
+  }
+  #arqui img, #gow img{
+    margin-top: 5em;
+  }
+  #sistEtiquetado img, 
+  #modeloDiscursivo img{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #sistEtiquetado{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #networkNodes img{
+    width: 100%;
+    margin-left: -2em;
+  }
+  #machineLearning .iconInfoMd img,
+  #rhetoricDiscourse .iconInfoMd img,
+  #naturalLanguage .iconInfoMd img{
     width: 70%;
     margin-left: 15%;
     margin-bottom: 1em;
@@ -682,9 +783,43 @@ h2{
   .rdDescrip {
     margin-bottom: 1em;
   }
-  #machineLearning img,
-  #rhetoricDiscourse img,
-  #naturalLanguage img{
+  #LSTM{
+    margin-top: 4em;
+  }
+  #LSTM, #arqui{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #LSTM img, #arqui img, #gow img{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+  }
+  #arqui img{
+    margin-bottom: 3em;
+  }
+  #arqui img, #gow img{
+    margin-top: 5em;
+  }
+  #sistEtiquetado img, 
+  #modeloDiscursivo img{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #sistEtiquetado{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #networkNodes img{
+    width: 100%;
+    margin-left: -2em;
+  }
+  #machineLearning .iconInfoMd img,
+  #rhetoricDiscourse .iconInfoMd img,
+  #naturalLanguage .iconInfoMd img{
     width: 70%;
     margin-left: 15%;
     margin-bottom: 1em;
@@ -875,6 +1010,40 @@ h2{
   }
   .rdBtn{
     margin:0.4em;
+  }
+  #LSTM{
+    margin-top: 4em;
+  }
+  #LSTM, #arqui{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #LSTM img, #arqui img, #gow img{
+    width: 80%;
+    margin-left: 4em;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+  }
+  #arqui img{
+    margin-bottom: 3em;
+  }
+  #arqui img, #gow img{
+    margin-top: 5em;
+  }
+  #sistEtiquetado img, 
+  #modeloDiscursivo img{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #sistEtiquetado{
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 1em;
+  }
+  #networkNodes img{
+    width: 100%;
+    margin-left: -3.5em;
   }
   .iconInfoMd,.infoMdTl{
     display: inline-block;

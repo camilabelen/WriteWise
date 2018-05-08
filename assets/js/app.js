@@ -172,33 +172,33 @@ $(document).ready(function() {
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/rene_venegas.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="profesors.html">View Profile</a></button>
+                <button id="profile"><a href="leadResearchers.html">View Profile</a></button>
               </div>
             </div>            
             <div class="card-body">
-              <h3 class="card-text">Rene Venegas, Ph.D.</h3>
+              <h3 class="card-text">René Venegas, PhD</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/hector_allende.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="profesors.html">View Profile</a></button>
+                <button id="profile"><a href="leadResearchers.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Hector Allende, Ph.D.</h3>
+              <h3 class="card-text">Héctor Allende, PhD</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/WENCESLAO_PALMA.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="profesors.html">View Profile</a></button>
+                <button id="profile"><a href="leadResearchers.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Wenceslao Palma, Ph.D.</h3>
+              <h3 class="card-text">Wenceslao Palma, PhD</h3>
             </div>
           </div>`)
   }); // researchers profesors
@@ -216,7 +216,7 @@ $(document).ready(function() {
               </div>
             </div>            
             <div class="card-body">
-              <h3 class="card-text">Juan Pavez, Ph.D(c)</h3>
+              <h3 class="card-text">Juan Pavez, PhD(c)</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
@@ -227,7 +227,7 @@ $(document).ready(function() {
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Sebastián Rodriguez, BCSc</h3>
+              <h3 class="card-text">Sebastián Rodríguez, BCSc</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
@@ -238,7 +238,7 @@ $(document).ready(function() {
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Sofía Zamora, Ph.D(c)</h3>
+              <h3 class="card-text">Sofía Zamora, PhD(c)</h3>
             </div>
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
@@ -249,7 +249,7 @@ $(document).ready(function() {
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Barbara Kremeyer, Ph.D.</h3>
+              <h3 class="card-text">Barbara Kremeyer, PhD</h3>
             </div>
           </div>`);
   }); // associated researchers
@@ -263,15 +263,17 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Humberto Gonzales</h5>
-                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Humberto is currently Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
+                <p class="card-text">Humberto is an undergraduate student in computer engineering at the Pontificia Universidad Católica
+                de Valparaiso. Humberto is currently working as a front-end software developer for WriteWise under the supervision of Dr. Allende.</p>
               </div>      
             </div>
           </div>    
           <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 otherResearchersCard">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Jose Campusano</h5>
-                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Jose  is currently  Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
+                <h5 class="card-title">José Campusano</h5>
+                <p class="card-text">José is an undergraduate student in computer engineering at the Pontificia Universidad Católica de
+                Valparaiso. José is currently working as a front-end software developer for WriteWise under the supervision of Dr. Allende.</p>
               </div>      
             </div>
           </div>
@@ -279,7 +281,8 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Francisco Escobar</h5>
-                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Francisco  is currently  Software front-end Developer at WriteWise under the supervision of Dr. Allende.</p>
+                <p class="card-text">Francisco is an undergraduate student in computer engineering at the Pontificia Universidad Católica de
+                Valparaiso. Francisco is currently working as a front-end software developer for WriteWise under the supervision of Dr. Allende.</p>
               </div>      
             </div>
           </div>
@@ -287,7 +290,8 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Patricio Araya</h5>
-                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Patricio  is currently  Machine Learning Software Developer at WriteWise under the supervision of Dr. Allende.</p>
+                <p class="card-text">Patricio is an undergraduate student in computer engineering at the Pontificia Universidad Católica de
+                Valparaiso. Patricio is currently working as a machine-learning software developer for WriteWise under the supervision of Dr. Allende.</p>
               </div>      
             </div>
           </div>
@@ -295,7 +299,8 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Jorge Montiel</h5>
-                <p class="card-text">Undergraduate student Informatic Engeneering at Pontificia Universidad Católica de Valparaiso (PUCV). Jorge  is currently  Machine Learning Software Developer at WriteWise under the supervision of Dr. Allende.</p>
+                <p class="card-text">Jorge is an undergraduate student in computer engineering at the Pontificia Universidad Católica de
+                Valparaiso. Jorge is currently working as a machine-learning software developer for WriteWise under the supervision of Dr. Allende.</p>
               </div>      
             </div>
           </div>
@@ -303,7 +308,7 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Jorge Ortiz</h5>
-                <p class="card-text">Undergraduate student Linguistics Potificia Universidad Catolica de Chile (PUC). Past-Intern.</p>
+                <p class="card-text">Jorge is an undergraduate student in linguistics at the Potificia Universidad Catolica de Chile. Past-Intern.</p>
               </div>      
             </div>
           </div>
@@ -311,7 +316,7 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Dominiquo Santistevan</h5>
-                <p class="card-text">BCSc Massachusetts Institute of Technology (MIT) BCSc. Past-Intern as part of the MISTI program.</p>
+                <p class="card-text">Dominiquo holds a BCSc from the Massachusetts Institute of Technology. Past-Intern through the MISTI program.</p>
               </div>      
             </div>
           </div>
@@ -319,7 +324,8 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Amparo Galdames Fermandois</h5>
-                <p class="card-text">Spanish Language and Communication Teacher, Bachelor's degree in Language and Literature. Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+                <p class="card-text">Amparo holds a Bachelor of Language and Literature and is a Spanish Language and Communications
+                instructor. Amparo is currently enrolled in the Master of Applied Linguistics Program at the Pontificia Universidad Católica de Valparaíso.</p>
               </div>      
             </div>
           </div>
@@ -327,7 +333,8 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Grace Wilson Fredes</h5>
-                <p class="card-text">English-Spanish Translator, Bachelor's degree in English Language.Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+                <p class="card-text">Grace holds a Bachelor of English and is an English-Spanish Translator. Grace is currently enrolled in the 
+                Master of Applied Linguistics Program at the Pontificia Universidad Católica de Valparaíso.</p>
               </div>      
             </div>
           </div>
@@ -335,7 +342,8 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Fernando Lillo Fuentes</h5>
-                <p class="card-text">Spanish Language and Communication Teacher, Bachelor's degree in Language and Literature. Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+                <p class="card-text">Fernando holds a Bachelor of Language and Literature and is a Spanish and Communications Instructor.
+                Fernando is currently enrolled in the Master of Applied Linguistics Program at the Pontificia Universidad Católica de Valparaíso.</p>
               </div>      
             </div>
           </div>
@@ -343,7 +351,7 @@ $(document).ready(function() {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Pablo Fuenzalida González</h5>
-                <p class="card-text">English Language Teacher, Currently enroled in Applied Linguistics Master at Pontificia Universidad Católica de Valparaíso.</p>
+                <p class="card-text">Pablo is an English instructor and is currently enrolled in the Master of Applied Linguistics Program at the Pontificia Universidad Católica de Valparaíso.</p>
               </div>      
             </div>
           </div>`);
@@ -355,77 +363,119 @@ $(document).ready(function() {
     $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
     $('#coreteam span').css('display','none');  
     $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
-              <div class="card-body"><h5 class="card-title">Hernan Gonzales</h5><p class="card-text">MD, PhD. Dr. Gonzales is Associate Professor 
-              - Research Director, Department of Head and Neck Surgery at Pontificia Universidad Católica. Dr. Gonzales is also Founder of GeneproDX, 
-              a biotech startup that commercializes new assays for personalized medicine used for the diagnosis and prognosis of solid tumors. 
-              Dr. Gonzales is currently WriteWise´s advisor.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
-              <div class="card"><div class="card-body"><h5 class="card-title">Rodrigo Rojas</h5><p class="card-text">Industrial Engineer at Universidad de Chile. 
-              Mr. Rojas is the founder and CEO of TimeHunter with more than 20 years of experience in sale, marketing, and CRM. He is currently WriteWise´s Mentor.</p>
-              </div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
-              <h5 class="card-title">Andrés Levineri</h5><p class="card-text">in an Informatic Engineer and Graphic Designer with more than 10 years of experience. 
-              He is currently WriteWise´s Graphic Content Developer.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
-              <div class="card"><div class="card-body"><h5 class="card-title">Oscar Lynch</h5><p class="card-text">Lawyer at Universidad de Concepcion. 
-              Mr. Lynch has been an Accounting and Financial Lawyer for more than 10 years. Mr. Lynch is currently WriteWise´s Lawyer Advisor.</p>
-              </div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
-              <h5 class="card-title">Miguel Pavez</h5><p class="card-text">Master in Finance, Master in Taxation, Corporate Accountant, Finance and Administration Manager, 
-              Consultant. Mr. Pavez is currently WriteWise´s Senior Accounting Manager Advisor.</p></div></div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
-              <div class="card-body"><h5 class="card-title">Kendrick Lanyi-Grünfeldt</h5><p class="card-text">Is Commercial Engineer at Universidad de Chile and Master in Strategic Management at New York 
-              University, Stern School of Business. Lanyi-Grünfeldt has over 40 year of experience in strategic bussiness: models, growth, planning, management, mergers & acquisitions; having worked in 
-              executive level management position in prestigious business such as Bonafide, Nestlé, Carter Holt Harvey, among many others.</p></div></div></div>`);
+              <div class="card-body"><h5 class="card-title">Hernán González, MD and PhD</h5><p class="card-text">Dr. González is an Associate Professor and Research Director for the Department of Head and Neck
+              Surgery at the Pontificia Universidad Católica. Dr. González is also the Founder of GeneproDX, a biotech startup that develops new personalized-medicine assays for diagnosing and establishing the prognosis of
+              solid tumors. Dr. González is currently an advisor for WriteWise.</p></div>
+
+              </div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
+              <div class="card"><div class="card-body"><h5 class="card-title">Rodrigo Rojas</h5><p class="card-text">Mr. Rodrigo Rojas completed his studies as an Industrial Engineer 
+              at the Universidad de Chile. Mr. Rojas is the founder and CEO of TimeHunter and has more than 20 years of experience in sales, marketing,
+              and CRM. Mr. Rojas is currently an ImagineLab Mentor for WriteWise.</p>
+              </div></div></div>
+
+              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
+              <h5 class="card-title">Andrés Levineri</h5><p class="card-text">Andrés is a Computer Engineer and Graphic Designer with more than ten years of experience. He is
+              currently the Graphic Content Developer for WriteWise.</p></div></div></div>
+
+              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
+              <div class="card"><div class="card-body"><h5 class="card-title">Oscar Lynch</h5><p class="card-text">Mr. Oscar Lynch is a Lawyer, having completed his degree at the Universidad de Concepcion. Mr. Lynch
+              has more than ten years of experience as an Accounting and Financial Lawyer. Mr. Lynch is currently serving as a Legal Advisor for WriteWise.</p>
+              </div></div></div>
+
+              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
+              <h5 class="card-title">Miguel Pavez</h5><p class="card-text">Mr. Miguel Pavez holds a Master’s in Finance and Master’s in Accounting. Mr. Pavez has worked as a
+              corporate accountant, finance and administration manager, and as an independent consultant. Mr.
+              Pavez is currently serving as the Financial Accountant for WriteWise.</p></div></div></div>
+
+              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
+              <div class="card-body"><h5 class="card-title">Kendrick Lanyi-Grünfeldt</h5><p class="card-text">Mr. Kendrik Lanyi-Grünfeldt is a Commercial Engineer, having completed his degree at the Universidad
+              de Chile, and holds a Master’s in Strategic Management from the Stern School of Business at New York University. Mr. Lanyi-Grünfeldt has over 40 years of experience in business strategy, including business
+              models, growth, planning, management, and mergers and acquisitions. Mr. Lanyi-Grünfeldt has worked in executive-level management positions at various prestigious businesses, including Bonafide, Nestlé,
+              and Carter Holt Harvey, among others. Mr. Lanyi-Grünfeldt is currently an ImagineLab Mentor for WriteWise.</p></div></div></div>`);
   });
 
   // imprimiendo informacion al hacer click en cada tarjeta
-  $('#information').append(`<div class="textInfo"><p>We use Machine Learning and Computational Linguistics that work together in the area of Natural
-              Language Processing applied to the modelling and correction of Scientific Writing. Our work spans from: </p>
-              <p>1. Novel approaches for textual data representation for scientific articles:</p>
-              <p>Word embeddings to Deep/Machine Learning models for Natural Language Processing tasks.</p>
-              <p>Graph-based representations with a focus on using graphs whose vertices represent words and whose edges represent co-occurrence relations between
-              pairs of words. This approach selects cohesive subsets of words and has several applications on text structure.</p>
-              <p>2. Novel computational approaches for scientific articles analysis. We specialized our research on:</p>
-              <ul><li>Discourse Segmentation</li><li>Automatic Punctuation Analysis</li><li>Text Rule Mining</li><li>Topic Modelling</li><li>Readability/Coherence Classification</li></ul>
-              <p>This area is lead by Dr. Hector Allende. Team members involved in this R+D+i area are:</p><ul><li>Dr. Hector Allende</li>
-              <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr(c) Juan Pavez</li><li>Sebastian Rodriguez, BCSc.</li>
-              <li>Humberto Gonzales (undergraduate)</li><li>Jose Campusano (undergraduate)</li><li>Francisco Escobar (undergraduate)</li>
-              <li>Patricio Araya (undergraduate)</li><li>Jorge Montiel (undergraduate)</li></ul></div>`);
+  $('#information').append(`<div class="textInfo"><pWe combine machine learning and computational linguistics within the framework of natural language
+              processing, as applied to modelling and revising the writing process and scientific texts. This line of research applies the following methodologies: </p>
+              <p>1. Novel approaches for representing textual data from scientific articles:</p>
+              <ul><li>Word embeddings combined with deep/machine learning models for natural language processing tasks.</li>
+              <li>Graph-based representations</li></ul>
+              <p>2. Novel computational approaches for analyzing scientific articles, with specific investigative focus on:</p>
+              <ul><li>Discourse Segmentation</li><li>Automatic Punctuation Analysis</li><li>Rule-based Text Mining</li><li>Topic Modelling</li><li>Readability/Coherence Classification</li></ul>
+              <p>This research line is led by Prof. Héctor Allende. The team members involved in this R+D+i area include:</p><ul><li>Prof. Héctor Allende</li>
+              <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr.(c) Juan Pavez</li><li>Sebastián Rodríguez, BCSc</li>
+              <li>Humberto Gonzales (BCSs undergraduate)</li><li>Jose Campusano (BCSs undergraduate)</li><li>Francisco Escobar (BCSs undergraduate)</li>
+              <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul><div id="LSTM">
+              <img src="assets/img/ourRD/LSTM.png" alt="LSTM">
+              <p><strong>Figure 1.</strong> The WriteWise long short-term memory (LSTM) unit for constructing recurrent neuronal networks for scientific article analyses. These units not only have inputs () and outputs (), but can also have a shared status () among all units within the same layer. This point, together with the processing of LSTM gates, provides each unit with short-term memory, which is crucial for calculating outputs ().</p>
+            </div>
+            <div id="arqui">
+              <img src="assets/img/ourRD/Arqui.png" alt="deep-learning_architecture">
+              <p><strong>Figure 2.</strong> The WriteWise deep-learning architecture applied to natural language processing tasks for scientific article analyses. The architecture is separated into three layers: (1) Input Layer: uses word embeddings and trait vectors to generate an input sequence; (2) Hidden Layer: composed of a bidirectional long short-term memory (LSTM) sub-layer, followed by a unidirectional network of LSTM units; and (3) Output Layer: composed of a few neurons that indicate the probability of a given sequence of words (Input Layer) being followed by a punctuation mark.</p>
+            </div>
+            <div id="gow">
+              <img src="assets/img/ourRD/graph_word.png" alt="Graph_of_words">
+              <p><strong>Figure 3.</strong> Graph of words (GoW) for a scientific article. Our team has developed new algorithms and codes based on graph-theory representations of text that capture term dependencies and ordering. Shown is the k-core decomposition of a GoW, which defines hierarchy levels of increasing cohesiveness. The main core retains the GoW members with the highest levels of importance, which can work as text keywords. This figure and its contents have been simplified due to copyright.</p>
+            </div></div>`);
   $('.linguistic').addClass('activeBtn');
   $('#linguistic').click(function() {
     $('#information').html('');
-    $('#information').append(`<div class="textInfo"><p>We use Machine Learning and Computational Linguistics that work together in the area of Natural
-              Language Processing applied to the modelling and correction of Scientific Writing. Our work spans from: </p>
-              <p>1. Novel approaches for textual data representation for scientific articles:</p>
-              <p>Word embeddings to Deep/Machine Learning models for Natural Language Processing tasks.</p>
-              <p>Graph-based representations with a focus on using graphs whose vertices represent words and whose edges represent co-occurrence relations between
-              pairs of words. This approach selects cohesive subsets of words and has several applications on text structure.</p>
-              <p>2. Novel computational approaches for scientific articles analysis. We specialized our research on:</p>
-              <ul><li>Discourse Segmentation</li><li>Automatic Punctuation Analysis</li><li>Text Rule Mining</li><li>Topic Modelling</li><li>Readability/Coherence Classification</li></ul>
-              <p>This area is lead by Dr. Hector Allende. Team members involved in this R+D+i area are:</p><ul><li>Dr. Hector Allende</li>
-              <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr(c) Juan Pavez</li><li>Sebastian Rodriguez, BCSc.</li>
-              <li>Humberto Gonzales (undergraduate)</li><li>Jose Campusano (undergraduate)</li><li>Francisco Escobar (undergraduate)</li>
-              <li>Patricio Araya (undergraduate)</li><li>Jorge Montiel (undergraduate)</li></ul></div>`);
+    $('#information').append(`<div class="textInfo"><pWe combine machine learning and computational linguistics within the framework of natural language
+              processing, as applied to modelling and revising the writing process and scientific texts. This line of research applies the following methodologies: </p>
+              <p>1. Novel approaches for representing textual data from scientific articles:</p>
+              <ul><li>Word embeddings combined with deep/machine learning models for natural language processing tasks.</li>
+              <li>Graph-based representations</li></ul>
+              <p>2. Novel computational approaches for analyzing scientific articles, with specific investigative focus on:</p>
+              <ul><li>Discourse Segmentation</li><li>Automatic Punctuation Analysis</li><li>Rule-based Text Mining</li><li>Topic Modelling</li><li>Readability/Coherence Classification</li></ul>
+              <p>This research line is led by Prof. Héctor Allende. The team members involved in this R+D+i area include:</p><ul><li>Prof. Héctor Allende</li>
+              <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr.(c) Juan Pavez</li><li>Sebastián Rodríguez, BCSc</li>
+              <li>Humberto Gonzales (BCSs undergraduate)</li><li>Jose Campusano (BCSs undergraduate)</li><li>Francisco Escobar (BCSs undergraduate)</li>
+              <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul></div><div id="LSTM">
+              <img src="assets/img/ourRD/LSTM.png" alt="LSTM">
+              <p><strong>Figure 1.</strong> The WriteWise long short-term memory (LSTM) unit for constructing recurrent neuronal networks for scientific article analyses. These units not only have inputs () and outputs (), but can also have a shared status () among all units within the same layer. This point, together with the processing of LSTM gates, provides each unit with short-term memory, which is crucial for calculating outputs ().</p>
+            </div>
+            <div id="arqui">
+              <img src="assets/img/ourRD/Arqui.png" alt="deep-learning_architecture">
+              <p><strong>Figure 2.</strong> The WriteWise deep-learning architecture applied to natural language processing tasks for scientific article analyses. The architecture is separated into three layers: (1) Input Layer: uses word embeddings and trait vectors to generate an input sequence; (2) Hidden Layer: composed of a bidirectional long short-term memory (LSTM) sub-layer, followed by a unidirectional network of LSTM units; and (3) Output Layer: composed of a few neurons that indicate the probability of a given sequence of words (Input Layer) being followed by a punctuation mark.</p>
+            </div>
+            <div id="gow">
+              <img src="assets/img/ourRD/graph_word.png" alt="Graph_of_words">
+              <p><strong>Figure. 3.</strong> Graph of words (GoW) for a scientific article. Our team has developed new algorithms and codes based on graph-theory representations of text that capture term dependencies and ordering. Shown is the k-core decomposition of a GoW, which defines hierarchy levels of increasing cohesiveness. The main core retains the GoW members with the highest levels of importance, which can work as text keywords. This figure and its contents have been simplified due to copyright.</p>
+            </div>`);
+  $('.linguistic').addClass('activeBtn');
     $('.linguistic').addClass('activeBtn');
     $('.bigdata').removeClass('activeBtn');
     $('.deepLearning').removeClass('activeBtn');
   });
   $('#bigdata').click(function() {
     $('#information').html('');
-    $('#information').append(`<div class="textInfo"><p>We use functional and applied discursive frameworks combined with Corpus analysis,
-              Computational Linguistics, and Natural Language Processing approaches for successfully
-              accomplish the discursive and linguistics requirements of the academic and scientific genres
-              through empirical-based research. Our work spans from identification and comprehension of the:</p>
-              <p>Communicative purposes and the lexical-grammar features that constitute a written genre in a scientific discipline.</p>
-              <p>Textual and discursive analysis of the academic and scientific genres</p>
-              <p>This area is led by Prof. Rene Venegas, PhD. Team members involved in this R+D+I area are:</p>
-              <ul><li>Dr. Eduardo Fuentes</li><li>Dr. Barbara Kremeyer</li><li>Dr(c) Sofia Zamora</li><li>Ashley VanCott, BA</li>
-              <li>Grace Wilson, BA</li><li>Amparo Galdames, BA</li><li>Fernando Lillo, BA</li><li>Pablo Fuenzalida, BA</li></ul></div>`)
+    $('#information').append(`<div class="textInfo"><p>We use functional and applied discursive frameworks, combined with corpus analysis, computational
+              linguistics, and natural language processing approaches, to empirically determine the discursive and linguistics norms and requirements of academic and 
+              scientific texts. This line of research seeks to identify and comprehend the:</p>
+              <p>1. Communicative purposes and lexical-grammar features that constitute written texts in distinct scientific disciplines.</p>
+              <p>2. Textual and discursive foundations of academic and scientific texts.</p>
+              <p>This research line is led by Prof. René Venegas. The team members involved in this R+D+i area include:</p>
+              <ul><li>Dr. Eduardo Fuentes</li><li>Dr. Barbara Kremeyer</li><li>Dr.(c) Sofía Zamora</li><li>Ashley VanCott, BA</li>
+              <li>Grace Wilson, BA</li><li>Amparo Galdames, BA</li><li>Fernando Lillo, BA</li><li>Pablo Fuenzalida, BA</li></ul> <div id="sistEtiquetado">
+                <img src="assets/img/ourRD/sistema_etiqueado.png" alt="">
+                <p><strong>Figure 1.</strong> Academic discourse tagging system. Our group has developed a new tagging system for sentences in scientific articles, where each sentence has a function definable through unique subsets of words. This figure and its contents have been simplified due to copyright.</p>
+              </div>
+              <div id="modeloDiscursivo">
+                <img src="assets/img/ourRD/Modelo_discursivo.png" alt="">
+                <p><strong>Figure 2.</strong> Academic discourse model. Our group has developed a novel model for writing cientific articles – each section is subdivided by N number of subsections, with each subsection having N number of linguistic functions, represented by N number of sentences, and as composed by N number and combination of words. This figure and its contents have been simplified due to copyright.</p>
+              </div></div>`)
     $('.linguistic').removeClass('activeBtn');
     $('.deepLearning').removeClass('activeBtn');
     $('.bigdata').addClass('activeBtn');
   });
   $('#deepLearning').click(function() {
     $('#information').html('');
-    $('#information').append(`<div class="textInfo"><p>We use scientometrics combined with Natural Language Processing to predict scientific
-              publications impact and recognition.</p>
-              <p>Team members involved in this research area are:</p><ul><li>Dr. Eduardo Fuentes</li><li>Juan Pablo Bascur, MSc.</li></ul></div>`)
+    $('#information').append(`<div class="textInfo"><p>We use scientometrics combined with natural language processing to predict the impact and recognition
+              of scientific publications.</p>
+              <p>The team members involved in this R+D+i area include:</p><ul><li>Dr. Eduardo Fuentes</li><li>Juan Pablo Bascur, MSc</li></ul>
+              <div id="networkNodes"><img src="assets/img/ourRD/natural_language.png" alt="networkNodes">
+                <p><strong>Figure 1.</strong> Similarity network between an unpublished paper (query) and two academic journals. Network nodes indicate the similarity of the query paper with manuscripts from the selected journals, where closer nodes represent greater similarity (i.e., more neighbor nodes). This similarity network is based on a novel “journal thumbprints” algorithm, which allows comparisons and similarity predictions between query papers and target journals. With our new method, we can detect N number of words, sentences, and paragraphs, among other traits, and plot these features against different journals, considering factors such as quartiles (Qs), citations, etc. This figure and its contents have been simplified due to copyright.</p>
+              </div></div>`)
     $('.linguistic').removeClass('activeBtn');
     $('.bigdata').removeClass('activeBtn');
     $('.deepLearning').addClass('activeBtn');
