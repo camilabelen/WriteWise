@@ -2,7 +2,6 @@ h2{
   font-weight: 700;
   font-size: 2.5rem;
 }
-
 /*HOME*/
 #homeMISTI{
   background-color: #203F75;
@@ -44,9 +43,14 @@ h2{
 .bulletList1{
   margin-top: 4em;
 }
-.bulletList1 .svg-inline--fa{
-  font-size: 0.6em;
-  vertical-align: middle;
+.bulletList1 .svg-inline--fa.fa-w-16{
+  width: 0.5em;
+}
+.bulletList1 ul li{
+  list-style: none;
+}
+.bulletList1{
+  text-indent: -0.8em;
 }
 /*about the internship*/
 #internship{
@@ -57,9 +61,17 @@ h2{
   margin-bottom: 1em;
 }
 .bulletList2{
-  margin-top: 2em;
+  margin-top: 2em; 
 }
-
+.bulletList2 ul li{
+  list-style: none;
+}
+.bulletList2 .svg-inline--fa.fa-w-16{
+  width: 0.5em;
+}
+.bulletList2{
+  text-indent: -0.8em;
+}
 /*INTERN PROFILE*/
 #internProfile{
   color: #21315B;

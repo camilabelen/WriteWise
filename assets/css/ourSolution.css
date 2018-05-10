@@ -4,7 +4,9 @@ h2{
 }
 /*HOME*/
 #homeOurSolution{
-  background-color: #203F75;
+  background-image: url(../img/ourSolution/portada_oursolution.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 8em;
   color: #FFFFFF;
   height: 100vh;
@@ -35,6 +37,7 @@ h2{
 #beneficiaries .beneficiary img{
   width: 80%;
   margin: 3em 0 2em 2em;
+  border-radius: 50%;
 }
 .beneficiary p{
   width: 90%;
@@ -43,7 +46,8 @@ h2{
 }
 /*features and Benefits*/
 #featuresBenefits h2{
-  margin-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 #featuresBenefits img{
   width: 100%;
@@ -65,10 +69,10 @@ h2{
 }
 .comparison{
   margin-left: 7em;
-  margin-top: 3em;
+  margin-top: 4em;
 }
 .comparison p{
-  padding-top: 3em;
+  padding-top: 4em;
 }
 .shadowSeparator{
   -webkit-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
@@ -86,20 +90,68 @@ h2{
   background: -webkit-radial-gradient(50% -3%, ellipse cover, rgba(0,0,0, 0.14), rgba(255, 255, 255, 0.0) 60%);
   background: radial-gradient(ellipse at 50% -3%, rgba(0, 0, 0, 0.14), rgba(255, 255, 255, 0.0) 60%);
 }
+.withoutL{
+  text-align: right;
+}
+.withR{
+  margin-left: 1.2em;
+}
 /*how it works*/
 #howItWorks{
   margin-bottom: 5em;
 }
-#howItWorks #diagram img{
-  width: 100%;
+#howItWorks p{
+  text-align-last: center;
+}
+#howItWorks h2{
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+#diagram img:first-child{
+  width: 60%;
+  height: 56em;
+  margin: 4em 0 5em 15em;
+}
+#diagram img:last-child{
+  width: 60%;
+  height: 56em;
+  margin: 4em 0 5em 15em;
 }
 /*elearning course*/
+#eLearningCourse h2{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
 #eLearningCourse img{
   width: 100%;
 }
+#eLearningCourse ul{
+  margin-top: 10em;
+  list-style: none;
+  margin-left: 1em;
+  text-indent: -0.8em;
+  margin-left: 8em;
+  font-size: 1.2em;
+}
 /*software*/
+#wwSoftware h2{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
 #wwSoftware img{
   width: 100%;
+  margin-left: 8em;
+}
+#wwSoftware ul{
+  margin-top: 10em;
+  list-style: none;
+  margin-left: 5em;
+  text-indent: -0.8em;
+  padding-left:0;
+  font-size: 1.2em;
+}
+.svg-inline--fa.fa-w-16{
+  width: 0.5em;
 }
 @media only screen and (max-device-width: 320px){
   h2{
@@ -145,6 +197,53 @@ h2{
   }
   .withoutL{
     margin-left:-0.6em;
+  }
+  .withR{
+    margin-left: 0;
+  }
+  #diagram img:last-child{
+    width: 100%;
+    height: 46em;
+    margin: 4em 0 3.5em 0;
+  }
+  /*elearning course*/
+  #eLearningCourse h2{
+    margin-bottom: 2em;
+  }
+  #eLearningCourse img{
+    width: 100%;
+  }
+  #eLearningCourse ul{
+    margin-top: 0;
+    list-style: none;
+    margin-left: 0.5em;
+    margin-bottom: 1.8em;
+    text-indent: -0.8em;
+    font-size: 0.95em;
+    padding-left: 0.8em;
+  }
+  /*software*/
+  #wwSoftware h2{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #wwSoftware img{
+    width: 100%;
+    margin-left: 0;
+  }
+  #wwSoftware ul{
+    margin-top: 2em;
+    list-style: none;
+    margin-left: 0.8em;
+    text-indent: -0.8em;
+    padding-left: 0;
+    font-size: 0.95em;
+  }
+  #howItWorks h2{
+    margin-top: 2em;
+  }
+  #howItWorks p{
+    text-align: justify;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px){
@@ -195,6 +294,53 @@ h2{
   .withoutL{
     margin-left:-0.6em;
   }
+  .withR{
+    margin-left: 0;
+  }
+  #diagram img:last-child{
+    width: 100%;
+    height: 51em;
+    margin: 4em 0 3.5em 0;
+  }
+  /*elearning course*/
+  #eLearningCourse h2{
+    margin-bottom: 2em;
+  }
+  #eLearningCourse img{
+    width: 100%;
+  }
+  #eLearningCourse ul{
+    margin-top: 0;
+    list-style: none;
+    margin-left: 0.5em;
+    margin-bottom: 1.8em;
+    text-indent: -0.8em;
+    font-size: 0.95em;
+    padding-left: 0.8em;
+  }
+  /*software*/
+  #wwSoftware h2{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #wwSoftware img{
+    width: 100%;
+    margin-left: 0;
+  }
+  #wwSoftware ul{
+    margin-top: 2em;
+    list-style: none;
+    margin-left: 0.8em;
+    text-indent: -0.8em;
+    padding-left: 0;
+    font-size: 0.95em;
+  }
+  #howItWorks h2{
+    margin-top: 2em;
+  }
+  #howItWorks p{
+    text-align: justify;
+  }
 }
 @media only screen and (min-device-width: 376px) and (max-device-width: 425px){
   h2{
@@ -244,10 +390,62 @@ h2{
   .withoutL{
     margin-left:-0.6em;
   }
+  .withR{
+    margin-left: 0;
+  }
+  #diagram img:last-child{
+    width: 100%;
+    height: 54em;
+    margin: 4em 0 3.5em 0;
+  }
+  /*elearning course*/
+  #eLearningCourse h2{
+    margin-bottom: 2em;
+  }
+  #eLearningCourse img{
+    width: 100%;
+  }
+  #eLearningCourse ul{
+    margin-top: 0;
+    list-style: none;
+    margin-left: 0.5em;
+    margin-bottom: 1.8em;
+    text-indent: -0.8em;
+    font-size: 0.95em;
+    padding-left: 0.8em;
+  }
+  /*software*/
+  #wwSoftware h2{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  #wwSoftware img{
+    width: 100%;
+    margin-left: 0;
+  }
+  #wwSoftware ul{
+    margin-top: 2em;
+    list-style: none;
+    margin-left: 0.8em;
+    text-indent: -0.8em;
+    padding-left: 0;
+    font-size: 0.95em;
+  }
+  #howItWorks h2{
+    margin-top: 2em;
+  }
+  #howItWorks p{
+    text-align: justify;
+  }
 }
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px){
   h2{
     font-size: 1.8em;
+  }
+  #beneficiaries .beneficiary img {
+    width: 80%;
+    margin: 3em 0 2em 1.5em;
+    border-radius: 50%;
   }
   /*features and Benefits*/
   #featuresBenefits h2{
@@ -266,12 +464,20 @@ h2{
   #withWithout .without, #withWithout .with{
     left: 1.5em;
   }  
+  #withWithout .without h3 {
+    padding-right: 3em;
+    margin-right: 1em;
+  }
+  #withWithout .with h3 {
+    padding-left: 1.5em;
+  }
   .comparison{
     margin-left:0;
-    margin-top: 3em;
+    margin-top: 4em;
+    font-size: 0.95em;
   }
   .comparison p{
-    padding-top: 4em;
+    padding-top: 2.7em;
   }
   .shadowSeparator{
     -webkit-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
@@ -289,12 +495,44 @@ h2{
     background: -webkit-radial-gradient(50% -3%, ellipse cover, rgba(0,0,0, 0.14), rgba(255, 255, 255, 0.0) 60%);
     background: radial-gradient(ellipse at 50% -3%, rgba(0, 0, 0, 0.14), rgba(255, 255, 255, 0.0) 60%);
   }
-
   #beneficiaries h2, 
   #eLearningCourse h2, 
   #wwSoftware h2, 
   #howItWorks h2 {
     margin-top: 3em;
     margin-bottom: 2em;
+  }
+  /*elearning course*/
+  #eLearningCourse ul{
+    margin-top: 1em;
+    list-style: none;
+    text-indent: -0.8em;
+    margin-left: 0;
+    font-size: 0.95em;
+  }
+  /*software*/
+  #wwSoftware h2{
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #wwSoftware img{
+    width: 100%;
+    margin-left: 0;
+  }
+  #wwSoftware ul{
+    margin-top: 3em;
+    list-style: none;
+    margin-left: 2em;
+    text-indent: -0.8em;
+    padding-left:0;
+    font-size: 0.95em;
+  }
+  .svg-inline--fa.fa-w-16{
+    width: 0.5em;
+  }
+  #diagram img:first-child{
+    width: 90%;
+    height: 55em;
+    margin: 4em 0 5em 2em;
   }
 }
