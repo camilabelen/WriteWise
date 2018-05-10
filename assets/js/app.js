@@ -408,13 +408,9 @@ $(document).ready(function() {
               <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul><div id="LSTM">
               <img src="assets/img/ourRD/LSTM.png" alt="LSTM">
               <p><strong>Figure 1.</strong> The WriteWise long short-term memory (LSTM) unit for constructing recurrent neuronal networks for scientific article analyses. These units not only have inputs () and outputs (), but can also have a shared status () among all units within the same layer. This point, together with the processing of LSTM gates, provides each unit with short-term memory, which is crucial for calculating outputs ().</p>
-            </div>
-            <div id="arqui">
-              <img src="assets/img/ourRD/Arqui.png" alt="deep-learning_architecture">
+            </div><div id="arqui"><img src="assets/img/ourRD/Arqui.png" alt="deep-learning_architecture">
               <p><strong>Figure 2.</strong> The WriteWise deep-learning architecture applied to natural language processing tasks for scientific article analyses. The architecture is separated into three layers: (1) Input Layer: uses word embeddings and trait vectors to generate an input sequence; (2) Hidden Layer: composed of a bidirectional long short-term memory (LSTM) sub-layer, followed by a unidirectional network of LSTM units; and (3) Output Layer: composed of a few neurons that indicate the probability of a given sequence of words (Input Layer) being followed by a punctuation mark.</p>
-            </div>
-            <div id="gow">
-              <img src="assets/img/ourRD/graph_word.png" alt="Graph_of_words">
+            </div><div id="gow"><img src="assets/img/ourRD/graph_word.png" alt="Graph_of_words">
               <p><strong>Figure 3.</strong> Graph of words (GoW) for a scientific article. Our team has developed new algorithms and codes based on graph-theory representations of text that capture term dependencies and ordering. Shown is the k-core decomposition of a GoW, which defines hierarchy levels of increasing cohesiveness. The main core retains the GoW members with the highest levels of importance, which can work as text keywords. This figure and its contents have been simplified due to copyright.</p>
             </div></div>`);
   $('.linguistic').addClass('activeBtn');

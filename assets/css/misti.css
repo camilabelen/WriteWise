@@ -2,6 +2,38 @@ h2{
   font-weight: 700;
   font-size: 2.5rem;
 }
+/* DOTS MENU
+----------------------------------------*/
+.lateralDots{
+  position: fixed;
+  top: 45%;
+  left: 97%;
+}
+.dots{  
+  text-align: left;
+}
+.dots ul{
+  padding-left: 1em;
+}
+.dots ul li{
+  list-style: none;
+}
+.dots ul li a{
+  color: #BBBBBB;
+  transition: all 0.8s;
+}
+.dots>ul li a:focus{
+  color: #21315B;
+  transition: all 0.8s;
+}
+.dots ul li a:active{
+  color: #21315B;
+  transition: all 0.3s;
+}
+.dots ul li a .svg-inline--fa{
+  font-size: 0.8em;
+}
+
 /*HOME*/
 #homeMISTI{
   background-color: #203F75;
@@ -105,4 +137,162 @@ h2{
 }
 #moreInfo ul{
   list-style: none;
+}
+@media only screen and (max-device-width: 320px){
+  .lateralDots{
+    position: fixed;
+    top: 92%;
+    left: 0;
+    background-color: #02102B;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    padding-top: 0.8em;
+  }
+  .dots{  
+    text-align: left;
+    display: inline-block;
+    margin-left: 22%;
+    height: 4em;
+  }
+  .dots ul{
+    padding-left: 1em;
+    display: inline-block;
+  }
+  .dots ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.3s;
+  }
+  .dots>ul li a:focus{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px){
+  .lateralDots{
+    position: fixed;
+    top: 92%;
+    left: 0;
+    background-color: #02102B;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    padding-top: 0.8em;
+  }
+  .dots{  
+    text-align: left;
+    display: inline-block;
+    margin-left: 27%;
+    height: 4em;
+  }
+  .dots ul{
+    padding-left: 1em;
+    display: inline-block;
+  }
+  .dots ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.3s;
+  }
+  .dots ul li a:focus{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px){
+  .lateralDots{
+    position: fixed;
+    top: 92%;
+    left: 0;
+    background-color: #02102B;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    padding-top: 0.9em;
+    z-index: 10;
+  }
+  .dots{  
+    text-align: left;
+    display: inline-block;
+    margin-left: 29%;
+    height: 4em;
+  }
+  .dots ul{
+    padding-left: 1em;
+    display: inline-block;
+  }
+  .dots ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.3s;
+  }
+  .dots ul li a:focus{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px){
+  .lateralDots{
+    position: fixed;
+    top: 45%;
+    left: 94%;
+  }
+  .dots{  
+    text-align: left;
+  }
+  .dots ul{
+    padding-left: 1em;
+  }
+  .dots ul li{
+    list-style: none;
+  }
+  .dots ul li a{
+    color: #BBBBBB;
+    transition: all 0.8s;
+  }
+  .dots>ul li a:focus{
+    color: #21315B;
+    transition: all 0.8s;
+  }
+  .dots ul li a:active{
+    color: #21315B;
+    transition: all 0.3s;
+  }
+  .dots ul li a .svg-inline--fa{
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1023px){
+
 }
