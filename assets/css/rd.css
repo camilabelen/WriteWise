@@ -360,6 +360,32 @@ h2{
   h2{
     font-size: 1.8em;
   }
+  #researchGroup{
+    background-image: url('../img/ourRD/fondo_pag_ini_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% top;
+    height: 100vh;
+  }
+  #researchGroup .tl{
+    display: flex;
+    align-items: center;
+    padding-top: 30em;
+    margin-top: 3em;
+    left: -10em;
+  }
+  .tl h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+  .tl h2{
+    color: #FFFFFF;
+    font-size: 1.4em;
+  }
+  .tl span{
+    font-size: 1.2em;
+  }
   .tl img{
     width: 100%;
   }
@@ -563,6 +589,32 @@ h2{
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px){
   h2{
     font-size: 1.8em;
+  }
+  #researchGroup{
+    background-image: url('../img/ourRD/fondo_pag_ini_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 100vh;
+  }
+  #researchGroup .tl{
+    display: flex;
+    align-items: center;
+    padding-top: 30em;
+    margin-top: 3em;
+    left: -10em;
+  }
+  .tl h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.9em;
+  }
+  .tl h2{
+    color: #FFFFFF;
+    font-size: 1.5em;
+  }
+  .tl span{
+    font-size: 1.2em;
   }
   .tl img{
     width: 100%;
@@ -774,6 +826,33 @@ h2{
 @media only screen and (min-device-width: 376px) and (max-device-width: 425px){
   h2{
     font-size: 1.8em;
+  }
+  #researchGroup{
+    background-image: url('../img/ourRD/fondo_pag_ini_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 100vh;
+  }
+  #researchGroup .tl{
+    display: flex;
+    align-items: center;
+    padding-top: 26em;
+    margin-top: 3em;
+    left: -10em;
+  }
+  .tl h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-left: 0.5em;
+  }
+  .tl h2{
+    color: #FFFFFF;
+    font-size: 1.8em;
+  }
+  .tl span{
+    font-size: 1.2em;
   }
   .tl img{
     width: 100%;
@@ -989,9 +1068,14 @@ h2{
   h2{
     font-size: 1.8em;
   }
-  .tl img{
-    width: 100%;
+  #researchGroup{
+    background-image: url('../img/ourRD/fondo_pag_ini_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 100vh;
   }
+
   #ourQuestion{
     background-image: url('../img/ourRD/paper.png');
     background-size: 155%;
