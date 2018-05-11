@@ -33,7 +33,6 @@ h2{
 .dots ul li a .svg-inline--fa{
   font-size: 0.8em;
 }
-
 /* HOME
 ----------------------------------------*/
 #researchGroup{
@@ -1246,8 +1245,8 @@ h2{
 @media only screen and (min-device-width: 1700px){
   #ourQuestion{
     background-image: url('../img/ourRD/paper.png');
-    background-size: 110%;
-    background-position: 90% 105%;
+    background-size: 90%;
+    background-position: 30% 115%;
     background-repeat: no-repeat;
     height: 90vh;
   }
