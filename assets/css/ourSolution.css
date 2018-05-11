@@ -53,7 +53,7 @@ h2{
   text-align-last: center;
   letter-spacing: 0.06em;
 }
-#homeOurSolution button{
+#homeOurSolution a{
   margin-top: 1.4em;
   background-color: transparent;
   border: 2px solid #FFFFFF;
@@ -62,7 +62,7 @@ h2{
   padding: 1em;
   transition: all 0.3s;
 }
-#homeOurSolution button:hover{
+#homeOurSolution a:hover{
   background-color: #FFFFFF;
   color: #21315B;
   transition: all 0.3s;
