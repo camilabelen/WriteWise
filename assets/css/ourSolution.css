@@ -149,6 +149,9 @@ h2{
 .withoutL{
   text-align: right;
 }
+.withR p{
+  border-left: 2px solid #E1E1E1;
+}
 .withR{
   margin-left: 1em;
 }
@@ -236,6 +239,29 @@ h2{
 @media only screen and (max-device-width: 320px){
   h2{
     font-size: 1.8em;
+  }
+  #homeOurSolution{
+    background-image: url(../img/ourSolution/base_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 6em;
+    color: #FFFFFF;
+    height: 100vh;
+  }
+  .feedback_loop{
+    padding:0;
+  }
+  #homeOurSolution img{
+    width: 110%;
+    margin-left: -0.8em;
+  }
+  #homeOurSolution h1{
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+  #homeOurSolution h3{
+    font-size: 1.2em;
   }
   .lateralDots{
     position: fixed;
@@ -368,6 +394,29 @@ h2{
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px){
   h2{
     font-size: 1.8em;
+  }
+  #homeOurSolution{
+    background-image: url(../img/ourSolution/base_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 6em;
+    color: #FFFFFF;
+    height: 100vh;
+  }
+  .feedback_loop{
+    padding:0;
+  }
+  #homeOurSolution img{
+    width: 100%;
+    margin-left: 0em;
+  }
+  #homeOurSolution h1{
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+  #homeOurSolution h3{
+    font-size: 1.2em;
   }
   .lateralDots{
     position: fixed;
@@ -503,6 +552,29 @@ h2{
 @media only screen and (min-device-width: 376px) and (max-device-width: 425px){
   h2{
     font-size: 1.8em;
+  }
+  #homeOurSolution{
+    background-image: url(../img/ourSolution/base_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 6em;
+    color: #FFFFFF;
+    height: 100vh;
+  }
+  .feedback_loop{
+    padding:0;
+  }
+  #homeOurSolution img{
+    width: 100%;
+    margin-left: 0;
+  }
+  #homeOurSolution h1{
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+  #homeOurSolution h3{
+    font-size: 1.2em;
   }
   .lateralDots{
     position: fixed;

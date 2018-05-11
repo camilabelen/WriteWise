@@ -1243,7 +1243,7 @@ h2{
     font-size: 0.8em;
   }
 }
-/*@media only screen and (min-device-width: 1367px){
+@media only screen and (min-device-width: 1700px){
   #ourQuestion{
     background-image: url('../img/ourRD/paper.png');
     background-size: 110%;
@@ -1292,4 +1292,4 @@ h2{
   #ourTeam svg #bigTriangleColor{
     top:-1em;
   }
-}*/
+}
