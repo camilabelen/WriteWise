@@ -1,12 +1,15 @@
+h1{
+  font-size: 2.5rem;
+}
 h2{
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 /* DOTS MENU
 ----------------------------------------*/
 .lateralDots{
   position: fixed;
-  top: 45%;
+  top: 35%;
   left: 97%;
 }
 .dots{  
@@ -38,13 +41,32 @@ h2{
   background-image: url(../img/ourSolution/portada_oursolution.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 100% 23%;
   padding-top: 8em;
   color: #FFFFFF;
   height: 100vh;
 }
 #homeOurSolution h1{
-  margin-top: 5em;
-  text-align: center;
+  margin-top: 47%;
+}
+#homeOurSolution h5{
+  text-align-last: center;
+  letter-spacing: 0.06em;
+}
+#homeOurSolution button{
+  margin-top: 1.4em;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius:0.5em;
+  color: #FFFFFF;
+  padding: 1em;
+  transition: all 0.3s;
+}
+#homeOurSolution button:hover{
+  background-color: #FFFFFF;
+  color: #21315B;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 #beneficiaries, 
 #featuresBenefits, 
@@ -76,6 +98,9 @@ h2{
   margin-left: 1em;
 }
 /*features and Benefits*/
+#featuresBenefits{
+  margin-bottom: 3em;
+}
 #featuresBenefits h2{
   margin-top: 3em;
   margin-bottom: 2em;
@@ -100,10 +125,10 @@ h2{
 }
 .comparison{
   margin-left: 7em;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 .comparison p{
-  padding-top: 4em;
+  padding-top: 3.5em;
 }
 .shadowSeparator{
   -webkit-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
@@ -125,17 +150,37 @@ h2{
   text-align: right;
 }
 .withR{
-  margin-left: 1.2em;
+  margin-left: 1em;
 }
 /*how it works*/
 #howItWorks{
   margin-bottom: 5em;
 }
-#howItWorks p{
+.autoFeedback{
+  border: 2px solid #21315B;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 4em;
+}
+#howItWorks .howDescrip p{
   text-align-last: center;
 }
+.autoFeedback h5{
+  padding-bottom: 0.6em;
+  border-bottom: 2px solid #21315B;
+  text-align:center;
+}
+.autoFeedback ul{
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.autoFeedback li{
+  text-align: justify;
+  list-style: none;
+  font-size: 0.95em;
+}
 #howItWorks h2{
-  margin-top: 3em;
+  margin-top: 0.5em;
   margin-bottom: 1.5em;
 }
 #diagram img:first-child{
@@ -149,9 +194,11 @@ h2{
   margin: 4em 0 5em 15em;
 }
 /*elearning course*/
-#eLearningCourse h2{
-  margin-top: 3em;
+#eLearningCourse{
   margin-bottom: 3em;
+}
+#eLearningCourse h2{
+  margin-bottom: 2em;
 }
 #eLearningCourse img{
   width: 100%;
@@ -165,9 +212,11 @@ h2{
   font-size: 1.2em;
 }
 /*software*/
+#wwSoftware{
+  margin-bottom: 4em;
+}
 #wwSoftware h2{
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 #wwSoftware img{
   width: 100%;
