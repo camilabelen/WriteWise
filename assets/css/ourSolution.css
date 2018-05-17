@@ -334,9 +334,6 @@ h2{
   .comparison p{
     text-align: center;
   }
-  .withR p{
-    border-left: 2px solid #E1E1E1;
-  }
   #eLearningCourse h2 ,#wwSoftware h2{
     font-size: 1.75em;
   }
@@ -633,9 +630,6 @@ h2{
   }
   #featuresBenefits img{
     width: 60%;
-  }
-  .withR p{
-    border-left: 2px solid #E1E1E1;
   }
   .comparison{
     margin-left: 0;
