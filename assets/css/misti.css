@@ -40,6 +40,9 @@ h2{
   padding-top: 8em;
   color: #FFFFFF;
   height: 100vh;
+  background-image: url(../img/mistiApplicants/brain_b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #homeMISTI h1{
   margin-top: 5em;
@@ -47,18 +50,20 @@ h2{
 }
 /*MIT segunda seccion*/
 #MIT{
-  background-color: #1C386A;
+  background-image: url(../img/mistiApplicants/fondo_team.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #FFFFFF;
   text-align: justify;
   text-align-last: center; 
-  height: 100vh;
+  height: 70vh;
 }
 #MIT img{
-  width: 100%;
+  width: 80%;
 }
-.logoWWMIT{
-  margin-top: 8em;
-  margin-bottom: 8em;
+.logoWWMISTI, .logoMIT{
+  margin-top: 9em;
+  margin-bottom: 5em;
 }
 /*BENEFITS*/
 #benefits{
@@ -85,15 +90,36 @@ h2{
   text-indent: -0.8em;
 }
 /*about the internship*/
+.shadowSeparatorInternship{
+  -webkit-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 28px -19px rgba(0,0,0,0.1);
+}
+.shadowSeparatorInternship:after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 80%;
+  height: 3em;
+  left: -10%;
+  right: -10%;
+  background: -webkit-radial-gradient(50% -3%, ellipse cover, rgba(0,0,0, 0.1), rgba(255, 255, 255, 0.0) 60%);
+  background: radial-gradient(ellipse at 50% -3%, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.0) 60%);
+}
 #internship{
   color: #21315B;
+  padding-bottom: 3em;
 }
 #internship h2{
   text-align: center;
+  margin-top: 2em;
   margin-bottom: 1em;
 }
+#internship img{
+  width: 100%;
+}
 .bulletList2{
-  margin-top: 2em; 
+  margin-top: 4em; 
 }
 .bulletList2 ul li{
   list-style: none;
@@ -105,8 +131,14 @@ h2{
   text-indent: -0.8em;
 }
 /*INTERN PROFILE*/
+article{
+  background-image: url(../img/knowMore/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #internProfile{
-  color: #21315B;
+  color: #FFFFFF;
+  padding-bottom: 4em;
 }
 #internProfile h2{
   text-align: center;
@@ -116,29 +148,100 @@ h2{
 .techSkillTl{
   text-align: center;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 .techSkills{
-  text-align: center;
-  margin-bottom: 2em;
+  text-align: center;  
 }
 .techSkills div:first-child{
-  margin-left: 9.5em;
+  margin-left: 6em;
 }
-
+.techSkills div{
+  margin-right: 3em;
+}
+.techSkills img{
+  width: 70%;
+  margin-bottom: 2em;
+}
+.visitRGbtn{
+  margin-top: 4em;
+}
+.visitRGbtn p{
+  padding: 0;
+}
+.visitRGbtn a{
+  color: #21315B;
+  border: 1px solid #E2E2E2;
+  border-radius: 1em;
+}
+.visitRGbtn a:hover{
+  color: #21315B;
+  background-color: #E2E2E2;
+}
 /*MORE INFORMATION*/
 #moreInfo{
-  color: #21315B;
-  height: 70vh;
+  color: #FFFFFF;
+  height: 80vh;
 }
 #moreInfo h2{
   text-align: center;
   margin-top: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 #moreInfo ul{
   list-style: none;
 }
+#moreInfo ul li:hover{
+  color: #FFFFFF;
+}
+#moreInfo a{
+  color: #FFFFFF;
+}
+#moreInfo a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
 @media only screen and (max-device-width: 320px){
+  h2{
+    font-size: 1.8em;
+  }
+  #MIT, #benefits, #internship, #internProfile, #moreInfo{
+    height: auto;
+  }
+  #homeMISTI h1{ 
+    margin-top: 2em;
+    font-size: 2.4em;
+  }
+  #MIT{
+    padding-bottom: 5em;
+  }
+  .logoWWMISTI{
+    margin-top: 4em;
+    margin-bottom: 0;
+  }
+  .logoMIT{
+    margin-top: 2em;
+  }
+  .bulletList2 ul{
+    padding: 0;
+  }
+  .visitRGbtn{
+    margin-top: 2em;
+  }
+  .techSkillTl{
+    margin-bottom: 1em;
+  }
+  .techSkills div{
+    margin-right: 0;
+    margin-left: 1.5em;
+  }
+  .techSkills div:first-child{
+    margin-left: 1.5em;
+  }
+  .techSkills img{
+    margin-bottom: 0;
+    margin-top: 2em;
+  }
   .lateralDots{
     position: fixed;
     top: 92%;
@@ -152,7 +255,7 @@ h2{
   .dots{  
     text-align: left;
     display: inline-block;
-    margin-left: 22%;
+    margin-left: 20%;
     height: 4em;
   }
   .dots ul{
@@ -167,7 +270,7 @@ h2{
     color: #BBBBBB;
     transition: all 0.3s;
   }
-  .dots>ul li a:focus{
+  .dots ul li a:focus{
     color: #21315B;
     transition: all 0.3s;
   }
@@ -176,10 +279,64 @@ h2{
     transition: all 0.3s;
   }
   .dots ul li a .svg-inline--fa{
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+  #moreInfo{
+    padding-bottom: 3em;
+  }
+  #moreInfo h2{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  #moreInfo ul{
+    margin-top: 2.5em;
+    padding:0;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px){
+  h2{
+    font-size: 1.8em;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  #MIT, #benefits, #internship, #internProfile, #moreInfo{
+    height: auto;
+  }
+  #homeMISTI h1{ 
+    margin-top: 2em;
+    font-size: 2.4em;
+  }
+  #MIT{
+    padding-bottom: 5em;
+  }
+  .logoWWMISTI{
+    margin-top: 4em;
+    margin-bottom: 0;
+  }
+  .logoMIT{
+    margin-top: 2em;
+  }
+  .bulletList2 ul{
+    padding: 0;
+  }
+  .visitRGbtn{
+    margin-top: 2em;
+  }
+  .techSkillTl{
+    margin-bottom: 1em;
+  }
+  .techSkills div{
+    margin-right: 0;
+    margin-left: 1.5em;
+  }
+  .techSkills div:first-child{
+    margin-left: 1.5em;
+  }
+  .techSkills img{
+    margin-bottom: 0;
+    margin-top: 2em;
+  }
   .lateralDots{
     position: fixed;
     top: 92%;
@@ -193,7 +350,7 @@ h2{
   .dots{  
     text-align: left;
     display: inline-block;
-    margin-left: 27%;
+    margin-left: 20%;
     height: 4em;
   }
   .dots ul{
@@ -217,10 +374,61 @@ h2{
     transition: all 0.3s;
   }
   .dots ul li a .svg-inline--fa{
-    font-size: 0.8em;
+    font-size: 1em;
+  }
+  #moreInfo{
+    padding-bottom: 3em;
+  }
+  #moreInfo h2{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  #moreInfo ul{
+    margin-top: 2.5em;
+    padding:0;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-device-width: 425px){
+  h2{
+    font-size: 1.8em;
+  }
+  #MIT, #benefits, #internship, #internProfile, #moreInfo{
+    height: auto;
+  }
+  #homeMISTI h1{ 
+    margin-top: 2em;
+    font-size: 2.4em;
+  }
+  #MIT{
+    padding-bottom: 5em;
+  }
+  .logoWWMISTI{
+    margin-top: 4em;
+    margin-bottom: 0;
+  }
+  .logoMIT{
+    margin-top: 2em;
+  }
+  .bulletList2 ul{
+    padding: 0;
+  }
+  .visitRGbtn{
+    margin-top: 2em;
+  }
+  .techSkillTl{
+    margin-bottom: 1em;
+  }
+  .techSkills div{
+    margin-right: 0;
+    margin-left: 1.5em;
+  }
+  .techSkills div:first-child{
+    margin-left: 1.5em;
+  }
+  .techSkills img{
+    margin-bottom: 0;
+    margin-top: 2em;
+  }
   .lateralDots{
     position: fixed;
     top: 92%;
@@ -229,13 +437,12 @@ h2{
     width: 100%;
     bottom: 0;
     height: 4em;
-    padding-top: 0.9em;
-    z-index: 10;
+    padding-top: 0.8em;
   }
   .dots{  
     text-align: left;
     display: inline-block;
-    margin-left: 29%;
+    margin-left: 20%;
     height: 4em;
   }
   .dots ul{
@@ -259,7 +466,18 @@ h2{
     transition: all 0.3s;
   }
   .dots ul li a .svg-inline--fa{
-    font-size: 0.8em;
+    font-size: 1em;
+  }
+  #moreInfo{
+    padding-bottom: 3em;
+  }
+  #moreInfo h2{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  #moreInfo ul{
+    margin-top: 2.5em;
+    padding:0;
   }
 }
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px){
