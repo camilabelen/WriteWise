@@ -182,7 +182,7 @@ article{
 /*MORE INFORMATION*/
 #moreInfo{
   color: #FFFFFF;
-  height: 80vh;
+  padding-bottom: 10em;
 }
 #moreInfo h2{
   text-align: center;
@@ -201,6 +201,47 @@ article{
 #moreInfo a:hover{
   text-decoration: none;
   cursor: pointer;
+}
+.mitChile{
+  left:-5.5em;
+}
+.mitChile img{
+  width: 10%;
+  margin-right: 0.5em;
+}
+.mitChile h5{
+  margin-bottom: 2.5em;
+  margin-left: 30%;
+}
+.mitChile a{
+  border: 2px solid #FFFFFF;
+  border-radius: 1em;
+  padding: 1.5em;
+}
+.contactMA img{
+  width: 6%;
+  margin-right: 0.5em;
+}
+.contactMA h5{
+  margin-left: 30%;
+  margin-bottom: 1.5em;
+}
+.contactMA ul{
+  border: 2px solid #FFFFFF;
+  border-radius: 1em;
+  padding: 1em;
+  width: 82%;
+}
+.contactMA ul li:nth-child(1), 
+.contactMA ul li:nth-child(2){
+  padding:0;
+}
+.contactMA ul li:nth-child(3){
+  border-bottom: 2px solid #FFFFFF;
+  padding: 0 0 1em 0;
+}
+.contactMA ul li:nth-child(4){
+  padding-top: 1em;
 }
 @media only screen and (max-device-width: 320px){
   h2{
@@ -293,7 +334,51 @@ article{
   }
   #moreInfo ul{
     margin-top: 2.5em;
+  }
+  .mitChile{
+    left:0;
+  }
+  .mitChile img{
+    width: 10%;
+    margin-right: 0.5em;
+  }
+  .mitChile h5{
+    margin-bottom: 2em;
+    margin-left: 0;
+    text-align: center;
+  }
+  .mitChile a{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.98em;
+  }
+  .contactMA img{
+    width: 6%;
+    margin-right: 0.5em;
+  }
+  .contactMA h5{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+  }
+  .contactMA ul{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+  }
+  .contactMA ul li:nth-child(1), 
+  .contactMA ul li:nth-child(2){
     padding:0;
+  }
+  .contactMA ul li:nth-child(3){
+    border-bottom: 2px solid #FFFFFF;
+    padding: 0 0 1em 0;
+  }
+  .contactMA ul li:nth-child(4){
+    padding-top: 1em;
   }
   .copyrightTextMA p{
     font-size: 0.9em;
@@ -395,7 +480,52 @@ article{
   }
   #moreInfo ul{
     margin-top: 2.5em;
+  }
+  .mitChile{
+    left:0;
+  }
+  .mitChile img{
+    width: 10%;
+    margin-right: 0.5em;
+  }
+  .mitChile h5{
+    margin-bottom: 2em;
+    margin-left: 0;
+    text-align: center;
+  }
+  .mitChile a{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.98em;
+    margin-left: 1.7em;
+  }
+  .contactMA img{
+    width: 6%;
+    margin-right: 0.5em;
+  }
+  .contactMA h5{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+  }
+  .contactMA ul{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+  }
+  .contactMA ul li:nth-child(1), 
+  .contactMA ul li:nth-child(2){
     padding:0;
+  }
+  .contactMA ul li:nth-child(3){
+    border-bottom: 2px solid #FFFFFF;
+    padding: 0 0 1em 0;
+  }
+  .contactMA ul li:nth-child(4){
+    padding-top: 1em;
   }
   .copyrightTextMA p{
     font-size: 0.9em;
@@ -494,7 +624,52 @@ article{
   }
   #moreInfo ul{
     margin-top: 2.5em;
+  }
+  .mitChile{
+    left:0;
+  }
+  .mitChile img{
+    width: 10%;
+    margin-right: 0.5em;
+  }
+  .mitChile h5{
+    margin-bottom: 2em;
+    margin-left: 0;
+    text-align: center;
+  }
+  .mitChile a{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.98em;
+    margin-left: 3.2em;
+  }
+  .contactMA img{
+    width: 6%;
+    margin-right: 0.5em;
+  }
+  .contactMA h5{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+  }
+  .contactMA ul{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+  }
+  .contactMA ul li:nth-child(1), 
+  .contactMA ul li:nth-child(2){
     padding:0;
+  }
+  .contactMA ul li:nth-child(3){
+    border-bottom: 2px solid #FFFFFF;
+    padding: 0 0 1em 0;
+  }
+  .contactMA ul li:nth-child(4){
+    padding-top: 1em;
   }
   .copyrightTextMA p{
     font-size: 0.9em;
@@ -565,6 +740,54 @@ article{
   #moreInfo h2{
     margin-top: 1em;
   }
+  #moreInfo ul{
+    margin-top: 0;
+  }
+  .mitChile{
+    left:0;
+  }
+  .mitChile img{
+    width: 10%;
+    margin-right: 0.5em;
+  }
+  .mitChile h5{
+    margin-bottom: 2em;
+    margin-left: 10%;
+  }
+  .mitChile a{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.98em;
+    margin-left: -5em;
+  }
+  .contactMA img{
+    width: 6%;
+    margin-right: 0.5em;
+  }
+  .contactMA h5{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1.4em;
+    margin-top: 0;
+  }
+  .contactMA ul{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+  }
+  .contactMA ul li:nth-child(1), 
+  .contactMA ul li:nth-child(2){
+    padding:0;
+  }
+  .contactMA ul li:nth-child(3){
+    border-bottom: 2px solid #FFFFFF;
+    padding: 0 0 1em 0;
+  }
+  .contactMA ul li:nth-child(4){
+    padding-top: 1em;
+  }
   .copyrightTextMA p{
     font-size: 0.9em;
     z-index: 0;
@@ -629,7 +852,7 @@ article{
     z-index: 0;
   }
 }
-@media only screen and (min-device-width: 1023px) and (max-device-width: 1439px){
+@media only screen and (min-device-width: 1023px) and (max-device-width: 1200px){
   #MIT{
     height: 70vh;
   }
@@ -684,6 +907,57 @@ article{
   .dots ul li a .svg-inline--fa{
     font-size: 0.8em;
   }
+  #moreInfo ul{
+    margin-top: 0;
+  }
+  .mitChile{
+    left: 1em;
+  }
+  .mitChile img{
+    width: 10%;
+    margin-right: 0.5em;
+  }
+  .mitChile h5{
+    margin-bottom: 2em;
+    margin-left: 35%;
+  }
+  .mitChile a{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.98em;
+    margin-left: 0;
+  }
+  .contactMA{
+    margin-left:2em;
+  }
+  .contactMA img{
+    width: 6%;
+    margin-right: 0.5em;
+  }
+  .contactMA h5{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1.4em;
+    margin-top: 0;
+  }
+  .contactMA ul{
+    border: 2px solid #FFFFFF;
+    border-radius: 1em;
+    padding: 1em;
+    width: 95%;
+  }
+  .contactMA ul li:nth-child(1), 
+  .contactMA ul li:nth-child(2){
+    padding:0;
+  }
+  .contactMA ul li:nth-child(3){
+    border-bottom: 2px solid #FFFFFF;
+    padding: 0 0 1em 0;
+  }
+  .contactMA ul li:nth-child(4){
+    padding-top: 1em;
+  }
 }
 @media only screen and (min-device-width: 1440px){
   #homeMISTI h1 {
@@ -706,12 +980,6 @@ article{
   .techSkills{
     margin-top: 3em;
   }
-  #moreInfo{
-    height: 75vh;
-  }
-  #moreInfo h2{
-    margin-top: 1em;
-  }
   #moreInfo .row:last-child{
     margin-top: 3em;
   }
@@ -720,8 +988,5 @@ article{
     top: 43%;
     left: 95.5%;
     z-index: 10;
-  }
-  .dots ul li a .svg-inline--fa{
-    font-size: 1em;
   }
 }
