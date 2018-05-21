@@ -148,11 +148,12 @@ article{
 }
 .techSkillTl{
   text-align: center;
-  margin-top: 3em;
+  margin-top: 5em;
   margin-bottom: 3em;
 }
 .techSkills{
-  text-align: center;  
+  text-align: center;
+  margin-top: 5em;  
 }
 .techSkills div:first-child{
   margin-left: 6em;
@@ -957,36 +958,5 @@ article{
   }
   .contactMA ul li:nth-child(4){
     padding-top: 1em;
-  }
-}
-@media only screen and (min-device-width: 1440px){
-  #homeMISTI h1 {
-    margin-top: 8em;
-    text-align: center;
-  }
-  #MIT{
-    height: 70vh;
-  }
-  .bulletList1{
-    margin-left: 13%;
-  }
-  #benefits{
-    height: auto;
-    margin-bottom: 4em;
-  }
-  .techSkillTl{
-    margin-top: 3em;
-  }
-  .techSkills{
-    margin-top: 3em;
-  }
-  #moreInfo .row:last-child{
-    margin-top: 3em;
-  }
-  .lateralDots{
-    position: fixed;
-    top: 43%;
-    left: 95.5%;
-    z-index: 10;
   }
 }
