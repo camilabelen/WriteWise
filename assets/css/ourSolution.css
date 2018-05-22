@@ -244,7 +244,7 @@ h2{
     background-position: center;
     padding-top: 6em;
     color: #FFFFFF;
-    height: 100vh;
+    height: auto;
   }
   .feedback_loop{
     padding:0;
@@ -399,7 +399,7 @@ h2{
     background-position: center;
     padding-top: 6em;
     color: #FFFFFF;
-    height: 100vh;
+    height: auto;
   }
   .feedback_loop{
     padding:0;
@@ -560,7 +560,7 @@ h2{
     background-position: center;
     padding-top: 6em;
     color: #FFFFFF;
-    height: 100vh;
+    height: auto;
   }
   .feedback_loop{
     padding:0;
