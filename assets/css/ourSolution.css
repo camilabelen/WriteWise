@@ -44,7 +44,8 @@ h2{
   background-position: 100% 23%;
   padding-top: 8em;
   color: #FFFFFF;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 6em;
 }
 #homeOurSolution h1{
   margin-top: 47%;
@@ -245,7 +246,7 @@ h2{
     padding-top: 6em;
     color: #FFFFFF;
     height: auto;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
   }
   .feedback_loop{
     padding:0;
@@ -401,7 +402,7 @@ h2{
     padding-top: 6em;
     color: #FFFFFF;
     height: auto;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
   }
   .feedback_loop{
     padding:0;
@@ -563,7 +564,7 @@ h2{
     padding-top: 6em;
     color: #FFFFFF;
     height: auto;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
   }
   .feedback_loop{
     padding:0;
