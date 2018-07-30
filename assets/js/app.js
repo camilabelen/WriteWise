@@ -30,34 +30,43 @@ $(document).ready(function() {
               <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="eduardoFuentes.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Eduardo Fuentes, B.Sc., M.Sc., Ph.D.</h3>
-              <p class="card-text">Founder and CEO</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <p class="card-text">Founder and CEO</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
               <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Ashley VanCott, B.A.</h3>
-              <p class="card-text">Founder and COO</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <p class="card-text">Founder and COO</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
               <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
+              
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_bascur.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Rodrigo_Rojas.jpg" alt="Card image cap">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="juanBascur.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Juan Bascur, B.Sc., M.Sc.</h3>
-              <p class="card-text">Machine Learning and Scientometrics Researcher</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/francisca_schalchli.jpg" alt="Card image cap">
+              <button id="profile"><a href="rodrigoRojas.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Rodrigo Rojas, Industrial Civil Engineer</h3>
+              <p class="card-text">Chief Marketing Officer</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Kendrik_Lanyi-Grünfeldt.jpg" alt="Card image cap">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="franciscaSchalchli.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Francisca Schalchli, B.Eng.</h3>
-              <p class="card-text">Project Manager</p></div></div><div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/crishtian_gomez.jpg" alt="Card image cap">
+              <button id="profile"><a href="kendrik.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Kendrik Lanyi-Grünfeldt, Commercial Engineer</h3>
+              <p class="card-text">Chief Commercial Officer</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/David_Weinstain.jpg" alt="Card image cap">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="cristhianGomez.html">View Profile</a></button></div></div><div class="card-body">
-              <h3 class="card-text">Cristhian Gomez, B.Eng., M.Sc.</h3><p class="card-text">Marketing and Commercial Management</p></div></div>`)
+              <button id="profile"><a href="davidWeinstain.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">David Weinstain, B.Sc, M.Sc., Ph.D.</h3><p class="card-text">Scientific Editor</p></div></div>`)
   $('#coreteam span').css({'background-color': '#E7DA91','width': '0.5em','height': '0.5em','position': 'absolute','border-radius': '50%','left': '-0.3em','top': '0.85em'});
 
   $('#coreteam').click(function(){
@@ -68,99 +77,48 @@ $(document).ready(function() {
     }
     $('#coreteam').css({'outline': 'none','color': '#E7DA91'});
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="eduardoFuentes.html">View Profile</a></button>
-              </div>
-            </div>            
-            <div class="card-body">
-              <h3 class="card-text">Eduardo Fuentes, B.Sc., M.Sc., Ph.D.</h3>
-              <p class="card-text">Founder and CEO</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="Card image cap">
-              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a>         
-              </div>
+              <button id="profile"><a href="eduardoFuentes.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Eduardo Fuentes, B.Sc., M.Sc., Ph.D.</h3>
+              <p class="card-text">Founder and CEO</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="Card image cap">
+              <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Ashley VanCott, B.A.</h3>
-              <p class="card-text">Founder and COO</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
-              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>     
-              </div>
+              <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Ashley VanCott, B.A.</h3>
+              <p class="card-text">Founder and COO</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="javierVera.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Javier Vera, Ph.D.</h3>
-              <p class="card-text">Natural Language Processing Researcher</p>
-            </div>
-          </div>      
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/juan_bascur.jpg" alt="Card image cap">
-              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">              
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
-              </div>
+              <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
+              
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Rodrigo_Rojas.jpg" alt="Card image cap">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="juanBascur.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Juan Bascur, B.Sc., M.Sc.</h3>
-              <p class="card-text">Machine Learning and Scientometrics Researcher</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/francisca_schalchli.jpg" alt="Card image cap">
-              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
-              </div>
+              <button id="profile"><a href="rodrigoRojas.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Rodrigo Rojas, Industrial Civil Engineer</h3>
+              <p class="card-text">Chief Marketing Officer</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Kendrik_Lanyi-Grünfeldt.jpg" alt="Card image cap">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="franciscaSchalchli.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Francisca Schalchli, B.Eng.</h3>
-              <p class="card-text">Project Manager</p>
-            </div>
-          </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-            <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/crishtian_gomez.jpg" alt="Card image cap">
-              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <a href="mailto:contact@writewise.cl">contact@writewise.cl</a>         
-              </div>
+              <button id="profile"><a href="kendrik.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Kendrik Lanyi-Grünfeldt, Commercial Engineer</h3>
+              <p class="card-text">Chief Commercial Officer</p></div></div>
+
+              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/David_Weinstain.jpg" alt="Card image cap">
+              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-                <button id="profile"><a href="cristhianGomez.html">View Profile</a></button>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-text">Cristhian Gomez, B.Eng., M.Sc.</h3>
-              <p class="card-text">Marketing and Commercial Management</p>
-            </div>
-          </div>`)    
+              <button id="profile"><a href="davidWeinstain.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">David Weinstain, B.Sc, M.Sc., Ph.D.</h3><p class="card-text">Scientific Editor</p></div></div>`);    
   }); // coreteam click
 
   $('#profesor').click(function() { 
@@ -168,7 +126,7 @@ $(document).ready(function() {
     $('#team').html('');
     $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
     $('#coreteam span').css('display','none');
-    $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
+    $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3 leadResearchers" id="firstCardLR">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/rene_venegas.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -179,7 +137,7 @@ $(document).ready(function() {
               <h3 class="card-text">René Venegas, PhD</h3>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 leadResearchers">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/hector_allende.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -190,7 +148,7 @@ $(document).ready(function() {
               <h3 class="card-text">Héctor Allende, PhD</h3>
             </div>
           </div>
-          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 leadResearchers">
             <div class="profilePhoto">
               <img class="card-img-top" src="assets/img/ourRD/WENCESLAO_PALMA.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -200,7 +158,18 @@ $(document).ready(function() {
             <div class="card-body">
               <h3 class="card-text">Wenceslao Palma, PhD</h3>
             </div>
-          </div>`)
+          </div>
+          <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 leadResearchers">
+            <div class="profilePhoto">
+              <img class="card-img-top" src="assets/img/ourRD/rodrigo_alfaro.jpg" alt="Card image cap">
+              <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
+                <button id="profile"><a href="leadResearchers.html">View Profile</a></button>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-text">Rodrigo Alfaro, PhD</h3>
+            </div>
+          </div>`);
   }); // researchers profesors
 
   $('#associated').click(function() { 
@@ -362,36 +331,14 @@ $(document).ready(function() {
     $('#team_others').html('');
     $('#coreteam').css({'outline': 'none','color': '#FFFFFF'});
     $('#coreteam span').css('display','none');  
-    $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
+    $('#team_others').append(`<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard" id="firstCardC"><div class="card">
               <div class="card-body"><h5 class="card-title">Hernán González, MD and PhD</h5><p class="card-text">Dr. González is an Associate Professor and Research Director for the Department of Head and Neck
               Surgery at the Pontificia Universidad Católica. Dr. González is also the Founder of GeneproDX, a biotech startup that develops new personalized-medicine assays for diagnosing and establishing the prognosis of
-              solid tumors. Dr. González is currently an advisor for WriteWise.</p></div>
-
-              </div></div><div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
-              <div class="card"><div class="card-body"><h5 class="card-title">Rodrigo Rojas</h5><p class="card-text">Mr. Rodrigo Rojas completed his studies as an Industrial Engineer 
-              at the Universidad de Chile. Mr. Rojas is the founder and CEO of TimeHunter and has more than 20 years of experience in sales, marketing,
-              and CRM. Mr. Rojas is currently an ImagineLab Mentor for WriteWise.</p>
-              </div></div></div>
+              solid tumors. Dr. González is currently an advisor for WriteWise.</p></div></div></div>
 
               <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
               <h5 class="card-title">Andrés Levineri</h5><p class="card-text">Andrés is a Computer Engineer and Graphic Designer with more than ten years of experience. He is
-              currently the Graphic Content Developer for WriteWise.</p></div></div></div>
-
-              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard">
-              <div class="card"><div class="card-body"><h5 class="card-title">Oscar Lynch</h5><p class="card-text">Mr. Oscar Lynch is a Lawyer, having completed his degree at the Universidad de Concepcion. Mr. Lynch
-              has more than ten years of experience as an Accounting and Financial Lawyer. Mr. Lynch is currently serving as a Legal Advisor for WriteWise.</p>
-              </div></div></div>
-
-              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card"><div class="card-body">
-              <h5 class="card-title">Miguel Pavez</h5><p class="card-text">Mr. Miguel Pavez holds a Master’s in Finance and Master’s in Accounting. Mr. Pavez has worked as a
-              corporate accountant, finance and administration manager, and as an independent consultant. Mr.
-              Pavez is currently serving as the Financial Accountant for WriteWise.</p></div></div></div>
-
-              <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 collaboratorsCard"><div class="card">
-              <div class="card-body"><h5 class="card-title">Kendrick Lanyi-Grünfeldt</h5><p class="card-text">Mr. Kendrik Lanyi-Grünfeldt is a Commercial Engineer, having completed his degree at the Universidad
-              de Chile, and holds a Master’s in Strategic Management from the Stern School of Business at New York University. Mr. Lanyi-Grünfeldt has over 40 years of experience in business strategy, including business
-              models, growth, planning, management, and mergers and acquisitions. Mr. Lanyi-Grünfeldt has worked in executive-level management positions at various prestigious businesses, including Bonafide, Nestlé,
-              and Carter Holt Harvey, among others. Mr. Lanyi-Grünfeldt is currently an ImagineLab Mentor for WriteWise.</p></div></div></div>`);
+              currently the Graphic Content Developer for WriteWise.</p></div></div></div>`);
   });
 
   // imprimiendo informacion al hacer click en cada tarjeta

@@ -255,8 +255,11 @@ h2{
 }
 
 /*CARD TEAM*/
-#associatedCard1{
+#associatedCard1, #firstCardLR{
   margin-left: 9.5em;
+}
+#firstCardC{
+  margin-left: 14em;
 }
 #team .card, #team_others .card{
   border: none;
@@ -504,7 +507,7 @@ h2{
     text-align: left;
     padding-left: 0;
   }
-  #associatedCard1{
+  #associatedCard1, #firstCardLR, #firstCardC{
     margin-left: 0;
   }
   #team_others{
@@ -516,6 +519,9 @@ h2{
     left: 0;
   }
   #team_others .lastCardRow{
+    margin-left: 0;
+  }
+  #team_others #firstCardLR{
     margin-left: 0;
   }
   .otherResearchersCard, .collaboratorsCard{
@@ -589,6 +595,9 @@ h2{
 @media only screen and (min-device-width: 321px) and (max-device-width: 375px){
   h2{
     font-size: 1.8em;
+  }
+  #team_others #firstCardLR{
+    margin-left: 0;
   }
   #researchGroup{
     background-image: url('../img/ourRD/fondo_pag_ini_1.jpg');
@@ -741,7 +750,7 @@ h2{
   .menuTeam{
     margin-bottom: 3em;
   }
-  #associatedCard1{
+  #associatedCard1, #firstCardLR, #firstCardC{
     margin-left: 0;
   }
   #team_others{
@@ -974,7 +983,7 @@ h2{
   .menuTeam{
     margin-bottom: 3em;
   }
-  #associatedCard1{
+  #associatedCard1, #firstCardLR, #firstCardC{
     margin-left: 0;
   }
   #team_others{
@@ -1200,7 +1209,13 @@ h2{
   #team_others .lastCardRow{
     margin-left: 0;
   }
+  #firstCardC{
+    margin-left: 0;
+  }
   .associated:nth-child(3){
+    margin-left: 9.5em;
+  }
+  .leadResearchers:nth-child(3){
     margin-left: 9.5em;
   }
   .otherResearchersCard, .collaboratorsCard{
@@ -1212,7 +1227,7 @@ h2{
   }
   .otherResearchersCard:last-child,
   .collaboratorsCard:last-child{
-    margin-left: 8em;
+    margin-left: 0;
   }
   .otherResearchersCard h5,
   .collaboratorsCard h5{
@@ -1249,7 +1264,7 @@ h2{
   .lateralDots{
     position: fixed;
     top: 45%;
-    left: 94%;
+    left: 93%;
   }
   .dots{  
     text-align: left;
@@ -1284,6 +1299,9 @@ h2{
     background-repeat: no-repeat;
     height: 110vh;
   }
+  #team_others{
+    margin-left: 3em;
+  }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
   #ourQuestion{
@@ -1295,6 +1313,12 @@ h2{
   }
   .rdBtn:first-child {
     margin-left: 6em;
+  }
+  #team_others{
+    margin-left: 5em;
+  }
+  #firstCardC {
+    margin-left: 9.5em;
   }
   .lateralDots{
     position: fixed;
@@ -1324,6 +1348,11 @@ h2{
   }
   .dots ul li a .svg-inline--fa{
     font-size: 0.8em;
+  }
+}
+@media only screen (min-device-width: 1367px)and (max-device-width: 1440px){
+  .lateralDots{
+    left: 95%;
   }
 }
 @media only screen and (min-device-width: 1700px){
