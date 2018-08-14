@@ -352,14 +352,7 @@ $(document).ready(function() {
               <p>This research line is led by Prof. Héctor Allende. The team members involved in this R+D+i area include:</p><ul><li>Prof. Héctor Allende</li>
               <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr.(c) Juan Pavez</li><li>Sebastián Rodríguez, BCSc</li>
               <li>Humberto Gonzales (BCSs undergraduate)</li><li>Jose Campusano (BCSs undergraduate)</li><li>Francisco Escobar (BCSs undergraduate)</li>
-              <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul><div id="LSTM">
-              <img src="assets/img/ourRD/LSTM.png" alt="LSTM">
-              <p><strong>Figure 1.</strong> The WriteWise long short-term memory (LSTM) unit for constructing recurrent neuronal networks for scientific article analyses. These units not only have inputs () and outputs (), but can also have a shared status () among all units within the same layer. This point, together with the processing of LSTM gates, provides each unit with short-term memory, which is crucial for calculating outputs ().</p>
-            </div><div id="arqui"><img src="assets/img/ourRD/Arqui.png" alt="deep-learning_architecture">
-              <p><strong>Figure 2.</strong> The WriteWise deep-learning architecture applied to natural language processing tasks for scientific article analyses. The architecture is separated into three layers: (1) Input Layer: uses word embeddings and trait vectors to generate an input sequence; (2) Hidden Layer: composed of a bidirectional long short-term memory (LSTM) sub-layer, followed by a unidirectional network of LSTM units; and (3) Output Layer: composed of a few neurons that indicate the probability of a given sequence of words (Input Layer) being followed by a punctuation mark.</p>
-            </div><div id="gow"><img src="assets/img/ourRD/graph_word.png" alt="Graph_of_words">
-              <p><strong>Figure 3.</strong> Graph of words (GoW) for a scientific article. Our team has developed new algorithms and codes based on graph-theory representations of text that capture term dependencies and ordering. Shown is the k-core decomposition of a GoW, which defines hierarchy levels of increasing cohesiveness. The main core retains the GoW members with the highest levels of importance, which can work as text keywords. This figure and its contents have been simplified due to copyright.</p>
-            </div></div>`);
+              <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul></div>`);
   $('.linguistic').addClass('activeBtn');
   $('#linguistic').click(function() {
     $('#information').html('');
@@ -373,18 +366,7 @@ $(document).ready(function() {
               <p>This research line is led by Prof. Héctor Allende. The team members involved in this R+D+i area include:</p><ul><li>Prof. Héctor Allende</li>
               <li>Dr. Eduardo Fuentes</li><li>Dr. Wenceslao Palma</li><li>Dr. Javier Vera</li><li>Dr.(c) Juan Pavez</li><li>Sebastián Rodríguez, BCSc</li>
               <li>Humberto Gonzales (BCSs undergraduate)</li><li>Jose Campusano (BCSs undergraduate)</li><li>Francisco Escobar (BCSs undergraduate)</li>
-              <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul><div id="LSTM">
-              <img src="assets/img/ourRD/LSTM.png" alt="LSTM">
-              <p><strong>Figure 1.</strong> The WriteWise long short-term memory (LSTM) unit for constructing recurrent neuronal networks for scientific article analyses. These units not only have inputs () and outputs (), but can also have a shared status () among all units within the same layer. This point, together with the processing of LSTM gates, provides each unit with short-term memory, which is crucial for calculating outputs ().</p>
-            </div>
-            <div id="arqui">
-              <img src="assets/img/ourRD/Arqui.png" alt="deep-learning_architecture">
-              <p><strong>Figure 2.</strong> The WriteWise deep-learning architecture applied to natural language processing tasks for scientific article analyses. The architecture is separated into three layers: (1) Input Layer: uses word embeddings and trait vectors to generate an input sequence; (2) Hidden Layer: composed of a bidirectional long short-term memory (LSTM) sub-layer, followed by a unidirectional network of LSTM units; and (3) Output Layer: composed of a few neurons that indicate the probability of a given sequence of words (Input Layer) being followed by a punctuation mark.</p>
-            </div>
-            <div id="gow">
-              <img src="assets/img/ourRD/graph_word.png" alt="Graph_of_words">
-              <p><strong>Figure. 3.</strong> Graph of words (GoW) for a scientific article. Our team has developed new algorithms and codes based on graph-theory representations of text that capture term dependencies and ordering. Shown is the k-core decomposition of a GoW, which defines hierarchy levels of increasing cohesiveness. The main core retains the GoW members with the highest levels of importance, which can work as text keywords. This figure and its contents have been simplified due to copyright.</p>
-            </div></div>`);
+              <li>Patricio Araya (BCSs undergraduate)</li><li>Jorge Montiel (BCSs undergraduate)</li></ul></div>`);
   $('.linguistic').addClass('activeBtn');
     $('.linguistic').addClass('activeBtn');
     $('.bigdata').removeClass('activeBtn');
@@ -399,14 +381,7 @@ $(document).ready(function() {
               <p>2. Textual and discursive foundations of academic and scientific texts.</p>
               <p>This research line is led by Prof. René Venegas. The team members involved in this R+D+i area include:</p>
               <ul><li>Dr. Eduardo Fuentes</li><li>Dr. Barbara Kremeyer</li><li>Dr.(c) Sofía Zamora</li><li>Ashley VanCott, BA</li>
-              <li>Grace Wilson, BA</li><li>Amparo Galdames, BA</li><li>Fernando Lillo, BA</li><li>Pablo Fuenzalida, BA</li></ul> <div id="sistEtiquetado">
-                <img src="assets/img/ourRD/sistema_etiqueado.png" alt="">
-                <p><strong>Figure 1.</strong> Academic discourse tagging system. Our group has developed a new tagging system for sentences in scientific articles, where each sentence has a function definable through unique subsets of words. This figure and its contents have been simplified due to copyright.</p>
-              </div>
-              <div id="modeloDiscursivo">
-                <img src="assets/img/ourRD/Modelo_discursivo.png" alt="">
-                <p><strong>Figure 2.</strong> Academic discourse model. Our group has developed a novel model for writing cientific articles – each section is subdivided by N number of subsections, with each subsection having N number of linguistic functions, represented by N number of sentences, and as composed by N number and combination of words. This figure and its contents have been simplified due to copyright.</p>
-              </div></div>`)
+              <li>Grace Wilson, BA</li><li>Amparo Galdames, BA</li><li>Fernando Lillo, BA</li><li>Pablo Fuenzalida, BA</li></ul> </div>`)
     $('.linguistic').removeClass('activeBtn');
     $('.deepLearning').removeClass('activeBtn');
     $('.bigdata').addClass('activeBtn');
@@ -416,9 +391,7 @@ $(document).ready(function() {
     $('#information').append(`<div class="textInfo"><p>We use scientometrics combined with natural language processing to predict the impact and recognition
               of scientific publications.</p>
               <p>The team members involved in this R+D+i area include:</p><ul><li>Dr. Eduardo Fuentes</li><li>Juan Pablo Bascur, MSc</li></ul>
-              <div id="networkNodes"><img src="assets/img/ourRD/natural_language.png" alt="networkNodes">
-                <p><strong>Figure 1.</strong> Similarity network between an unpublished paper (query) and two academic journals. Network nodes indicate the similarity of the query paper with manuscripts from the selected journals, where closer nodes represent greater similarity (i.e., more neighbor nodes). This similarity network is based on a novel “journal thumbprints” algorithm, which allows comparisons and similarity predictions between query papers and target journals. With our new method, we can detect N number of words, sentences, and paragraphs, among other traits, and plot these features against different journals, considering factors such as quartiles (Qs), citations, etc. This figure and its contents have been simplified due to copyright.</p>
-              </div></div>`)
+              </div>`)
     $('.linguistic').removeClass('activeBtn');
     $('.bigdata').removeClass('activeBtn');
     $('.deepLearning').addClass('activeBtn');
