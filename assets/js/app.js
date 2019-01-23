@@ -48,25 +48,25 @@ $(document).ready(function() {
               <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
               
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Rodrigo_Rojas.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="juan_pavez">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="rodrigoRojas.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Rodrigo Rojas, Industrial Civil Engineer</h3>
-              <p class="card-text">Chief Marketing Officer</p></div></div>
+              <button id="profile"><a href="juan_pavez.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Juan Pavez, PhD(c)</h3>
+              <p class="card-text"></p></div></div>
 
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Kendrik_Lanyi-Grünfeldt.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/sebastián_rodriguez.jpg" alt="sebastian_rodriguez">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="kendrik.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Kendrik Lanyi-Grünfeldt, Commercial Engineer</h3>
-              <p class="card-text">Chief Commercial Officer</p></div></div>
+              <button id="profile"><a href="sebastian_rodriguez.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Sebastián Rodríguez, BCSc</h3>
+              <p class="card-text"></p></div></div>
 
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/David_Weinstain.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera.jpg" alt="Card image cap">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="davidWeinstain.html">View Profile</a></button></div></div><div class="card-body">
-              <h3 class="card-text">David Weinstain, B.Sc, M.Sc., Ph.D.</h3><p class="card-text">Scientific Editor</p></div></div>`)
+              <button id="profile"><a href="sofia_zamora.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">Sofía Zamora, PhD(c)</h3><p class="card-text"></p></div></div>`);
   $('#coreteam span').css({'background-color': '#E7DA91','width': '0.5em','height': '0.5em','position': 'absolute','border-radius': '50%','left': '-0.3em','top': '0.85em'});
 
   $('#coreteam').click(function(){
@@ -77,7 +77,7 @@ $(document).ready(function() {
     }
     $('#coreteam').css({'outline': 'none','color': '#E7DA91'});
     $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="eduardo_fuentes">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
               <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -85,7 +85,7 @@ $(document).ready(function() {
               <p class="card-text">Founder and CEO</p></div></div>
 
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/ashley_vancott.jpg" alt="ashley_vancott">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
               <a href="https://www.linkedin.com/in/ashleyvancott/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:av@writewise.cl"><i class="fas fa-envelope"></i></a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
@@ -93,32 +93,32 @@ $(document).ready(function() {
               <p class="card-text">Founder and COO</p></div></div>
 
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="javier_vera">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
               <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
               <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
               
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Rodrigo_Rojas.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="juan_pavez">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="rodrigoRojas.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Rodrigo Rojas, Industrial Civil Engineer</h3>
-              <p class="card-text">Chief Marketing Officer</p></div></div>
+              <button id="profile"><a href="juan_pavez.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Juan Pavez, PhD(c)</h3>
+              <p class="card-text"></p></div></div>
 
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Kendrik_Lanyi-Grünfeldt.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/sebastián_rodriguez.jpg" alt="sebastian_rodriguez">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="kendrik.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Kendrik Lanyi-Grünfeldt, Commercial Engineer</h3>
-              <p class="card-text">Chief Commercial Officer</p></div></div>
+              <button id="profile"><a href="sebastian_rodriguez.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Sebastián Rodríguez, BCSc</h3>
+              <p class="card-text"></p></div></div>
 
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/David_Weinstain.jpg" alt="Card image cap">
+              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera.jpg" alt="Card image cap">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="davidWeinstain.html">View Profile</a></button></div></div><div class="card-body">
-              <h3 class="card-text">David Weinstain, B.Sc, M.Sc., Ph.D.</h3><p class="card-text">Scientific Editor</p></div></div>`);    
+              <button id="profile"><a href="sofia_zamora.html">View Profile</a></button></div></div><div class="card-body">
+              <h3 class="card-text">Sofía Zamora, PhD(c)</h3><p class="card-text"></p></div></div>`);    
   }); // coreteam click
 
   $('#profesor').click(function() { 
@@ -201,7 +201,7 @@ $(document).ready(function() {
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 associated">
             <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera .jpg" alt="Card image cap">
+              <img class="card-img-top" src="assets/img/ourRD/Sofía_Zamora_Herrera.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="sofia_zamora.html">View Profile</a></button>
               </div>
