@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('#coreteam').css({'outline': 'none','color': '#E7DA91'});
   } else { $('#coreteam span').css('display', 'none'); }
 
-  $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
+  $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 offset-md-2 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4" id="firstCard">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="Card image cap">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
               <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a></div>
@@ -40,13 +40,6 @@ $(document).ready(function() {
               <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Ashley VanCott, B.A.</h3>
               <p class="card-text">Founder and COO</p></div></div>
 
-              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="Card image cap">
-              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
-              <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
-              <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
-              
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="juan_pavez">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
@@ -76,7 +69,7 @@ $(document).ready(function() {
       $('#coreteam span').css('display','inline-block');
     }
     $('#coreteam').css({'outline': 'none','color': '#E7DA91'});
-    $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="firstCard">
+    $('#team').append(`<div class="card col-10 col-sm-10 col-md-3 offset-md-2 col-lg-2 offset-lg-4 col-xl-2 offset-xl-4" id="firstCard">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/Eduardo_fuentes.jpg" alt="eduardo_fuentes">
               <div class="iconRRSS col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="https://www.facebook.com/biopub/"><i class="fab fa-facebook-f"></i></a>
               <a href="https://www.linkedin.com/in/dr-eduardo-n-fuentes-b2226821/"><i class="fab fa-linkedin-in"></i></a><a href="mailto:ef@writewise.cl"><i class="fas fa-envelope"></i></a></div>
@@ -92,13 +85,6 @@ $(document).ready(function() {
               <button id="profile"><a href="ashleyVanCott.html">View Profile</a></button></div></div><div class="card-body"><h3 class="card-text">Ashley VanCott, B.A.</h3>
               <p class="card-text">Founder and COO</p></div></div>
 
-              <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2">
-              <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/javier_vera.jpg" alt="javier_vera">
-              <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
-              <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
-              <button id="profile"><a href="javierVera.html">View Profile</a></button></div></div><div class="card-body">
-              <h3 class="card-text">Javier Vera, Ph.D.</h3><p class="card-text">Natural Language Processing Researcher</p></div></div>      
-              
               <div class="card col-10 col-sm-10 col-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3" id="fourthCard">
               <div class="profilePhoto"><img class="card-img-top" src="assets/img/ourRD/juan_pavez.jpg" alt="juan_pavez">
               <div class="wwContact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"><a href="mailto:contact@writewise.cl">contact@writewise.cl</a></div>
@@ -161,13 +147,13 @@ $(document).ready(function() {
           </div>
           <div class="card col-10 col-sm-10 col-md-3 col-lg-2 col-xl-2 leadResearchers">
             <div class="profilePhoto">
-              <img class="card-img-top" src="assets/img/ourRD/rodrigo_alfaro.jpg" alt="Card image cap">
+              <img class="card-img-top" src="assets/img/ourRD/ismael_figueroa.jpg" alt="Card image cap">
               <div class="btnProfile col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1">
                 <button id="profile"><a href="leadResearchers.html">View Profile</a></button>
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-text">Rodrigo Alfaro, PhD</h3>
+              <h3 class="card-text">Ismael Figueroa, PhD</h3>
             </div>
           </div>`);
   }); // researchers profesors
